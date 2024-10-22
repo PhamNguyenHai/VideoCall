@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\hubs\\connectionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\hubs\\connectionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\hubs\\iconnectionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\hubs\\iconnectionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Models\\Connection.cs",
+              "RelativeDocumentMoniker": "src\\Models\\Connection.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Models\\Connection.cs",
+              "RelativeToolTip": "src\\Models\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T06:42:42.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IConnectionHub.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Hubs\\IConnectionHub.cs",
+              "RelativeDocumentMoniker": "src\\Hubs\\IConnectionHub.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Hubs\\IConnectionHub.cs",
+              "RelativeToolTip": "src\\Hubs\\IConnectionHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:51:33.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnectionHub.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Hubs\\ConnectionHub.cs",
+              "RelativeDocumentMoniker": "src\\Hubs\\ConnectionHub.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Hubs\\ConnectionHub.cs",
+              "RelativeToolTip": "src\\Hubs\\ConnectionHub.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAMwLoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:35:36.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "src\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "src\\wwwroot\\js\\main.js",
+              "ViewState": "AgIAADMBAAAAAAAAAAAQwEkBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-14T02:43:40.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Pages\\Index.cshtml",
+              "RelativeToolTip": "src\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T02:31:28.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+﻿@page
+@model WebRTCModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+  <div class="col-12">
+    <ul id="usersdata" class="list-group">
+      <li class="list-group-item">Online Users</li>
+      <li class="list-group-item user" data-cid="" data-username="">
+        
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-lg-6 mb-2 mb-md-2">
+        <div style="border: 2px solid green;" class="card card-body bg-light m-2 h-100">
+            <video id="localVideo" autoplay muted></video>
+            <div class="row mt-4">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div id="toggleMicrophoneButton" class="btn-icon-only">
+                        <i class="icon bi bi-mic-fill"></i>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div id="toggleCameraButton" class="btn-icon-only">
+                        <i class="icon bi bi-camera-video-fill"></i>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div id="chatMsgBtn" class="btn-icon-only msg-btn-icon" data-toggle="modal" data-target="#messageModal">
+                        <i class="icon bi bi-chat-dots"></i>
+                        <span class="notification-dot" style="display: none;"></span> <!-- Thêm dấu chấm đỏ -->
+                    </div>
+                </div>
+                @* <i class="icon bi bi-mic-fill"></i>
+                <i class="icon bi bi-mic-mute-fill"></i>
+                <i class="icon bi bi-camera-video-off"></i>
+                <i class="icon bi bi-camera-video-off-fill"></i> *@
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-6 mb-2 mb-md-2">
+        <div style="border: 2px solid rgb(227, 225, 112);" class="card card-body bg-light m-2 h-100">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <span id="loadingMessage">Click Start Matching button, please ...</span>
+                <div id="loadingSpinner" class="spinner-border mt-3" role="status" style="display: none"></div>
+            </div>  
+            
+          <video id="remoteVideo" autoplay></video>
+            <div class="row mt-4">
+                <div class="col-6">
+                    <button class="btn-primary w-100 custom-btn" id="startMatchingButton">Start Matching</button>
+                </div>
+                <div class="col-6">
+                    <button id="dropCallButton" class="w-100 custom-btn" disabled>Drop Call</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" id="callmodal" tabindex="-1" role="dialog" aria-labelledby="callmodaltitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="callmodaltitle">Hello</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="declineCall()" data-dismiss="modal">Decline</button>
+        <button type="button" class="btn btn-primary" onclick="acceptCall()">Accept</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Nhắn Tin -->
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="messageModalTitle">Chat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="msgContent" class="chat-box message-chat">
+                     @* <div class="message received">
+                         <strong>User 1: </strong><span class="timestamp">(10:00 AM)</span>
+                         <div class="msg-content">Hello! How are you?</div>
+                     </div>
+                     <div class="message sent">
+                         <strong>User 1: </strong><span class="timestamp">(10:01 AM)</span>
+                         <div class="msg-content">I'm good, thanks!</div>
+                     </div> *@
+                </div>
+                <textarea id="sendContentMsg" class="form-control mt-2" placeholder="Type your message here..." rows="2"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button id="sendMsgButton" type="button" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="callmodal" tabindex="-1" role="dialog" aria-labelledby="callmodaltitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="callmodaltitle">Hello</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="declineCall()" data-dismiss="modal">Decline</button>
+                <button type="button" class="btn btn-primary" onclick="acceptCall()">Accept</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/js/main.js" asp-append-version="true"></script>
+}

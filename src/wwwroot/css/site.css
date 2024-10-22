@@ -1,0 +1,202 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6; 
+}
+
+.custom-btn {
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac; 
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px; 
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; 
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.app-icon{
+    width: 5rem;
+}
+
+.app-name{
+    font-weight:bold;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.btn-icon-only{
+    cursor:pointer;
+}
+
+video {
+    width: 100%; /* Đảm bảo video chiếm toàn bộ chiều rộng của cột */
+    height: auto; /* Giữ tỷ lệ khung hình */
+}
+
+.message-chat {
+    min-height: 350px;
+    height: 450px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.modal-body { 
+    padding: 15px; /* Thêm khoảng cách bên trong */
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column; /* Căn chỉnh theo chiều dọc */ 
+}
+
+.message {
+    padding: 3px 10px; 
+    margin: 5px 0; /* Khoảng cách giữa các tin nhắn */  
+    border-radius: 10px; /* Bo góc cho tin nhắn */
+    position: relative; /* Để có thể sử dụng cho hiệu ứng */
+    max-width: 70%; /* Giới hạn chiều rộng tối đa */
+}
+
+.sent {
+    align-self: flex-end; /* Đẩy tin nhắn sang bên phải */
+    background-color: #007bff; /* Màu nền cho tin nhắn người gửi */
+    color: white; /* Màu chữ cho tin nhắn người gửi */
+    margin-left: auto; /* Đẩy sang bên phải */
+}
+
+.received {
+    align-self: flex-start; /* Đẩy tin nhắn sang bên trái */
+    background-color: #f1f1f1; /* Màu nền cho tin nhắn của người nhận */
+    color: black; /* Màu chữ cho tin nhắn người nhận */
+    margin-right: auto; /* Đẩy sang bên trái */
+}
+
+.sent .timestamp { 
+    color: white; /* Màu chữ cho tin nhắn người gửi */
+}
+
+.timestamp { 
+    font-size: 0.8em; /* Kích thước chữ nhỏ hơn cho thời gian */
+    color: #888; /* Màu chữ cho thời gian */
+    margin-top: 5px; /* Khoảng cách giữa nội dung và thời gian */
+    /*text-align: right;*/ /* Căn phải cho thời gian */
+}
+
+/* width */
+.message-chat::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.message-chat::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.message-chat::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.message-chat::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.msg-btn-icon {
+    position: relative; /* Để dấu chấm lồng lên đúng vị trí */
+}
+
+
+.notification-dot {
+    position: absolute;
+    top: 5px; /* Điều chỉnh vị trí theo ý muốn */
+    right: -5px; /* Điều chỉnh vị trí theo ý muốn */
+    width: 12px; /* Kích thước dấu chấm */
+    height: 12px; /* Kích thước dấu chấm */
+    background-color: red; /* Màu đỏ */
+    border-radius: 50%; /* Làm cho nó thành hình tròn */
+    animation: pulse 1s infinite; /* Thêm animation nếu cần */ 
+}
+
+/* Animation cho dấu chấm */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
