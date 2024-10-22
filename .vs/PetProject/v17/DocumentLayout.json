@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\",
+  "WorkspaceRootPath": "E:\\LG CNS\\VideoCall\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\hubs\\connectionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\hubs\\connectionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\exceptions\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\exceptions\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\exceptions\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\entities\\videocall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\entities\\videocall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\entities\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\entities\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,42 +45,111 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwD4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T10:27:35.315Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "src\\Repositories\\Base\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\BaseRepository.cs",
-              "RelativeToolTip": "src\\Repositories\\Base\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "ConnectionHub.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Hubs\\ConnectionHub.cs",
+              "RelativeDocumentMoniker": "src\\Hubs\\ConnectionHub.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Hubs\\ConnectionHub.cs",
+              "RelativeToolTip": "src\\Hubs\\ConnectionHub.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T10:15:23.761Z",
+              "WhenOpened": "2024-10-22T16:51:09.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReadOnlyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
-              "RelativeDocumentMoniker": "src\\Repositories\\Base\\ReadOnlyRepository.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
-              "RelativeToolTip": "src\\Repositories\\Base\\ReadOnlyRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwDgAAAAaAAAAAAAAAA==",
+              "Title": "main.js",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "src\\wwwroot\\js\\main.js",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "src\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAACUBAAAAAAAAAAAwwKoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-22T16:49:18.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T10:14:57.789Z",
+              "WhenOpened": "2024-10-22T16:45:05.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Message.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "src\\Entities\\Message.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Entities\\Message.cs",
+              "RelativeToolTip": "src\\Entities\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:25:17.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VideoCall.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Entities\\VideoCall.cs",
+              "RelativeDocumentMoniker": "src\\Entities\\VideoCall.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Entities\\VideoCall.cs",
+              "RelativeToolTip": "src\\Entities\\VideoCall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:24:15.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Entities\\Chat.cs",
+              "RelativeDocumentMoniker": "src\\Entities\\Chat.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Entities\\Chat.cs",
+              "RelativeToolTip": "src\\Entities\\Chat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:22:56.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Friend.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Entities\\Friend.cs",
+              "RelativeDocumentMoniker": "src\\Entities\\Friend.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Entities\\Friend.cs",
+              "RelativeToolTip": "src\\Entities\\Friend.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:20:46.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\Entities\\User.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Entities\\User.cs",
+              "RelativeToolTip": "src\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:17:01.785Z",
               "EditorCaption": ""
             }
           ]

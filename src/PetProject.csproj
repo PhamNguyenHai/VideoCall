@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Dtos\**" />
+    <Content Remove="Dtos\**" />
+    <EmbeddedResource Remove="Dtos\**" />
+    <None Remove="Dtos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
@@ -13,9 +20,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Entities\" />
     <Folder Include="Mappers\" />
-    <Folder Include="Dtos\" />
     <Folder Include="Exceptions\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>

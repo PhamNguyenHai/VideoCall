@@ -1520,19 +1520,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\63200510\\.nuget\\packages\\": {}
+    "C:\\Users\\phamn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\PetProject.csproj",
+      "projectUniqueName": "E:\\LG CNS\\VideoCall\\src\\PetProject.csproj",
       "projectName": "PetProject",
-      "projectPath": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\PetProject.csproj",
-      "packagesPath": "C:\\Users\\63200510\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\obj\\",
+      "projectPath": "E:\\LG CNS\\VideoCall\\src\\PetProject.csproj",
+      "packagesPath": "C:\\Users\\phamn\\.nuget\\packages\\",
+      "outputPath": "E:\\LG CNS\\VideoCall\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\63200510\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phamn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1600,7 +1600,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
