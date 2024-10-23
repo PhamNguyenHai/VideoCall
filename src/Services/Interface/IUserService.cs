@@ -4,7 +4,7 @@ using System;
 
 namespace PetProject.Services
 {
-    public interface IUserService : IBaseService<UserViewModel, UserCreateDto, UserUpdateDto>
+    public interface IUserService
     {
     }
 }

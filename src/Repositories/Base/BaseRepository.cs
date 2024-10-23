@@ -29,7 +29,8 @@ namespace PetProject.Services
             string storedProcedureName = $"Proc_{EntityName}_Insert";
 
             // Chuyển entity sang parametters để truyền vào procedure 
-            var parametters = CreateParamettersFromEntity(entity);
+            //var parametters = CreateParamettersFromEntity(entity);
+            var parametters = Utility.CreateParamettersFromEntity<TEntity>(entity);
 
             var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, parametters,
                 commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
@@ -49,7 +50,9 @@ namespace PetProject.Services
             string storedProcedureName = $"Proc_{EntityName}_Update";
 
             // Chuyển entity sang parametters để truyền vào procedure
-            var parametters = CreateParamettersFromEntity(entity);
+            //var parametters = CreateParamettersFromEntity(entity);
+            var parametters = Utility.CreateParamettersFromEntity<TEntity>(entity);
+
 
             var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, parametters,
                 commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
@@ -82,18 +85,18 @@ namespace PetProject.Services
         /// <returns>DynamicParameters</returns>
         /// Author: PNNHai
         /// Date: 
-        private DynamicParameters CreateParamettersFromEntity(TEntity entity)
-        {
-            var parameters = new DynamicParameters();
-            var properties = entity.GetType().GetProperties();
-            foreach (var property in properties)
-            {
-                var propertyName = $"i_{property.Name}";
-                var propertyValue = property.GetValue(entity);
-                parameters.Add(propertyName, propertyValue);
-            }
-            return parameters;
-        }
+        //private DynamicParameters CreateParamettersFromEntity(TEntity entity)
+        //{
+        //    var parameters = new DynamicParameters();
+        //    var properties = entity.GetType().GetProperties();
+        //    foreach (var property in properties)
+        //    {
+        //        var propertyName = $"i_{property.Name}";
+        //        var propertyValue = property.GetValue(entity);
+        //        parameters.Add(propertyName, propertyValue);
+        //    }
+        //    return parameters;
+        //}
         #endregion
     }
 }
