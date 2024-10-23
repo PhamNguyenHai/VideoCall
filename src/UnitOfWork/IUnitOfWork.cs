@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using System;
 
-namespace PetProject.UnitOfWork
+namespace PetProject
 {
     public interface IUnitOfWork : IDisposable, IAsyncDisposable
     {

@@ -1,5 +1,4 @@
 ﻿using Dapper;
-using PetProject.UnitOfWork;
 using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
@@ -35,9 +34,8 @@ namespace PetProject.Repositories
         /// Date: 
         public async Task<IEnumerable<TModel>> GetAllAsync()
         {
-            string storedProcedureName = $"Proc_{EntityName}_GetAll";
-            var result = await _uow.Connection.QueryAsync<TModel>(storedProcedureName,
-                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+            string sqlCommand = $"SELECT * FROM {EntityName}s";
+            var result = await _uow.Connection.QueryAsync<TModel>(sqlCommand, transaction: _uow.Transaction);
 
             return result;
         }
@@ -66,13 +64,12 @@ namespace PetProject.Repositories
         /// Date: 
         public async Task<TModel?> FindByIdAsync(Guid id)
         {
-            string storedProcedureName = $"Proc_{EntityName}_GetById";
+            string sqlCommand = $"SELECT * FROM {EntityName}s WHERE {EntityId} = @EntityId";
 
             var param = new DynamicParameters();
-            param.Add($"i_{EntityId}", id);
+            param.Add($"@EntityId", id);
 
-            var result = await _uow.Connection.QueryFirstOrDefaultAsync<TModel>(storedProcedureName, param,
-                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+            var result = await _uow.Connection.QueryFirstOrDefaultAsync<TModel>(sqlCommand, param, transaction: _uow.Transaction);
 
             return result;
         }

@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Threading.Tasks;
 
-namespace PetProject.UnitOfWork
+namespace PetProject
 {
     public sealed class UnitOfWork : IUnitOfWork    //(seal lại không cho phép kế thừa lại)
     {

@@ -1,4 +1,4 @@
-namespace PetProject
+﻿namespace PetProject
 {
     using PetProject.Hubs;
     using PetProject.Models;
@@ -8,6 +8,9 @@ namespace PetProject
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
     using System.Collections.Generic;
+    using PetProject.Repositories;
+    using PetProject.Services;
+    using System;
 
     public class Startup
     {
@@ -32,6 +35,12 @@ namespace PetProject
             services.AddSingleton<List<User>>();
             services.AddSingleton<List<Connection>>();
             services.AddSingleton<List<Match>>();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddSingleton<IUnitOfWork>(provider => new UnitOfWork(Configuration["ConnectionString"]));
+            services.AddSingleton<IUserRepository, UserRepository>();
+            services.AddSingleton<IUserService, UserService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -63,6 +72,11 @@ namespace PetProject
                 {
                     options.Transports = Microsoft.AspNetCore.Http.Connections.HttpTransportType.WebSockets;
                 });
+
+                // Định nghĩa route mặc định
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=User}/{action=Index}/{id?}");
             });
         }
 

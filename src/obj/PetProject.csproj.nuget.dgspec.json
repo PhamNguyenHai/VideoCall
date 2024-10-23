@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\LG CNS\\VideoCall\\src\\PetProject.csproj": {}
+    "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\PetProject.csproj": {}
   },
   "projects": {
-    "E:\\LG CNS\\VideoCall\\src\\PetProject.csproj": {
+    "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\PetProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\LG CNS\\VideoCall\\src\\PetProject.csproj",
+        "projectUniqueName": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\PetProject.csproj",
         "projectName": "PetProject",
-        "projectPath": "E:\\LG CNS\\VideoCall\\src\\PetProject.csproj",
-        "packagesPath": "C:\\Users\\phamn\\.nuget\\packages\\",
-        "outputPath": "E:\\LG CNS\\VideoCall\\src\\obj\\",
+        "projectPath": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\PetProject.csproj",
+        "packagesPath": "C:\\Users\\63200510\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phamn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\63200510\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
@@ -53,6 +61,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -82,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

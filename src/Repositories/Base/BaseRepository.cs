@@ -1,13 +1,12 @@
 ﻿using Dapper;
 using PetProject.Repositories;
-using PetProject.UnitOfWork;
 using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 
 namespace PetProject.Services
 {
-    public abstract class BaseRepository<TEntity, TModel> : ReadOnlyRepository<TEntity, TModel>, IBaseRepository<TEntity, TModel>
+    public abstract class BaseRepository<TEntity, TViewModel> : ReadOnlyRepository<TEntity, TViewModel>, IBaseRepository<TEntity, TViewModel>
         where TEntity : IHasKey
     {
         #region Constructor

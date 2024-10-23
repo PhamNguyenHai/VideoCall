@@ -2,11 +2,10 @@
 
 namespace PetProject
 {
-    public class Friend
+    public class Friend : BaseAuditEntity
     {
         public Guid UserId { set; get; }
         public Guid FriendUserId { set; get; }
         public FriendStatus? Status { set; get; }
-        public DateTime CreatedDate { set; get; }
     }
 }
