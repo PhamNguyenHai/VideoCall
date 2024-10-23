@@ -34,8 +34,7 @@
               "RelativeToolTip": "src\\Exceptions\\Middleware\\ExceptionMiddleware.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAwwD4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T10:27:35.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T10:27:35.315Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "src\\Repositories\\Base\\ReadOnlyRepository.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAIwDgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T10:14:57.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T10:14:57.789Z"
             }
           ]
         }
