@@ -1,24 +1,67 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PetProject.Services;
+using System;
 using System.Threading.Tasks;
 
 namespace PetProject.Controllers
 {
-    public class UserController : BaseController<UserViewModel, UserCreateDto, UserUpdateDto>
+    public class UserController : Controller
     {
-        private readonly IUserService _userService;
+        protected readonly IUserService _userService;
 
-        public UserController(IUserService userService) : base(userService)
+        public UserController(IUserService userService)
         {
             _userService = userService;
         }
 
         // GET: UserController
-        public async Task<ActionResult> Index()
+        public ActionResult Index()
         {
-            var abc = await _userService.GetAllAsync();
             return View();
+        }
+
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginInfor loginInfor)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _userService.LoginAsync(loginInfor);
+                if (result.Success)
+                {
+                    // Lưu token vào cookie
+                    Response.Cookies.Append("SessionToken", result.Data.ToString(), new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Expires = DateTimeOffset.UtcNow.AddHours(1)
+                    });
+                    return RedirectToAction("Index", "Home"); // Chuyển hướng đến trang chính
+                }
+                ModelState.AddModelError(string.Empty, result.Message);
+            }
+            return View(loginInfor);
+        }
+
+        [HttpGet]
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            var token = Request.Cookies["SessionToken"];
+            await _userService.LogoutAsync(token);
+            Response.Cookies.Delete("SessionToken");
+            return RedirectToAction("Index", "Home"); // Chuyển hướng đến trang chính
         }
 
         // GET: UserController/Details/5

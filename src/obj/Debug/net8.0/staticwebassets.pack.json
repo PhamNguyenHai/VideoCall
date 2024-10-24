@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\app-icon.png"
     },
     {
+      "Id": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
       "Id": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

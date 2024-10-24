@@ -21,6 +21,6 @@ namespace PetProject.Services
         /// <returns>Đối tượng cần lấy</returns>
         /// Author: PNNHai
         /// Date: 
-        Task<TViewModel> GetByIdAsync(Guid id);
+        Task<TViewModel?> GetByIdAsync(Guid id);
     }
 }

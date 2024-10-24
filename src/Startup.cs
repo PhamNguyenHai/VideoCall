@@ -40,6 +40,7 @@
 
             services.AddSingleton<IUnitOfWork>(provider => new UnitOfWork(Configuration["ConnectionString"]));
             services.AddSingleton<IUserRepository, UserRepository>();
+            services.AddSingleton<ISessionRepository, SessionRepositoy>();
             services.AddSingleton<IUserService, UserService>();
         }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System;
 using AutoMapper;
+using System.Reflection;
 
 namespace PetProject.Services
 {
@@ -30,10 +31,14 @@ namespace PetProject.Services
         /// <returns></returns>
         /// Author: PNNHai
         /// Date: 
-        public async Task CreateAsync(TEntityCreateDto entityCreateDto)
+        public async Task<Result> CreateAsync(TEntityCreateDto entityCreateDto)
         {
             // Validate nghiệp vụ trước khi thêm mới
-            await ValidateForInserting(entityCreateDto);
+            var validationResult = await ValidateForInserting(entityCreateDto);
+            if (!validationResult.Success)
+            {
+                return validationResult; // Trả về kết quả xác thực không thành công ngay lập tức
+            }
 
             var entity = _mapper.Map<TEntity>(entityCreateDto);
             entity.SetKey(Guid.NewGuid());
@@ -44,7 +49,25 @@ namespace PetProject.Services
             }
 
             // insert vào DB
-            await _baseRepository.InsertAsync(entity);
+            int effectedRow = await _baseRepository.InsertAsync(entity);
+            if(effectedRow > 0)
+            {
+                return new Result
+                {
+                    Success = true,
+                    Message = "Thêm dữ liệu thành công",
+                    Data = entityCreateDto
+                };
+            }
+            else
+            {
+                return new Result
+                {
+                    Success = false,
+                    Message = "Thêm dữ liệu không thành công",
+                    Data = entityCreateDto
+                };
+            }
         }
 
         /// <summary>
@@ -55,14 +78,18 @@ namespace PetProject.Services
         /// <returns></returns>
         /// Author: PNNHai
         /// Date: 
-        public async Task UpdateAsync(Guid id, TEntityUpdateDto entityUpdateDto)
+        public async Task<Result> UpdateAsync(Guid id, TEntityUpdateDto entityUpdateDto)
         {
             // Kiểm tra id truyền vào có chuẩn không. Nếu ko thì báo lỗi
             await _baseRepository.GetByIdAsync(id);
 
             // Sau khi id hợp lệ thì validate nghiệp vụ
             // Validate nghiệp vụ trước khi update
-            await ValidateForUpdating(id, entityUpdateDto);
+            var validationResult = await ValidateForUpdating(id, entityUpdateDto);
+            if (!validationResult.Success)
+            {
+                return validationResult; // Trả về kết quả xác thực không thành công ngay lập tức
+            }
 
             var entity = _mapper.Map<TEntity>(entityUpdateDto);
             entity.SetKey(id);
@@ -72,7 +99,26 @@ namespace PetProject.Services
             }
 
             // update vào DB
-            await _baseRepository.UpdateAsync(entity);
+            int effectedRow = await _baseRepository.UpdateAsync(entity);
+
+            if (effectedRow > 0)
+            {
+                return new Result
+                {
+                    Success = true,
+                    Message = "Cập nhật dữ liệu thành công",
+                    Data = entityUpdateDto
+                };
+            }
+            else
+            {
+                return new Result
+                {
+                    Success = false,
+                    Message = "Cập nhật dữ liệu không thành công",
+                    Data = entityUpdateDto
+                };
+            }
         }
 
         /// <summary>
@@ -82,14 +128,42 @@ namespace PetProject.Services
         /// <returns></returns>
         /// Author: PNNHai
         /// Date: 
-        public async Task DeleteAsync(Guid id)
+        public async Task<Result> DeleteAsync(Guid id)
         {
             // Lấy entity theo id
-            var model = await _baseRepository.GetByIdAsync(id);
+            var model = await _baseRepository.FindByIdAsync(id);
+
+            if(model == null)
+            {
+                return new Result
+                {
+                    Success = false,
+                    Message = "Không tìm thấy dữ liệu để xóa theo định danh",
+                    Data = null
+                };
+            }
 
             var entity = _mapper.Map<TEntity>(model);
             // Xóa 
-            await _baseRepository.DeleteAsync(entity);
+            int effectedRow = await _baseRepository.DeleteAsync(entity);
+            if (effectedRow > 0)
+            {
+                return new Result
+                {
+                    Success = true,
+                    Message = "Xóa dữ liệu thành công",
+                    Data = id
+                };
+            }
+            else
+            {
+                return new Result
+                {
+                    Success = false,
+                    Message = "Xóa dữ liệu không thành công",
+                    Data = id
+                };
+            }
         }
 
         /// <summary>
@@ -100,7 +174,7 @@ namespace PetProject.Services
         /// <returns></returns>
         /// author: PNNHai
         /// date: 
-        public abstract Task ValidateForInserting(TEntityCreateDto entityCreateDto);
+        public abstract Task<Result> ValidateForInserting(TEntityCreateDto entityCreateDto);
 
         /// <summary>
         /// Yêu cầu ghi đè lại ở class khởi tạo đối tượng
@@ -111,7 +185,7 @@ namespace PetProject.Services
         /// <returns></returns>
         /// author: PNNHai
         /// date: 
-        public abstract Task ValidateForUpdating(Guid id, TEntityUpdateDto entityUpdateDto);
+        public abstract Task<Result> ValidateForUpdating(Guid id, TEntityUpdateDto entityUpdateDto);
         #endregion
     }
 }

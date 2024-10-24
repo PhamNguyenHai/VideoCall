@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using static Dapper.SqlMapper;
 
 namespace PetProject.Repositories
 {
@@ -38,5 +39,13 @@ namespace PetProject.Repositories
         /// Author: PNNHai
         /// Date:
         Task<UserModel?> FindUserByEmailOrPhoneNumber(string emailOrPhoneNumber);
+
+        /// <summary>
+        /// Hàm thực hiện thêm mới người dùng vào hệ thống
+        /// </summary>
+        /// <param name="userToAdd">Thông tin người dùng cần thêm mới</param>
+        /// <returns>Số bản ghi thêm mới</returns>
+        Task<int> InsertAsync(User userToAdd);
+
     }
 }

@@ -7,7 +7,7 @@ namespace PetProject
         public Guid SessionId { set; get; }
         public Guid UserId { set; get; }
         public string Token { set; get; }
-        public DateTime ExpirationdDate { set; get; }
+        public DateTime ExpirationDate { set; get; }
 
         public Guid GetKey()
         {

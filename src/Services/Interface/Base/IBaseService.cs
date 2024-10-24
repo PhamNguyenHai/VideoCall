@@ -13,7 +13,7 @@ namespace PetProject.Services
         /// <param name="entityCreateDto">Phần tử cần thêm mới</param>
         /// Author: PNNHai
         /// Date: 
-        Task CreateAsync(TEntityCreateDto entityCreateDto);
+        Task<Result> CreateAsync(TEntityCreateDto entityCreateDto);
 
         /// <summary>
         /// Service cập nhật đối tượng
@@ -22,7 +22,7 @@ namespace PetProject.Services
         /// <param name="entityUpdateDto">Thông tin đối tượng update</param>
         /// Author: PNNHai
         /// Date: 
-        Task UpdateAsync(Guid id, TEntityUpdateDto entityUpdateDto);
+        Task<Result> UpdateAsync(Guid id, TEntityUpdateDto entityUpdateDto);
 
         /// <summary>
         /// Service xóa đối tượng
@@ -30,6 +30,6 @@ namespace PetProject.Services
         /// <param name="id">Mã định danh của đối tượng cần xóa</param>
         /// Author: PNNHai
         /// Date: 
-        Task DeleteAsync(Guid id);
+        Task<Result> DeleteAsync(Guid id);
     }
 }

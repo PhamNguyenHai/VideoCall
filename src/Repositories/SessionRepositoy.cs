@@ -1,5 +1,7 @@
 ﻿using Dapper;
+using NuGet.Common;
 using PetProject;
+using System;
 using System.Data;
 using System.Threading.Tasks;
 
@@ -35,6 +37,18 @@ namespace PetProject.Repositories
 
             var result = await _uow.Connection.QueryFirstOrDefaultAsync<Session>(sqlCommand, param, transaction: _uow.Transaction);
             return result;
+        }
+
+        public async Task<int> DeleteSession(Guid sessionId)
+        {
+            string storedProcedureName = "Proc_Sessions_Delete";
+
+            var param = new DynamicParameters();
+            param.Add("@SessionId", sessionId);
+
+            var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, param,
+                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+            return effectedRows;
         }
     }
 }

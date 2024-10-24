@@ -130,3 +130,84 @@ CREATE TABLE Sessions
     ModifiedDate DATETIME NOT NULL,
     FOREIGN KEY (UserId) REFERENCES Users(UserId) ON UPDATE CASCADE ON DELETE CASCADE
 );
+
+
+
+EXEC Proc_Users_Insert 
+    @UserId = 'f1a800ff-0255-4a90-a1eb-a81c25aa663d', 
+    @FullName = N'Trần Thị Lan Anh', 
+    @DateOfBirth = '1999-09-08', 
+    @Gender = 1,  
+    @Email = 'lananhhz@gmail.com', 
+    @PhoneNumber = '0886126621', 
+    @Password = 'Abc@123456', 
+    @Role = 1, 
+    @CreatedDate = '2024-10-23 19:35:47.003', 
+    @ModifiedDate = '2024-10-23 19:35:47.003';
+
+	select * from Users
+
+CREATE PROCEDURE Proc_Users_Insert
+    @UserId UNIQUEIDENTIFIER,
+    @FullName NVARCHAR(100),
+    @DateOfBirth DATE,
+    @Gender INT,
+    @Email NVARCHAR(100),
+    @PhoneNumber NVARCHAR(25),
+    @Password VARCHAR(20),
+    @Role INT,
+    @CreatedDate DATETIME,
+    @ModifiedDate DATETIME
+AS
+BEGIN
+	-- Mã hóa mật khẩu
+    DECLARE @PasswordHash VARBINARY(64);
+    SET @PasswordHash = HASHBYTES('SHA2_256', @Password);
+
+    -- Thêm bản ghi mới vào bảng User
+    INSERT INTO Users(UserId, FullName, DateOfBirth, Gender, Email, PhoneNumber, Password, Role, CreatedDate, ModifiedDate)
+    VALUES (@UserId, @FullName, @DateOfBirth, @Gender, @Email, @PhoneNumber, @PasswordHash, @Role, @CreatedDate, @ModifiedDate);
+
+    -- Trả về thông báo thành công
+    SELECT 'User added successfully' AS Message;
+END;
+
+CREATE PROCEDURE Proc_Sessions_Insert
+    @SessionId UNIQUEIDENTIFIER,
+    @UserId UNIQUEIDENTIFIER,
+    @Token VARCHAR(1000),
+    @ExpirationDate DATETIME,
+    @CreatedDate DATETIME,
+    @ModifiedDate DATETIME
+AS
+BEGIN
+    INSERT INTO Sessions(SessionId, UserId, Token, ExpirationDate, CreatedDate, ModifiedDate)
+    VALUES (@SessionId, @UserId, @Token, @ExpirationDate, @CreatedDate, @ModifiedDate);
+END;
+
+CREATE PROCEDURE Proc_Users_CheckLogin
+    @EmailOrPhoneNumber NVARCHAR(100),
+    @Password VARCHAR(20)
+AS
+BEGIN
+	-- Mã hóa mật khẩu
+    DECLARE @PasswordHash VARBINARY(64);
+    SET @PasswordHash = HASHBYTES('SHA2_256', @Password);
+
+	SELECT * FROM View_Users vu 
+	WHERE vu.UserId = (
+		SELECT UserId FROM Users u
+		WHERE (@EmailOrPhoneNumber = u.Email
+		OR @EmailOrPhoneNumber = u.PhoneNumber)
+		AND @PasswordHash = u.Password
+	)
+END;
+
+EXEC Proc_Users_CheckLogin @EmailOrPhoneNumber = 'lanphamthu10@gmail.com', @Password = 'Abc@123456';
+
+CREATE PROCEDURE Proc_Sessions_Delete
+    @SessionId UNIQUEIDENTIFIER
+AS
+BEGIN
+	DELETE FROM Sessions where SessionId = @SessionId
+END;

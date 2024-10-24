@@ -42,9 +42,9 @@ namespace PetProject.Services
         /// <returns>Đối tượng cần lấy</returns>
         /// Author: PNNHai
         /// Date: 
-        public async Task<TViewModel> GetByIdAsync(Guid id)
+        public async Task<TViewModel?> GetByIdAsync(Guid id)
         {
-            var entity = await _readOnlyRepository.GetByIdAsync(id);
+            var entity = await _readOnlyRepository.FindByIdAsync(id);
             var entityDto = _mapper.Map<TViewModel>(entity);
             return entityDto;
         }
