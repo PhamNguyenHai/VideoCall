@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PetProject.Services;
@@ -29,7 +30,8 @@ namespace PetProject.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        [AllowAnonymous]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginInfor loginInfor)
         {
             if (ModelState.IsValid)
@@ -43,9 +45,10 @@ namespace PetProject.Controllers
                         HttpOnly = true,
                         Expires = DateTimeOffset.UtcNow.AddHours(1)
                     });
-                    return RedirectToAction("Index", "Home"); // Chuyển hướng đến trang chính
+                    return RedirectToAction("Register", "User"); // Chuyển hướng đến trang chính
                 }
                 ModelState.AddModelError(string.Empty, result.Message);
+                ViewData["ErrorMessage"] = result.Message;
             }
             return View(loginInfor);
         }

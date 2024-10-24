@@ -54,6 +54,7 @@ namespace PetProject.Services
             // Tạo phiên làm việc
             var session = new Session
             {
+                SessionId = Guid.NewGuid(),
                 UserId = loginUser.UserId,
                 Token = Guid.NewGuid().ToString(), // Tạo token mới
                 ExpirationDate = DateTime.UtcNow.AddHours(1), // Ví dụ: thời gian sống 1 giờ
@@ -67,7 +68,7 @@ namespace PetProject.Services
             {
                 Success = true,
                 Message = "Đăng nhập thành công.",
-                Data = session
+                Data = session.Token
             };
         }
 

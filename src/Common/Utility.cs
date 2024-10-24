@@ -10,7 +10,7 @@ namespace PetProject
             var properties = entity.GetType().GetProperties();
             foreach (var property in properties)
             {
-                var propertyName = $"i_{property.Name}";
+                var propertyName = $"@{property.Name}";
                 var propertyValue = property.GetValue(entity);
                 parameters.Add(propertyName, propertyValue);
             }

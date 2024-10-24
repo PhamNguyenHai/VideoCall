@@ -15,7 +15,7 @@ body {
     background: #000;
 }
 
-section {
+.custom-section {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -27,12 +27,12 @@ section {
     overflow: hidden;
 }
 
-    section::before {
+    .custom-section::before {
         content: '';
         position: absolute;
         width: 100%;
         height: 100%;
-        background: linear-gradient(#000,#0f0,#000);
+        background: linear-gradient(#000, #0f0, #000);
         animation: animate 5s linear infinite;
     }
 
@@ -46,7 +46,7 @@ section {
     }
 }
 
-section span {
+.custom-section span.square-area {
     position: relative;
     display: block;
     width: calc(6.25vw - 2px);
@@ -56,16 +56,12 @@ section span {
     transition: 1.5s;
 }
 
-    section span:hover {
+    .custom-section span.square-area:hover {
         background: #0f0;
         transition: 0s;
     }
 
-section .register {
-    width: 800px !important;
-}
-
-section .signin {
+.custom-section .signin {
     position: absolute;
     width: 400px;
     background: #222;
@@ -75,10 +71,10 @@ section .signin {
     align-items: center;
     padding: 40px;
     border-radius: 4px;
-    box-shadow: 0 15px 35px rgba(0,0,0,9);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
 }
 
-    section .signin .content {
+    .custom-section .signin .content {
         position: relative;
         width: 100%;
         display: flex;
@@ -88,25 +84,25 @@ section .signin {
         gap: 40px;
     }
 
-        section .signin .content h2 {
+        .custom-section .signin .content h2 {
             font-size: 2em;
             color: #0f0;
             text-transform: uppercase;
         }
 
-        section .signin .content .form {
+        .custom-section .signin .content .form {
             width: 100%;
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 20px;
         }
 
-            section .signin .content .form .inputBox {
+            .custom-section .signin .content .form .inputBox {
                 position: relative;
                 width: 100%;
             }
 
-                section .signin .content .form .inputBox input {
+                .custom-section .signin .content .form .inputBox input {
                     position: relative;
                     width: 100%;
                     background: #333;
@@ -119,7 +115,7 @@ section .signin {
                     font-size: 1em;
                 }
 
-                section .signin .content .form .inputBox i {
+                .custom-section .signin .content .form .inputBox i {
                     position: absolute;
                     left: 0;
                     padding: 15px 10px;
@@ -129,58 +125,90 @@ section .signin {
                     pointer-events: none;
                 }
 
-.signin .content .form .inputBox input:focus ~ i,
-.signin .content .form .inputBox input:valid ~ i {
-    transform: translateY(-7.5px);
-    font-size: 0.8em;
-    color: #fff;
-}
+                .custom-section .signin .content .form .inputBox input:focus ~ i,
+                .custom-section .signin .content .form .inputBox input:valid ~ i {
+                    transform: translateY(-7.5px);
+                    font-size: 0.8em;
+                    color: #fff;
+                }
 
-.signin .content .form .links {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
+            .custom-section .signin .content .form .links {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
 
-    .signin .content .form .links a {
-        color: #fff;
-        text-decoration: none;
-    }
+                .custom-section .signin .content .form .links a {
+                    color: #fff;
+                    text-decoration: none;
+                }
 
-        .signin .content .form .links a:nth-child(2) {
-            color: #0f0;
-            font-weight: 600;
-        }
+                    .custom-section .signin .content .form .links a:nth-child(2) {
+                        color: #0f0;
+                        font-weight: 600;
+                    }
 
-.signin .content .form .inputBox input[type="submit"] {
-    padding: 10px;
-    background: #0f0;
-    color: #000;
-    font-weight: 600;
-    font-size: 1.35em;
-    letter-spacing: 0.05em;
-    cursor: pointer;
-}
+            .custom-section .signin .content .form .inputBox input[type="submit"] {
+                padding: 10px;
+                background: #0f0;
+                color: #000;
+                font-weight: 600;
+                font-size: 1.35em;
+                letter-spacing: 0.05em;
+                cursor: pointer;
+            }
 
 input[type="submit"]:active {
     opacity: 0.6;
 }
 
 @media (max-width: 900px) {
-    section span {
+    .custom-section span.square-area {
         width: calc(10vw - 2px);
         height: calc(10vw - 2px);
     }
 }
 
 @media (max-width: 600px) {
-    section span {
+    .custom-section span.square-area {
         width: calc(20vw - 2px);
         height: calc(20vw - 2px);
     }
 }
 
-.register-btn-submit{
+.custom-register-btn-submit {
     margin-top: 30px;
+}
+
+.text-danger{
+    font-weight:bolder;
+    color: red;
+    font-size: 13px;
+}
+
+
+
+.modal {
+    display: none; /* Ẩn modal theo mặc định */
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền mờ */
+}
+
+.modal-dialog {
+    position: relative;
+    margin: auto;
+    top: 15%;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
