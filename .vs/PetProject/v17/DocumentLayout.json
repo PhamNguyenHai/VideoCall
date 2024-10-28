@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\LG CNS\\VideoCall\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T16:47:21.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "src\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "src\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAGMCAAAAAAAAAAAswHYCAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-28T16:37:47.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "src\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAwGUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T16:36:30.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\ChatController.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "src\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:34:51.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAswGQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:30:08.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:29:43.804Z",
+              "EditorCaption": ""
             }
           ]
         }

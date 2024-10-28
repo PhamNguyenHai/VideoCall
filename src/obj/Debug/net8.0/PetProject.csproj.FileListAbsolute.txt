@@ -1076,3 +1076,7 @@ C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\nlog.config
 C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\NLog.dll
 C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\NLog.Extensions.Logging.dll
 C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+E:\LG CNS\VideoCall\src\bin\Debug\net8.0\nlog.config
+E:\LG CNS\VideoCall\src\bin\Debug\net8.0\NLog.dll
+E:\LG CNS\VideoCall\src\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+E:\LG CNS\VideoCall\src\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
