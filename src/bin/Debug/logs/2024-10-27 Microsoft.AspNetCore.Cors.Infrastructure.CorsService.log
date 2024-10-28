@@ -1,0 +1,4 @@
+2024-10-27 23:09:02.0957|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-27 23:09:02.0957|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-27 23:29:39.9922|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-27 23:29:40.0070|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 

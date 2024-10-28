@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000;
+    background: #000 !important;
 }
 
 .custom-section {
@@ -30,7 +30,7 @@ body {
     .custom-section::before {
         content: '';
         position: absolute;
-        width: 100%;
+        width: 100%;  
         height: 100%;
         background: linear-gradient(#000, #0f0, #000);
         animation: animate 5s linear infinite;
@@ -128,9 +128,31 @@ body {
                 .custom-section .signin .content .form .inputBox input:focus ~ i,
                 .custom-section .signin .content .form .inputBox input:valid ~ i {
                     transform: translateY(-7.5px);
-                    font-size: 0.8em;
-                    color: #fff;
+                    font-size: 0.8em; 
+                    color: #26af26;
+                    font-weight: bolder;
                 }
+
+                .custom-section .signin .content .form .inputBox select {
+                    position: relative;
+                    width: 100%;
+                    background: #333;
+                    border: none;
+                    outline: none;
+                    padding: 25px 10px 7.5px;
+                    border-radius: 4px;
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 1em;
+                }
+
+                    .custom-section .signin .content .form .inputBox select:focus ~ i,
+                    .custom-section .signin .content .form .inputBox select:valid ~ i {
+                        transform: translateY(-7.5px);
+                        font-size: 0.8em;
+                        color: #26af26;
+                        font-weight: bolder;
+                    }
 
             .custom-section .signin .content .form .links {
                 position: relative;
@@ -211,4 +233,8 @@ input[type="submit"]:active {
     background-color: #fff;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.links span{
+    color: white
 }

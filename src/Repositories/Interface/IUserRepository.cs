@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using static Dapper.SqlMapper;
 
 namespace PetProject.Repositories
 {
@@ -47,5 +46,6 @@ namespace PetProject.Repositories
         /// <returns>Số bản ghi thêm mới</returns>
         Task<int> InsertAsync(User userToAdd);
 
+        Task<UserModel?> FindUserByToken(string token);
     }
 }

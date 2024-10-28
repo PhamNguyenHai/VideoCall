@@ -1,0 +1,21 @@
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/Index.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Error.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Profile.cshtml'. 
+2024-10-27 23:07:34.9258|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Register.cshtml'. 
+2024-10-27 23:07:34.9384|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/User/Login.cshtml'. 
+2024-10-27 23:07:34.9384|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/User/Login.cshtml' with a file since the checksum did not match. 
+2024-10-27 23:07:36.0428|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Views\User\Login.cshtml' started. 
+2024-10-27 23:07:37.2731|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Views\User\Login.cshtml' completed in 1226.0424ms. 
+2024-10-27 23:07:37.2731|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/User/_ViewStart.cshtml'. 
+2024-10-27 23:07:37.2731|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/_ViewStart.cshtml'. 
+2024-10-27 23:07:37.2731|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2024-10-27 23:08:42.5378|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/User/Register.cshtml'. 
+2024-10-27 23:08:42.5378|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/User/Register.cshtml' with a file since the checksum did not match. 
+2024-10-27 23:08:42.7114|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Views\User\Register.cshtml' started. 
+2024-10-27 23:08:42.9520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Views\User\Register.cshtml' completed in 240.4951ms. 

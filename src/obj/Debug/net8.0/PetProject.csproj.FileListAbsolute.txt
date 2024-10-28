@@ -1072,3 +1072,7 @@ E:\LG CNS\VideoCall\src\obj\Debug\net8.0\refint\PetProject.dll
 E:\LG CNS\VideoCall\src\obj\Debug\net8.0\PetProject.pdb
 E:\LG CNS\VideoCall\src\obj\Debug\net8.0\PetProject.genruntimeconfig.cache
 E:\LG CNS\VideoCall\src\obj\Debug\net8.0\ref\PetProject.dll
+C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\nlog.config
+C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\NLog.dll
+C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\63200510\Downloads\WEB BASE\PetProject\src\bin\Debug\net8.0\NLog.Web.AspNetCore.dll

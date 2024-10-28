@@ -1,0 +1,10 @@
+2024-10-27 21:15:41.8952|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at PetProject.ExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception exception) in C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Exceptions\Middleware\ExceptionMiddleware.cs:line 44
+   at PetProject.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Exceptions\Middleware\ExceptionMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-27 21:17:59.7093|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at PetProject.ExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception exception) in C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Exceptions\Middleware\ExceptionMiddleware.cs:line 44
+   at PetProject.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Exceptions\Middleware\ExceptionMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)

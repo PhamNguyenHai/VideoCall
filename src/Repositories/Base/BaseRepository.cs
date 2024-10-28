@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using PetProject.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
@@ -9,10 +10,10 @@ namespace PetProject.Services
     public abstract class BaseRepository<TEntity, TViewModel> : ReadOnlyRepository<TEntity, TViewModel>, IBaseRepository<TEntity, TViewModel>
         where TEntity : IHasKey
     {
-        #region Constructor
-        protected BaseRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
-        {
 
+        #region Constructor
+        protected BaseRepository(IUnitOfWork unitOfWork, ILoggerCustom logger) : base(unitOfWork, logger)
+        {
         }
         #endregion
 
@@ -26,15 +27,26 @@ namespace PetProject.Services
         /// Date: 
         public async Task<int> InsertAsync(TEntity entity)
         {
-            string storedProcedureName = $"Proc_{EntityName}_Insert";
+            string storedProcedureName = $"Proc_{EntityName}s_Insert";
 
-            // Chuyển entity sang parametters để truyền vào procedure 
-            //var parametters = CreateParamettersFromEntity(entity);
-            var parametters = Utility.CreateParamettersFromEntity<TEntity>(entity);
+            try
+            {
+                // Chuyển entity sang parametters để truyền vào procedure 
+                //var parametters = CreateParamettersFromEntity(entity);
+                var parametters = Utility.CreateParamettersFromEntity<TEntity>(entity);
 
-            var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, parametters,
-                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
-            return effectedRows;
+                var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, parametters,
+                    commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+
+                // Log vào hệ thống
+                _logger.LogInfo($"Thêm mới {EntityName}: {entity.GetKey()}");
+                return effectedRows;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Lỗi khi thêm {EntityName}: {ex.Message}", ex);
+                throw; // Ném lại ngoại lệ sau khi ghi log
+            }
         }
 
         /// <summary>
@@ -47,16 +59,27 @@ namespace PetProject.Services
         /// Date: 
         public async Task<int> UpdateAsync(TEntity entity)
         {
-            string storedProcedureName = $"Proc_{EntityName}_Update";
+            string storedProcedureName = $"Proc_{EntityName}s_Update";
 
-            // Chuyển entity sang parametters để truyền vào procedure
-            //var parametters = CreateParamettersFromEntity(entity);
-            var parametters = Utility.CreateParamettersFromEntity<TEntity>(entity);
+            try
+            {
+                // Chuyển entity sang parametters để truyền vào procedure
+                //var parametters = CreateParamettersFromEntity(entity);
+                var parametters = Utility.CreateParamettersFromEntity<TEntity>(entity);
 
 
-            var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, parametters,
-                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
-            return effectedRows;
+                var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, parametters,
+                    commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+
+                // Log vào hệ thống
+                _logger.LogInfo($"Cập nhật {EntityName}: {entity.GetKey()}");
+                return effectedRows;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Lỗi khi cập nhật {EntityName}: {ex.Message}", ex);
+                throw; // Ném lại ngoại lệ sau khi ghi log
+            }
         }
 
         /// <summary>
@@ -68,35 +91,26 @@ namespace PetProject.Services
         /// Date: 
         public async Task<int> DeleteAsync(TEntity entity)
         {
-            string storedProcedureName = $"Proc_{EntityName}_Delete";
+            string storedProcedureName = $"Proc_{EntityName}s_Delete";
 
-            var param = new DynamicParameters();
-            param.Add($"i_{EntityId}", entity.GetKey());
+            try
+            {
+                var param = new DynamicParameters();
+                param.Add($"i_{EntityId}", entity.GetKey());
 
-            var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, param,
-                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
-            return effectedRows;
+                var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, param,
+                    commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+
+                // Log vào hệ thống
+                _logger.LogInfo($"Xóa {EntityName} với ID: {entity.GetKey()}");
+                return effectedRows;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Lỗi khi xóa {EntityName}: {ex.Message}", ex);
+                throw; // Ném lại ngoại lệ sau khi ghi log
+            }
         }
-
-        /// <summary>
-        /// Hàm tạo param
-        /// </summary>
-        /// <param name="entity">Đối tượng cần tạo</param>
-        /// <returns>DynamicParameters</returns>
-        /// Author: PNNHai
-        /// Date: 
-        //private DynamicParameters CreateParamettersFromEntity(TEntity entity)
-        //{
-        //    var parameters = new DynamicParameters();
-        //    var properties = entity.GetType().GetProperties();
-        //    foreach (var property in properties)
-        //    {
-        //        var propertyName = $"i_{property.Name}";
-        //        var propertyValue = property.GetValue(entity);
-        //        parameters.Add(propertyName, propertyValue);
-        //    }
-        //    return parameters;
-        //}
         #endregion
     }
 }

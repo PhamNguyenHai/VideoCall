@@ -1,0 +1,109 @@
+2024-10-27 21:15:01.4473|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 21:15:10.7355|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 21:15:12.6973|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:15:12.6973|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:15:12.6973|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:15:12.6973|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/form.css was not modified 
+2024-10-27 21:15:12.6973|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified 
+2024-10-27 21:15:12.6973|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery/dist/jquery.min.js was not modified 
+2024-10-27 21:15:12.6973|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css 
+2024-10-27 21:15:12.6973|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /css/form.css 
+2024-10-27 21:15:12.6973|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js 
+2024-10-27 21:15:21.4780|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 21:17:08.5192|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 21:17:17.3208|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 21:19:41.1341|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 21:19:44.4469|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:19:44.4469|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:19:44.4469|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:19:44.4469|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/main.js was not modified 
+2024-10-27 21:19:44.4469|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /js/main.js 
+2024-10-27 21:19:44.4469|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/signalr/dist/browser/signalr.min.js was not modified 
+2024-10-27 21:19:44.4469|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /lib/signalr/dist/browser/signalr.min.js 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.css was not modified 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified 
+2024-10-27 21:19:44.4469|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /css/site.css 
+2024-10-27 21:19:44.4469|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /app-icon.png was not modified 
+2024-10-27 21:19:44.4469|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /app-icon.png 
+2024-10-27 21:19:44.6014|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 21:19:44.6485|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|CONNECT requests are not supported 
+2024-10-27 21:19:49.8626|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 21:19:49.8664|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /favicon.ico was not modified 
+2024-10-27 21:19:49.8664|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /favicon.ico 
+2024-10-27 21:19:53.0292|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 21:19:59.9324|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 21:20:12.1180|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 21:20:18.8524|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 21:20:29.3604|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 21:20:53.5167|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 21:21:01.0119|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 22:26:09.3463|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:26:09.4913|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 22:26:12.0234|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:34:03.9395|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:34:48.1772|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:35:17.2847|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:35:45.1788|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:35:55.0420|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-10-27 22:35:55.0420|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/css/bootstrap.min.css.map was not modified 
+2024-10-27 22:35:55.0420|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css.map 
+2024-10-27 22:38:02.9551|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:38:14.9848|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:38:21.2730|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:39:14.3746|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:39:39.4299|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:39:49.1002|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:40:07.2410|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:40:51.1981|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:41:26.2072|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:41:27.2648|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:41:27.4686|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:41:27.7074|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:42:03.1865|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:42:04.4691|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:42:59.6453|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:43:00.8342|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:43:10.3852|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:43:35.3534|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:47:10.6527|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:48:08.3590|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:48:16.0287|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 22:48:16.7086|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 22:48:18.8230|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 22:48:26.6357|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 22:52:00.3448|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 22:52:03.5013|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 22:52:03.5291|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|CONNECT requests are not supported 
+2024-10-27 22:52:09.7904|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 22:52:10.2771|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 22:52:15.8257|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 22:52:24.6224|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 22:52:24.7403|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 22:52:27.0255|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 22:52:49.3207|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 22:52:53.1536|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 22:52:53.7586|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 22:52:53.8135|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|CONNECT requests are not supported 
+2024-10-27 22:52:54.6963|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 22:53:27.3678|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 22:53:30.3292|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 22:53:30.3677|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|CONNECT requests are not supported 
+2024-10-27 22:53:33.9629|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 22:53:41.8914|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 23:00:50.3667|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 23:00:53.7269|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 23:00:53.7748|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|CONNECT requests are not supported 
+2024-10-27 23:00:57.4267|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 23:01:06.8482|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 23:01:42.4187|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-10-27 23:03:18.5688|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 23:05:56.6441|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-10-27 23:05:56.8267|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 23:05:58.0671|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|CONNECT requests are not supported 
+2024-10-27 23:06:01.1504|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 23:06:02.5038|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Register does not match a supported file type 
+2024-10-27 23:06:20.2733|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 23:06:20.5883|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 

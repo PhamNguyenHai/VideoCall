@@ -1,0 +1,6 @@
+2024-10-27 23:07:34.6073|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 23:08:15.8295|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 23:08:42.5225|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Register does not match a supported file type 
+2024-10-27 23:09:02.0882|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-10-27 23:09:02.3498|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-27 23:29:39.9922|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 

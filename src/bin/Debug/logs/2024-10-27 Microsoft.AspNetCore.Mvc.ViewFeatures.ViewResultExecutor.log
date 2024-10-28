@@ -1,0 +1,15 @@
+2024-10-27 23:07:37.2731|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 23:07:37.2731|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 2350.0537ms. 
+2024-10-27 23:07:37.3444|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 2427.8882ms. 
+2024-10-27 23:08:15.8295|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 23:08:15.8295|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 2.3614ms. 
+2024-10-27 23:08:15.8440|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 11.9304ms. 
+2024-10-27 23:08:42.9530|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Register. 
+2024-10-27 23:08:42.9530|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Register.cshtml' was found in 415.3304ms. 
+2024-10-27 23:08:43.0163|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Register executed in 479.7681ms. 
+2024-10-27 23:09:02.3591|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 23:09:02.3591|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 2.1652ms. 
+2024-10-27 23:09:02.3591|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 7.3589ms. 
+2024-10-27 23:29:40.0208|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 23:29:40.0369|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 2.924ms. 
+2024-10-27 23:29:40.0369|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 9.4884ms. 

@@ -1,0 +1,3 @@
+2024-10-28 01:27:13.2765|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2024-10-28 01:27:40.0087|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2024-10-28 01:32:44.4822|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 

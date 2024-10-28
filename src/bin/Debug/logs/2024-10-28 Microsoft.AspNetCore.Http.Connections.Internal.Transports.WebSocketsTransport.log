@@ -1,0 +1,73 @@
+2024-10-28 00:28:26.9142|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:28:26.9322|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:28:26.9511|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:28:26.9511|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:28:26.9511|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:28:26.9511|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:29:51.9205|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:29:51.9453|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:29:51.9925|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:29:51.9925|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:29:52.0126|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:29:52.0261|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 00:29:52.0261|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:31:19.2766|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:31:19.3046|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:31:19.3242|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:31:19.3404|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 00:31:19.3523|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:31:19.3523|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:31:19.3523|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:31:44.1471|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:31:44.1820|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:31:44.1968|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:31:44.1968|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 00:31:44.1968|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:31:44.2102|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:31:44.2102|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:33:47.8645|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:33:48.1372|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:33:48.1629|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:33:48.1962|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:33:48.1962|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:33:48.1962|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:34:16.5750|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:34:16.6078|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:34:16.6159|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:34:16.6455|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 00:34:16.6661|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:34:16.6661|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:34:16.6821|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:36:04.0045|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:36:04.0211|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:36:04.0344|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:36:04.0344|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 00:36:04.0344|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:36:04.0344|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:36:04.0344|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:36:35.3826|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:36:35.3965|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:36:35.4101|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:36:35.4101|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 00:36:35.4101|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:36:35.4258|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:36:35.4258|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 00:39:31.8159|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 00:39:31.8399|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 00:39:31.8546|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 00:39:31.8625|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 00:39:31.8625|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 00:39:31.8625|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 00:39:31.8625|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 01:27:08.2140|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 01:27:08.2282|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 01:27:08.2608|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 57 bytes. 
+2024-10-28 01:27:08.2608|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 01:27:08.2608|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-10-28 01:32:25.0848|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-10-28 01:32:25.1029|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-10-28 01:32:25.1029|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-10-28 01:32:25.1029|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-10-28 01:32:25.1029|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-10-28 01:32:25.1158|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the client to close the socket. 
+2024-10-28 01:32:25.1158|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 

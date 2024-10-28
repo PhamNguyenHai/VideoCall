@@ -1,0 +1,15 @@
+2024-10-27 23:07:34.2841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3I" accepted. 
+2024-10-27 23:07:34.2841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3I" started. 
+2024-10-27 23:07:34.2841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3J" accepted. 
+2024-10-27 23:07:34.2841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3J" started. 
+2024-10-27 23:07:34.3064|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3I" stopped. 
+2024-10-27 23:07:34.3064|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3J" stopped. 
+2024-10-27 23:07:34.3477|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3K" accepted. 
+2024-10-27 23:07:34.3477|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3K" started. 
+2024-10-27 23:08:15.8149|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3L" accepted. 
+2024-10-27 23:08:15.8149|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3L" started. 
+2024-10-27 23:08:15.8149|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3L" stopped. 
+2024-10-27 23:11:13.9296|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3K" stopped. 
+2024-10-27 23:29:39.9641|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3M" accepted. 
+2024-10-27 23:29:39.9843|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3M" started. 
+2024-10-27 23:31:51.6063|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N2R8BCM3M" stopped. 

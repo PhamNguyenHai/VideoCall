@@ -1,0 +1,774 @@
+2024-10-28 00:26:05.7288|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 00:26:06.3996|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 200 - text/html;+charset=utf-8 677.7768ms 
+2024-10-28 00:26:06.4318|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:26:06.4318|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:26:06.4318|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.6060ms 
+2024-10-28 00:26:06.4929|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 59.4031ms 
+2024-10-28 00:27:48.5358|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:27:48.5358|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:27:48.5358|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:27:48.5358|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:28:05.6708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 00:28:05.8897|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 302 0 - 222.8841ms 
+2024-10-28 00:28:05.8988|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:28:05.9162|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 18.5158ms 
+2024-10-28 00:28:05.9162|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:28:05.9370|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 15.8569ms 
+2024-10-28 00:28:05.9370|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:28:05.9451|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.3713ms 
+2024-10-28 00:28:12.5263|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:28:12.5263|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.4261ms 
+2024-10-28 00:28:12.5415|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:28:12.5415|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.0731ms 
+2024-10-28 00:28:12.5415|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:28:12.5544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9243ms 
+2024-10-28 00:28:12.5544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:28:23.3983|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:28:23.3983|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:28:23.3983|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:28:23.3983|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:28:23.7322|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:28:26.7585|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3032.2061ms 
+2024-10-28 00:28:26.7755|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:28:26.7755|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:28:26.7755|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 3.5189ms 
+2024-10-28 00:28:26.8049|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 35.2084ms 
+2024-10-28 00:28:26.8622|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:28:26.8826|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 20.4330ms 
+2024-10-28 00:28:26.8826|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=SepNpA55tfoHR_F20g_N8w - - - 
+2024-10-28 00:28:26.9617|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=SepNpA55tfoHR_F20g_N8w - 200 - - 83.6977ms 
+2024-10-28 00:29:14.8290|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 00:29:15.0074|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 302 0 - 179.1519ms 
+2024-10-28 00:29:15.0074|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:29:15.0534|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 36.9297ms 
+2024-10-28 00:29:15.0534|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:29:15.1019|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 41.8714ms 
+2024-10-28 00:29:15.1214|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:29:15.1214|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.4993ms 
+2024-10-28 00:29:15.1353|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:29:15.1353|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.7289ms 
+2024-10-28 00:29:19.4352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:29:19.4443|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 13.1271ms 
+2024-10-28 00:29:47.3053|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:29:47.3053|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:29:47.3053|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:29:47.3053|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:29:47.6897|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:29:51.4320|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:29:51.6812|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3997.3225ms 
+2024-10-28 00:29:51.7284|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 499 - - 307.6913ms 
+2024-10-28 00:29:51.7752|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:29:51.7752|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:29:51.7927|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 16.7304ms 
+2024-10-28 00:29:51.8246|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:29:51.8508|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 26.3303ms 
+2024-10-28 00:29:51.8695|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=TVmqNaL5n3IFmbosZKGTbw - - - 
+2024-10-28 00:29:51.9309|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 167.2195ms 
+2024-10-28 00:29:52.0389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=TVmqNaL5n3IFmbosZKGTbw - 200 - - 169.4345ms 
+2024-10-28 00:31:12.4820|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:31:12.4820|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:31:12.4820|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:31:12.4820|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:31:12.9948|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:31:16.9061|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:31:16.9891|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:31:17.0409|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 4054.1775ms 
+2024-10-28 00:31:16.9891|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:31:17.0544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 109.7854ms 
+2024-10-28 00:31:19.2007|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:31:19.2414|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 43.1754ms 
+2024-10-28 00:31:19.2414|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 2300.9803ms 
+2024-10-28 00:31:19.2560|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=zjyWh5W2DSgVUlBdazlC8Q - - - 
+2024-10-28 00:31:19.3690|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 499 - - 2467.0284ms 
+2024-10-28 00:31:19.3690|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=zjyWh5W2DSgVUlBdazlC8Q - 200 - - 120.9799ms 
+2024-10-28 00:31:40.2557|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:31:40.2557|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:31:40.2557|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:31:40.2557|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:31:40.6562|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:31:43.9756|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:31:43.9902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3335.2984ms 
+2024-10-28 00:31:43.9902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:31:44.0075|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 25.2210ms 
+2024-10-28 00:31:44.0591|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:31:44.0696|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 87.5365ms 
+2024-10-28 00:31:44.0932|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 36.6271ms 
+2024-10-28 00:31:44.1015|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=gJp8cQcJujtGYnw0jYHEaw - - - 
+2024-10-28 00:31:44.2256|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=gJp8cQcJujtGYnw0jYHEaw - 200 - - 117.1640ms 
+2024-10-28 00:31:50.4196|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 00:33:39.2863|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:33:39.2863|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:33:39.2863|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:33:39.2863|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:33:40.2765|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:33:47.6610|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:33:47.6610|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 7394.7559ms 
+2024-10-28 00:33:47.6610|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:33:47.6610|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 8.6013ms 
+2024-10-28 00:33:47.6954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 36.0598ms 
+2024-10-28 00:33:47.7482|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:33:47.8039|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 56.0742ms 
+2024-10-28 00:33:47.8039|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=R1gKBoAqkFIdHhvcgOlQMg - - - 
+2024-10-28 00:33:48.2137|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=R1gKBoAqkFIdHhvcgOlQMg - 200 - - 405.3258ms 
+2024-10-28 00:33:51.5759|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:33:53.6161|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 2039.0707ms 
+2024-10-28 00:33:53.6161|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:33:55.1692|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 1550.3885ms 
+2024-10-28 00:33:55.1777|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:33:57.5677|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 2392.6020ms 
+2024-10-28 00:33:57.5677|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:33:58.5551|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 982.3810ms 
+2024-10-28 00:33:58.5551|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:33:59.5372|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 978.9457ms 
+2024-10-28 00:33:59.5372|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:00.1175|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 572.9909ms 
+2024-10-28 00:34:00.1175|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:00.3381|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 212.9933ms 
+2024-10-28 00:34:00.3381|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:00.5742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 232.2708ms 
+2024-10-28 00:34:00.5876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:00.7960|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 211.3140ms 
+2024-10-28 00:34:00.8025|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:01.5315|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 732.5881ms 
+2024-10-28 00:34:01.5393|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:02.4920|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 954.0449ms 
+2024-10-28 00:34:02.4920|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:03.2081|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 712.2559ms 
+2024-10-28 00:34:03.2081|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:03.6843|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 475.2182ms 
+2024-10-28 00:34:03.6923|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:03.9274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 235.1728ms 
+2024-10-28 00:34:03.9274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:04.2137|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 276.6569ms 
+2024-10-28 00:34:04.2137|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:11.6986|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:34:11.6986|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:34:11.6986|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:34:11.6986|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:34:12.0678|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:34:16.3521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 4299.5907ms 
+2024-10-28 00:34:16.4638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:34:16.4638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:34:16.4638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 6.6574ms 
+2024-10-28 00:34:16.4979|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:34:16.5294|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 36.2378ms 
+2024-10-28 00:34:16.5364|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=5KZV0kVvY7sq2bUbtsz_fQ - - - 
+2024-10-28 00:34:16.5826|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 123.8759ms 
+2024-10-28 00:34:16.6939|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=5KZV0kVvY7sq2bUbtsz_fQ - 200 - - 149.9614ms 
+2024-10-28 00:34:20.4498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 00:34:28.1791|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 302 0 - 7734.4646ms 
+2024-10-28 00:34:28.1791|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:34.9276|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6740.5972ms 
+2024-10-28 00:34:34.9276|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:35.7664|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 836.3905ms 
+2024-10-28 00:34:35.7700|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:36.4134|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 642.4812ms 
+2024-10-28 00:34:36.4134|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:37.5388|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 1120.1131ms 
+2024-10-28 00:34:37.5388|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:38.3965|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 849.1790ms 
+2024-10-28 00:34:38.3965|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:39.0445|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 643.4158ms 
+2024-10-28 00:34:39.0539|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:39.6563|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 605.6636ms 
+2024-10-28 00:34:39.6609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:40.2076|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 534.5166ms 
+2024-10-28 00:34:40.2076|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:44.5867|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4378.6367ms 
+2024-10-28 00:34:44.5975|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:49.8838|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5290.2258ms 
+2024-10-28 00:34:49.8838|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:50.9484|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 1059.7569ms 
+2024-10-28 00:34:50.9573|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:51.5837|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 627.7986ms 
+2024-10-28 00:34:51.5837|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:51.9171|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 332.3177ms 
+2024-10-28 00:34:51.9259|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:34:52.2541|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 331.5680ms 
+2024-10-28 00:34:52.2541|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:35:59.9254|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:35:59.9254|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:35:59.9254|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:35:59.9254|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:36:00.3846|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:36:03.8237|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:36:03.8237|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3443.7991ms 
+2024-10-28 00:36:03.8237|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:36:03.8319|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.9537ms 
+2024-10-28 00:36:03.8517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 28.6664ms 
+2024-10-28 00:36:03.9358|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:36:03.9569|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 20.3629ms 
+2024-10-28 00:36:03.9879|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=dvmClV3xKyFlf0kg3W3RxA - - - 
+2024-10-28 00:36:04.0527|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=dvmClV3xKyFlf0kg3W3RxA - 200 - - 68.4518ms 
+2024-10-28 00:36:08.6558|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 00:36:08.6919|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 302 0 - 36.9399ms 
+2024-10-28 00:36:08.6919|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.7079|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 12.2647ms 
+2024-10-28 00:36:08.7079|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.7079|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4558ms 
+2024-10-28 00:36:08.7250|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.7250|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.2352ms 
+2024-10-28 00:36:08.7470|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.7545|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 15.7442ms 
+2024-10-28 00:36:08.7545|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.7702|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.8695ms 
+2024-10-28 00:36:08.7702|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.7881|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 15.3931ms 
+2024-10-28 00:36:08.8047|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.8047|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.2413ms 
+2024-10-28 00:36:08.8218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.8622|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 41.3557ms 
+2024-10-28 00:36:08.8622|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.8622|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3563ms 
+2024-10-28 00:36:08.8797|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.8797|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.1933ms 
+2024-10-28 00:36:08.8946|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.8946|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.3827ms 
+2024-10-28 00:36:08.8946|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9094|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.2885ms 
+2024-10-28 00:36:08.9094|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9094|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.1148ms 
+2024-10-28 00:36:08.9280|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9280|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.8034ms 
+2024-10-28 00:36:08.9280|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9417|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.7447ms 
+2024-10-28 00:36:08.9417|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9417|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.2846ms 
+2024-10-28 00:36:08.9572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.4436ms 
+2024-10-28 00:36:08.9572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9723|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.3771ms 
+2024-10-28 00:36:08.9723|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:08.9723|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.7650ms 
+2024-10-28 00:36:10.0211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.0373|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 16.8716ms 
+2024-10-28 00:36:10.0510|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.0510|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.4323ms 
+2024-10-28 00:36:10.0510|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.0662|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.4062ms 
+2024-10-28 00:36:10.0662|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.0662|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.5224ms 
+2024-10-28 00:36:10.0811|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.0811|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.9766ms 
+2024-10-28 00:36:10.0811|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.0971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.4469ms 
+2024-10-28 00:36:10.0971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1148|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 12.1048ms 
+2024-10-28 00:36:10.1148|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1286|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 12.9839ms 
+2024-10-28 00:36:10.1286|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1447|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.6330ms 
+2024-10-28 00:36:10.1447|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1447|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.9980ms 
+2024-10-28 00:36:10.1447|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.8092ms 
+2024-10-28 00:36:10.1594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.8763ms 
+2024-10-28 00:36:10.1594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1755|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.8150ms 
+2024-10-28 00:36:10.1755|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1755|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9104ms 
+2024-10-28 00:36:10.1912|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.1912|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4637ms 
+2024-10-28 00:36:10.1912|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.2062|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.4068ms 
+2024-10-28 00:36:10.2062|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.2062|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.2442ms 
+2024-10-28 00:36:10.2062|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.2221|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.6344ms 
+2024-10-28 00:36:10.2221|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.2221|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.8180ms 
+2024-10-28 00:36:10.2381|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:10.2381|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.2974ms 
+2024-10-28 00:36:15.2744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.2844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.9550ms 
+2024-10-28 00:36:15.2844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.2844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.1154ms 
+2024-10-28 00:36:15.3040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.0083ms 
+2024-10-28 00:36:15.3040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.7743ms 
+2024-10-28 00:36:15.3153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.9552ms 
+2024-10-28 00:36:15.3340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.7888ms 
+2024-10-28 00:36:15.3495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.9212ms 
+2024-10-28 00:36:15.3495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3626|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.1025ms 
+2024-10-28 00:36:15.3626|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3626|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.6145ms 
+2024-10-28 00:36:15.3789|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3789|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.0116ms 
+2024-10-28 00:36:15.3789|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3948|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.8534ms 
+2024-10-28 00:36:15.3948|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.3948|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.7090ms 
+2024-10-28 00:36:15.4101|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4101|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9971ms 
+2024-10-28 00:36:15.4101|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4253|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.5858ms 
+2024-10-28 00:36:15.4253|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4253|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.3606ms 
+2024-10-28 00:36:15.4253|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4416|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.4895ms 
+2024-10-28 00:36:15.4416|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4564|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.2330ms 
+2024-10-28 00:36:15.4564|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4732|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.6958ms 
+2024-10-28 00:36:15.4732|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4732|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.8109ms 
+2024-10-28 00:36:15.4892|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:15.4892|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.3187ms 
+2024-10-28 00:36:26.2188|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:36:26.2188|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:36:26.2188|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:36:26.2188|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:36:30.9604|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:36:33.6606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 2702.9905ms 
+2024-10-28 00:36:33.6971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:36:33.6971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:36:33.6971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.5859ms 
+2024-10-28 00:36:33.7145|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 22.0767ms 
+2024-10-28 00:36:33.7481|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:36:33.7537|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 14.1005ms 
+2024-10-28 00:36:35.3660|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=QCTXune5ZaDY6azoAtL8Rg - - - 
+2024-10-28 00:36:35.4258|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=QCTXune5ZaDY6azoAtL8Rg - 200 - - 69.8636ms 
+2024-10-28 00:36:40.0165|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 00:36:40.0552|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 302 0 - 43.8011ms 
+2024-10-28 00:36:40.0655|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.0655|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 13.2816ms 
+2024-10-28 00:36:40.0826|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.0976|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 20.3696ms 
+2024-10-28 00:36:40.0976|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.1126|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.2307ms 
+2024-10-28 00:36:40.1126|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.1287|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.3183ms 
+2024-10-28 00:36:40.1287|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.1433|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 17.6112ms 
+2024-10-28 00:36:40.1595|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.1595|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.6715ms 
+2024-10-28 00:36:40.1775|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.1775|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.1014ms 
+2024-10-28 00:36:40.1929|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.1929|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.3270ms 
+2024-10-28 00:36:40.2070|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.2218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 15.4403ms 
+2024-10-28 00:36:40.2218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.2218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.7086ms 
+2024-10-28 00:36:40.2218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.2377|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.6301ms 
+2024-10-28 00:36:40.2377|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.2544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.7224ms 
+2024-10-28 00:36:40.2544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.2692|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.1017ms 
+2024-10-28 00:36:40.2692|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.2844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.1293ms 
+2024-10-28 00:36:40.3040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.3040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3527ms 
+2024-10-28 00:36:40.3172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.3172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.5297ms 
+2024-10-28 00:36:40.3325|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.3325|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.8195ms 
+2024-10-28 00:36:40.3325|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.3467|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.5282ms 
+2024-10-28 00:36:40.3467|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:40.3623|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.8720ms 
+2024-10-28 00:36:41.4042|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4100|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 14.0676ms 
+2024-10-28 00:36:41.4254|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4254|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.1067ms 
+2024-10-28 00:36:41.4254|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4402|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.6439ms 
+2024-10-28 00:36:41.4402|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4402|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.7361ms 
+2024-10-28 00:36:41.4589|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4589|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.0089ms 
+2024-10-28 00:36:41.4589|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4589|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9996ms 
+2024-10-28 00:36:41.4745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.3516ms 
+2024-10-28 00:36:41.4745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.4876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.9387ms 
+2024-10-28 00:36:41.4876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.6633ms 
+2024-10-28 00:36:41.5032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.5246ms 
+2024-10-28 00:36:41.5032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.4972ms 
+2024-10-28 00:36:41.5185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.0329ms 
+2024-10-28 00:36:41.5185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5346|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.9399ms 
+2024-10-28 00:36:41.5346|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5346|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4798ms 
+2024-10-28 00:36:41.5507|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5507|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.8734ms 
+2024-10-28 00:36:41.5507|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5507|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.7640ms 
+2024-10-28 00:36:41.5685|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5685|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.6530ms 
+2024-10-28 00:36:41.5685|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.5331ms 
+2024-10-28 00:36:41.5813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.6208ms 
+2024-10-28 00:36:41.5813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:41.5974|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.1887ms 
+2024-10-28 00:36:46.6097|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6130|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 13.6642ms 
+2024-10-28 00:36:46.6130|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6285|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.5485ms 
+2024-10-28 00:36:46.6285|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6285|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.3588ms 
+2024-10-28 00:36:46.6435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.2296ms 
+2024-10-28 00:36:46.6435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9241ms 
+2024-10-28 00:36:46.6606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.4854ms 
+2024-10-28 00:36:46.6606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.6239ms 
+2024-10-28 00:36:46.6606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.6788ms 
+2024-10-28 00:36:46.6754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.7295ms 
+2024-10-28 00:36:46.6915|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6915|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.7053ms 
+2024-10-28 00:36:46.6915|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.6915|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.6384ms 
+2024-10-28 00:36:46.7064|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.7064|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.4417ms 
+2024-10-28 00:36:46.7968|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8155|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 24.2050ms 
+2024-10-28 00:36:46.8155|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8311|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3642ms 
+2024-10-28 00:36:46.8311|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8311|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.8514ms 
+2024-10-28 00:36:46.8311|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8478|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.3354ms 
+2024-10-28 00:36:46.8478|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8624|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.5648ms 
+2024-10-28 00:36:46.8624|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8624|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.6055ms 
+2024-10-28 00:36:46.8624|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8793|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.6560ms 
+2024-10-28 00:36:46.8793|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 00:36:46.8793|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.8975ms 
+2024-10-28 00:39:26.0653|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 00:39:26.0653|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 00:39:26.0653|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 00:39:26.0653|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 00:39:27.4703|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 00:39:31.6646|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 00:39:31.6646|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 4202.7559ms 
+2024-10-28 00:39:31.6738|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 00:39:31.6738|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 7.3384ms 
+2024-10-28 00:39:31.6982|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 30.4707ms 
+2024-10-28 00:39:31.7726|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 00:39:31.7933|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 24.2518ms 
+2024-10-28 00:39:31.7986|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=AJoeOgzOhGGsUx5O1s2XoQ - - - 
+2024-10-28 00:39:31.8767|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=AJoeOgzOhGGsUx5O1s2XoQ - 200 - - 69.3466ms 
+2024-10-28 01:26:40.1611|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 01:26:40.1611|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 01:26:40.1611|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 01:26:40.1611|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 01:27:04.7783|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 01:27:08.0745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3289.1268ms 
+2024-10-28 01:27:08.0745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 01:27:08.0745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 01:27:08.0885|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 3.6800ms 
+2024-10-28 01:27:08.1063|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 27.5803ms 
+2024-10-28 01:27:08.1659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 01:27:08.2004|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 35.4899ms 
+2024-10-28 01:27:08.2004|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=LHDRG3GXuTopzmcDKmb1Cg - - - 
+2024-10-28 01:27:08.2746|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=LHDRG3GXuTopzmcDKmb1Cg - 200 - - 70.6635ms 
+2024-10-28 01:27:12.7596|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 01:27:12.8066|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 302 0 - 52.1245ms 
+2024-10-28 01:27:12.8066|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:27:13.3069|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 498.2360ms 
+2024-10-28 01:27:13.3069|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 01:27:13.3069|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 01:27:13.3069|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.8815ms 
+2024-10-28 01:27:13.3292|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 17.8839ms 
+2024-10-28 01:27:39.9788|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2dbbf9a7-a5b6-43cd-8de8-1143c8e75cb2 - - - 
+2024-10-28 01:27:39.9788|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2dbbf9a7-a5b6-43cd-8de8-1143c8e75cb2 - 302 0 - 7.3733ms 
+2024-10-28 01:27:39.9945|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:27:40.0257|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 34.0853ms 
+2024-10-28 01:27:40.0428|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 01:27:40.0428|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 01:27:40.0428|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.0647ms 
+2024-10-28 01:27:40.0428|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 11.3838ms 
+2024-10-28 01:28:44.3255|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 01:28:44.3255|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 01:28:44.3255|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 01:28:44.3255|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 01:28:44.4150|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.5240|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 116.8355ms 
+2024-10-28 01:28:44.5240|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.5398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 14.1069ms 
+2024-10-28 01:28:44.5549|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.5549|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.3738ms 
+2024-10-28 01:28:44.5549|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.5710|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3765ms 
+2024-10-28 01:28:44.5710|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.5873|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.9108ms 
+2024-10-28 01:28:44.5873|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.5873|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.1783ms 
+2024-10-28 01:28:44.6055|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.6055|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4725ms 
+2024-10-28 01:28:44.6055|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.6178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.0538ms 
+2024-10-28 01:28:44.6178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.6178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.2294ms 
+2024-10-28 01:28:44.6360|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.6360|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3848ms 
+2024-10-28 01:28:44.6498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.6498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.1406ms 
+2024-10-28 01:28:44.6498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.6813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 23.3085ms 
+2024-10-28 01:28:44.6962|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.6962|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 11.8616ms 
+2024-10-28 01:28:44.7137|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.7137|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3470ms 
+2024-10-28 01:28:44.7268|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.7268|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.0955ms 
+2024-10-28 01:28:44.7268|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.7430|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.6261ms 
+2024-10-28 01:28:44.7430|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.7749|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 28.4532ms 
+2024-10-28 01:28:44.7749|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.7911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.3074ms 
+2024-10-28 01:28:44.7911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.8059|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.5788ms 
+2024-10-28 01:28:44.8059|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:44.8217|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 13.4118ms 
+2024-10-28 01:28:45.8742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.8838|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.7250ms 
+2024-10-28 01:28:45.8838|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.8838|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.8632ms 
+2024-10-28 01:28:45.9039|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9039|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.8192ms 
+2024-10-28 01:28:45.9153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.0492ms 
+2024-10-28 01:28:45.9153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9309|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.3118ms 
+2024-10-28 01:28:45.9309|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9309|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.1441ms 
+2024-10-28 01:28:45.9479|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9479|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.1423ms 
+2024-10-28 01:28:45.9479|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9617|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4136ms 
+2024-10-28 01:28:45.9617|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9617|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.8598ms 
+2024-10-28 01:28:45.9617|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9770|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.9028ms 
+2024-10-28 01:28:45.9770|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9770|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.1787ms 
+2024-10-28 01:28:45.9927|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:45.9927|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.0431ms 
+2024-10-28 01:28:45.9927|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0088|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4224ms 
+2024-10-28 01:28:46.0088|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0088|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.8973ms 
+2024-10-28 01:28:46.0088|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0238|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4546ms 
+2024-10-28 01:28:46.0238|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0238|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.2521ms 
+2024-10-28 01:28:46.0398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.2525ms 
+2024-10-28 01:28:46.0398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.5747ms 
+2024-10-28 01:28:46.0575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.3194ms 
+2024-10-28 01:28:46.0575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:28:46.0707|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.0491ms 
+2024-10-28 01:29:00.2223|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 01:29:02.4613|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 2250.0895ms 
+2024-10-28 01:29:02.4941|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 01:29:02.4941|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 01:29:02.4941|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.6852ms 
+2024-10-28 01:29:02.5149|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 24.1322ms 
+2024-10-28 01:29:02.5528|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 01:29:02.5560|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 13.2646ms 
+2024-10-28 01:29:04.9577|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2dbbf9a7-a5b6-43cd-8de8-1143c8e75cb2 - - - 
+2024-10-28 01:29:04.9796|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2dbbf9a7-a5b6-43cd-8de8-1143c8e75cb2 - 302 0 - 26.1534ms 
+2024-10-28 01:29:04.9796|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:04.9930|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.5735ms 
+2024-10-28 01:29:04.9930|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.0087|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3293ms 
+2024-10-28 01:29:05.0087|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.0245|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.5480ms 
+2024-10-28 01:29:05.0245|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.0706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 37.6004ms 
+2024-10-28 01:29:05.0706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.0873|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.5688ms 
+2024-10-28 01:29:05.1090|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1173|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.7688ms 
+2024-10-28 01:29:05.1173|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1173|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.3174ms 
+2024-10-28 01:29:05.1350|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1350|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.5922ms 
+2024-10-28 01:29:05.1495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.3322ms 
+2024-10-28 01:29:05.1495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1655|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.3204ms 
+2024-10-28 01:29:05.1655|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1655|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.6406ms 
+2024-10-28 01:29:05.1825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.6748ms 
+2024-10-28 01:29:05.1825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.1960|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.6813ms 
+2024-10-28 01:29:05.2135|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.2135|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 12.8027ms 
+2024-10-28 01:29:05.2305|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.2305|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.2141ms 
+2024-10-28 01:29:05.2458|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.2458|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 8.8624ms 
+2024-10-28 01:29:05.2715|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.2736|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 15.8904ms 
+2024-10-28 01:29:05.3110|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.3223|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 11.2379ms 
+2024-10-28 01:29:05.3223|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:05.3366|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 10.4783ms 
+2024-10-28 01:29:06.4455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.4455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.5451ms 
+2024-10-28 01:29:06.4634|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.4634|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.2470ms 
+2024-10-28 01:29:06.4634|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.4766|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.1149ms 
+2024-10-28 01:29:06.4766|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.4766|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.2878ms 
+2024-10-28 01:29:06.4766|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.4939|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.7889ms 
+2024-10-28 01:29:06.4939|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.4939|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.8688ms 
+2024-10-28 01:29:06.5085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.4951ms 
+2024-10-28 01:29:06.5085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.7259ms 
+2024-10-28 01:29:06.5236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.6485ms 
+2024-10-28 01:29:06.5236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.5098ms 
+2024-10-28 01:29:06.5420|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5586|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 18.4439ms 
+2024-10-28 01:29:06.5586|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5586|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.5041ms 
+2024-10-28 01:29:06.5729|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5729|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.1322ms 
+2024-10-28 01:29:06.5729|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5872|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.5932ms 
+2024-10-28 01:29:06.5872|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.5872|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4302ms 
+2024-10-28 01:29:06.5872|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.6018|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.7808ms 
+2024-10-28 01:29:06.6018|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.6018|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.8305ms 
+2024-10-28 01:29:06.6018|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.6180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.3690ms 
+2024-10-28 01:29:06.6180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.6180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.9459ms 
+2024-10-28 01:29:06.6180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:06.6337|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.1683ms 
+2024-10-28 01:29:11.6587|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.6645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 11.3558ms 
+2024-10-28 01:29:11.6645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.6645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.0452ms 
+2024-10-28 01:29:11.6816|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.6816|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.1551ms 
+2024-10-28 01:29:11.6816|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.6955|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.0918ms 
+2024-10-28 01:29:11.6955|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 26.3619ms 
+2024-10-28 01:29:11.7275|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7275|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9590ms 
+2024-10-28 01:29:11.7275|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7275|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.6227ms 
+2024-10-28 01:29:11.7444|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7444|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.3554ms 
+2024-10-28 01:29:11.7444|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7444|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.6175ms 
+2024-10-28 01:29:11.7593|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7593|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.4520ms 
+2024-10-28 01:29:11.7593|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7593|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.2424ms 
+2024-10-28 01:29:11.7593|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.0380ms 
+2024-10-28 01:29:11.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.2083ms 
+2024-10-28 01:29:11.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7894|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.9216ms 
+2024-10-28 01:29:11.7894|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7894|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.3468ms 
+2024-10-28 01:29:11.7894|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.7894|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.4151ms 
+2024-10-28 01:29:11.8060|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.8060|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.2233ms 
+2024-10-28 01:29:11.8060|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.8060|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9994ms 
+2024-10-28 01:29:11.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.4767ms 
+2024-10-28 01:29:11.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:29:11.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.9331ms 
+2024-10-28 01:32:14.7916|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8044|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 9.4258ms 
+2024-10-28 01:32:14.8044|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8044|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.7837ms 
+2024-10-28 01:32:14.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.7331ms 
+2024-10-28 01:32:14.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 6.4226ms 
+2024-10-28 01:32:14.8365|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8365|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.5151ms 
+2024-10-28 01:32:14.8365|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8365|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.8058ms 
+2024-10-28 01:32:14.8365|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.8490ms 
+2024-10-28 01:32:14.8503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.2339ms 
+2024-10-28 01:32:14.8503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.8663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.0407ms 
+2024-10-28 01:32:14.8663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.9445|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 76.6035ms 
+2024-10-28 01:32:14.9708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.9708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.0722ms 
+2024-10-28 01:32:14.9754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.9754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9947ms 
+2024-10-28 01:32:14.9754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.9914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.1423ms 
+2024-10-28 01:32:14.9914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:14.9914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.5504ms 
+2024-10-28 01:32:14.9914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:15.0065|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 3.8804ms 
+2024-10-28 01:32:15.0065|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:15.0065|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.0483ms 
+2024-10-28 01:32:15.0065|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:15.0224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.0655ms 
+2024-10-28 01:32:15.0224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:15.0224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 5.7604ms 
+2024-10-28 01:32:15.0224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:15.0384|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 4.9502ms 
+2024-10-28 01:32:15.0384|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:15.0536|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 302 0 - 7.8263ms 
+2024-10-28 01:32:21.1971|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 01:32:21.1971|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 01:32:21.1971|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 01:32:21.1971|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 01:32:21.5848|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-28 01:32:24.8371|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3260.7807ms 
+2024-10-28 01:32:24.8498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 01:32:24.8498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 01:32:24.8498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.2477ms 
+2024-10-28 01:32:24.8732|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.8197ms 
+2024-10-28 01:32:25.0110|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-28 01:32:25.0711|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 59.9465ms 
+2024-10-28 01:32:25.0711|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=iZ9csy3nn0w1YxcrZ7yrPg - - - 
+2024-10-28 01:32:25.1158|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=iZ9csy3nn0w1YxcrZ7yrPg - 200 - - 44.8147ms 
+2024-10-28 01:32:43.8124|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - - - 
+2024-10-28 01:32:43.8970|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Profile/2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2 - 302 0 - 86.3752ms 
+2024-10-28 01:32:43.9670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:32:44.5224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 554.1620ms 
+2024-10-28 01:32:44.5224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 01:32:44.5224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 01:32:44.5224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.7395ms 
+2024-10-28 01:32:44.5410|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 13.8532ms 

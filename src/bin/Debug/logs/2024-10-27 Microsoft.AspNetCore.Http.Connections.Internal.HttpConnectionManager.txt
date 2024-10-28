@@ -1,0 +1,28 @@
+2024-10-27 21:15:00.4786|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 21:19:40.3831|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 21:19:44.6304|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection GaRrcu51Ct2r2_x9cI7aGg created. 
+2024-10-27 21:19:44.7285|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection 3_6i2tqoRYCQawDLFXOxeQ from the list of connections. 
+2024-10-27 22:26:09.1318|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 22:35:44.5245|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 22:48:07.4050|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 22:48:16.7134|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection 4iKIa1Pta4FOUol45FrwrA created. 
+2024-10-27 22:48:32.3678|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Connection 4iKIa1Pta4FOUol45FrwrA timed out. 
+2024-10-27 22:48:32.3910|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection HkIcZLNsKwWzxogkXCuiaQ from the list of connections. 
+2024-10-27 22:51:59.7176|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 22:52:03.5084|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection meZCqEFzqWa3ry0es8Hmug created. 
+2024-10-27 22:52:03.5708|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection iKyEOCp_o8jSYN61TQj79Q from the list of connections. 
+2024-10-27 22:52:24.7433|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection pEWGtYgg7lbVxsIcACtuTg created. 
+2024-10-27 22:52:40.6460|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Connection pEWGtYgg7lbVxsIcACtuTg timed out. 
+2024-10-27 22:52:40.6460|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection 5l9rJP_1VNd8HiDi7Mj3zg from the list of connections. 
+2024-10-27 22:52:48.4528|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 22:52:53.7826|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection CqSMY6CdYCIfDWRTJVHRxw created. 
+2024-10-27 22:52:53.9155|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection hF_dRhLo9WKx3ouhMGtYRw from the list of connections. 
+2024-10-27 22:53:26.9703|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 22:53:30.3528|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection xlVyNOi4fdIzrcyXrnOFWA created. 
+2024-10-27 22:53:30.4335|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection 4A4rbNC-dsS2Fsk7ycZt8Q from the list of connections. 
+2024-10-27 23:00:49.5289|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 23:00:53.7515|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection VN49yvH-NLlkVYRUdsIGgQ created. 
+2024-10-27 23:00:53.8633|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection Fm44IvZJPKEgvCp-oK0nKw from the list of connections. 
+2024-10-27 23:03:18.0809|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-27 23:05:56.8301|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection dGgJNo7Omz0ZjGNBuRrCQA created. 
+2024-10-27 23:05:58.1482|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection 72XhXpm5O6Umb9rdputuKA from the list of connections. 

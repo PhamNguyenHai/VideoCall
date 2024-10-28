@@ -1,0 +1,152 @@
+2024-10-27 21:15:10.7445|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:15:10.7445|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:15:12.4639|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 21:15:12.4639|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:15:21.4780|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:15:21.4780|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:17:08.5243|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:17:08.5243|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:17:17.3208|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:17:17.3208|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:19:43.9302|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 21:19:43.9302|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:19:44.6014|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 21:19:44.6014|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:19:44.6485|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect' 
+2024-10-27 21:19:44.6485|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:19:53.0388|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:19:53.0388|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:19:59.9324|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:19:59.9324|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:20:12.1180|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:20:12.1180|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:20:18.8524|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:20:18.8524|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:20:29.3671|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:20:29.3671|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:20:53.5219|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:20:53.5219|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 21:21:01.0119|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 21:21:01.0119|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:26:09.3664|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:26:09.3664|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:26:11.7243|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 22:26:11.7243|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:26:12.0234|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:26:12.0234|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:34:03.9395|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:34:03.9395|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:34:48.1772|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:34:48.1772|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:35:17.2847|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:35:17.2847|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:35:45.1980|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:35:45.1980|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:38:02.9551|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:38:02.9551|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:38:14.9848|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:38:14.9848|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:38:21.2730|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:38:21.2730|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:39:14.3746|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:39:14.3746|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:39:39.4369|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:39:39.4369|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:39:49.1002|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:39:49.1002|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:40:07.2410|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:40:07.2410|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:40:51.2012|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:40:51.2012|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:41:26.2072|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:41:26.2072|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:41:27.2648|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:41:27.2648|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:41:27.4686|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:41:27.4686|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:41:27.7182|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:41:27.7182|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:42:03.1865|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:42:03.1865|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:42:04.4691|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:42:04.4691|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:42:59.6453|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:42:59.6453|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:43:00.8342|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:43:00.8410|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:43:10.3886|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:43:10.3886|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:43:35.3568|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:43:35.3568|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:47:10.6527|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:47:10.6527|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:48:08.3781|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 22:48:08.3781|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:48:16.2770|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 22:48:16.2770|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:48:16.7086|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 22:48:16.7134|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:48:18.8230|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 22:48:18.8230|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:48:26.6515|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 22:48:26.6515|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:02.8126|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 22:52:02.8126|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:03.5013|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 22:52:03.5084|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:03.5291|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect' 
+2024-10-27 22:52:03.5291|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:09.7904|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-10-27 22:52:10.2771|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-10-27 22:52:15.8257|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-10-27 22:52:24.6224|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 22:52:24.6224|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:24.7433|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 22:52:24.7433|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:27.0255|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-10-27 22:52:52.8227|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 22:52:52.8227|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:53.1644|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-10-27 22:52:53.7586|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 22:52:53.7586|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:53.8135|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect' 
+2024-10-27 22:52:53.8135|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:52:54.6963|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-10-27 22:53:29.8213|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 22:53:29.8213|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:53:30.3370|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 22:53:30.3370|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:53:30.3677|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect' 
+2024-10-27 22:53:30.3677|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:53:33.9629|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 22:53:33.9629|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 22:53:41.8991|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 22:53:41.8991|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:00:53.0427|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 23:00:53.0510|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:00:53.7269|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 23:00:53.7269|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:00:53.7748|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect' 
+2024-10-27 23:00:53.7748|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:00:57.4267|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 23:00:57.4267|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:01:06.8644|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 23:01:06.8644|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:01:42.4187|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-10-27 23:01:42.4252|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:03:21.0968|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 23:03:21.0968|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:05:56.6588|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-10-27 23:05:56.6588|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:05:56.8301|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-10-27 23:05:56.8301|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:05:58.0804|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect' 
+2024-10-27 23:05:58.0804|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:06:01.1576|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 23:06:01.1576|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:06:02.5038|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Register (PetProject)' 
+2024-10-27 23:06:02.5038|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:06:20.2733|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Register (PetProject)' 
+2024-10-27 23:06:20.2733|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-27 23:06:20.5883|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-27 23:06:20.5883|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 

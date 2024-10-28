@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 
 namespace PetProject
 {
@@ -12,6 +14,13 @@ namespace PetProject
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureLogging((hostinContext, logging) =>
+                {
+                    logging.AddConfiguration(hostinContext.Configuration.GetSection("Loggin"));
+                    logging.AddDebug();
+                    logging.AddNLog();
+                })
+
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

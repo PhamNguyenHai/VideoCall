@@ -1,0 +1,2 @@
+2024-10-27 23:07:33.6819|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\63200510\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-10-27 23:07:33.7044|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f8d3ae4e-8fbd-467c-9cc9-35c7441367f0}. 

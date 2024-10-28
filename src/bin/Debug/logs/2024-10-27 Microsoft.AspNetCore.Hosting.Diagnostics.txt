@@ -1,0 +1,406 @@
+2024-10-27 21:15:00.4748|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 21:15:00.4786|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 21:15:00.4786|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 21:15:00.4786|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 21:15:01.1369|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 21:15:10.7217|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 21:15:12.6973|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/css/form.css - - - 
+2024-10-27 21:15:12.6973|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 
+2024-10-27 21:15:12.6973|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 
+2024-10-27 21:15:12.6973|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 1982.5477ms 
+2024-10-27 21:15:12.7131|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - 304 - text/javascript 10.2165ms 
+2024-10-27 21:15:12.7131|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - 304 - text/css 14.0015ms 
+2024-10-27 21:15:12.7131|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/css/form.css - 304 - text/css 15.9786ms 
+2024-10-27 21:15:12.7659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:15:12.7659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 21:15:12.7659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 7.1358ms 
+2024-10-27 21:15:12.8224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 58.3900ms 
+2024-10-27 21:15:12.9809|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 11856.1782ms 
+2024-10-27 21:15:21.4780|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 21:15:41.9170|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 - text/html;+charset=utf-8 20441.5988ms 
+2024-10-27 21:15:41.9470|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 21:15:41.9470|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:15:41.9470|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.6634ms 
+2024-10-27 21:15:41.9860|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 33.7906ms 
+2024-10-27 21:17:08.5068|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 21:17:08.6074|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:17:08.6519|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 45.8009ms 
+2024-10-27 21:17:10.8702|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 2366.5456ms 
+2024-10-27 21:17:17.3093|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 21:17:59.7682|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 - text/html;+charset=utf-8 42456.3519ms 
+2024-10-27 21:17:59.8105|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 21:17:59.8105|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:17:59.8313|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 12.8613ms 
+2024-10-27 21:17:59.9311|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 118.8578ms 
+2024-10-27 21:19:40.3831|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 21:19:40.3831|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 21:19:40.3831|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 21:19:40.3831|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 21:19:41.0387|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 21:19:44.4389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/lib/signalr/dist/browser/signalr.min.js - - - 
+2024-10-27 21:19:44.4389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/css/site.css - - - 
+2024-10-27 21:19:44.4389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/js/main.js?v=ClLUW5ZJenwq4AEA1An3LBZ1pA8r_of7qxG9vgdtW-U - - - 
+2024-10-27 21:19:44.4389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/app-icon.png - - - 
+2024-10-27 21:19:44.4389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 - text/javascript 15.9477ms 
+2024-10-27 21:19:44.4469|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/css/site.css - 304 - text/css 18.3825ms 
+2024-10-27 21:19:44.4604|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/js/main.js?v=ClLUW5ZJenwq4AEA1An3LBZ1pA8r_of7qxG9vgdtW-U - 304 - text/javascript 17.5610ms 
+2024-10-27 21:19:44.4604|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/lib/signalr/dist/browser/signalr.min.js - 304 - text/javascript 18.0368ms 
+2024-10-27 21:19:44.4604|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/app-icon.png - 304 - image/png 16.7067ms 
+2024-10-27 21:19:44.4604|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3429.6016ms 
+2024-10-27 21:19:44.4604|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 10.0852ms 
+2024-10-27 21:19:44.4915|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 39.7442ms 
+2024-10-27 21:19:44.5989|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 21:19:44.6352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 37.7820ms 
+2024-10-27 21:19:44.6485|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=3_6i2tqoRYCQawDLFXOxeQ - - - 
+2024-10-27 21:19:44.7285|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=3_6i2tqoRYCQawDLFXOxeQ - 200 - - 85.0043ms 
+2024-10-27 21:19:49.8626|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/favicon.ico - - - 
+2024-10-27 21:19:49.8664|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/favicon.ico - 304 - image/x-icon 3.0164ms 
+2024-10-27 21:19:53.0292|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 21:19:53.6174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 592.8973ms 
+2024-10-27 21:19:53.6174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:19:53.6326|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 21:19:53.6326|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.6273ms 
+2024-10-27 21:19:53.6636|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 38.2225ms 
+2024-10-27 21:19:59.9248|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 21:20:05.3630|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 0 text/html 5435.7491ms 
+2024-10-27 21:20:12.1021|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 21:20:14.0393|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 0 text/html 1931.2704ms 
+2024-10-27 21:20:18.8466|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 21:20:18.8667|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 19.0142ms 
+2024-10-27 21:20:18.8862|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:20:18.9521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 21:20:18.9521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 65.7323ms 
+2024-10-27 21:20:18.9804|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 34.2277ms 
+2024-10-27 21:20:29.3604|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 21:20:42.4812|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 0 text/html 13120.5566ms 
+2024-10-27 21:20:53.5167|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 21:20:53.5219|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 17.6630ms 
+2024-10-27 21:20:53.5510|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 21:20:53.5544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 21:20:53.5544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.1321ms 
+2024-10-27 21:20:53.5700|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 21.2584ms 
+2024-10-27 21:21:01.0119|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 21:21:38.8928|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 0 text/html 37880.3386ms 
+2024-10-27 22:26:09.1318|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 22:26:09.1318|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 22:26:09.1318|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 22:26:09.1318|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 22:26:09.2873|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:26:09.4913|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 22:26:11.7772|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 2477.8710ms 
+2024-10-27 22:26:12.0234|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:26:12.0606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 35.0917ms 
+2024-10-27 22:26:12.1724|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 2678.7261ms 
+2024-10-27 22:34:03.9395|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:34:04.5047|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:34:04.5047|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:34:04.5047|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 569.3277ms 
+2024-10-27 22:34:04.5497|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 44.0302ms 
+2024-10-27 22:34:04.5813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 85.4921ms 
+2024-10-27 22:34:48.1772|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:34:48.4094|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 237.4640ms 
+2024-10-27 22:34:48.4264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:34:48.4264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:34:48.4264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.3513ms 
+2024-10-27 22:34:48.4264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 8.9240ms 
+2024-10-27 22:35:17.2847|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:35:17.3455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 64.4550ms 
+2024-10-27 22:35:17.3455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:35:17.3455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:35:17.3455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.2068ms 
+2024-10-27 22:35:17.4078|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 48.9424ms 
+2024-10-27 22:35:44.5245|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 22:35:44.5245|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 22:35:44.5245|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 22:35:44.5245|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 22:35:45.1307|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:35:47.9551|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 2828.4657ms 
+2024-10-27 22:35:47.9757|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:35:47.9757|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:35:47.9855|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 3.8957ms 
+2024-10-27 22:35:48.0015|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.1679ms 
+2024-10-27 22:35:55.0298|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 
+2024-10-27 22:35:55.0420|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css.map - 304 - text/plain 14.6760ms 
+2024-10-27 22:38:02.9475|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:38:03.1896|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 240.2622ms 
+2024-10-27 22:38:03.1896|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:38:03.1896|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 5.1611ms 
+2024-10-27 22:38:03.1896|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:38:03.2586|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 70.0536ms 
+2024-10-27 22:38:14.9813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:38:15.2032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 221.2537ms 
+2024-10-27 22:38:15.2203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:38:15.2203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:38:15.2203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.9705ms 
+2024-10-27 22:38:15.2203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 7.4284ms 
+2024-10-27 22:38:21.2730|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:38:21.2810|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 11.4683ms 
+2024-10-27 22:38:21.3874|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:38:21.3874|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:38:21.3904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.0430ms 
+2024-10-27 22:38:21.4617|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 76.1471ms 
+2024-10-27 22:39:14.3746|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:39:14.4385|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 76.4012ms 
+2024-10-27 22:39:14.4742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:39:14.4742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:39:14.4742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.5026ms 
+2024-10-27 22:39:14.4742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 7.4545ms 
+2024-10-27 22:39:39.4299|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:39:39.5369|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 106.4925ms 
+2024-10-27 22:39:39.5659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:39:39.5659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:39:39.5766|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.2175ms 
+2024-10-27 22:39:39.6456|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 69.3805ms 
+2024-10-27 22:39:49.1002|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:39:49.1706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 73.8187ms 
+2024-10-27 22:39:49.1910|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:39:49.1910|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.1308ms 
+2024-10-27 22:39:49.1910|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:39:49.2177|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 23.4344ms 
+2024-10-27 22:40:07.2195|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:40:07.3288|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 112.8236ms 
+2024-10-27 22:40:07.3499|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:40:07.3499|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:40:07.3499|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.6993ms 
+2024-10-27 22:40:07.3581|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 9.1183ms 
+2024-10-27 22:40:51.1981|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:40:51.2844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 96.1766ms 
+2024-10-27 22:40:51.2952|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:40:51.3129|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:40:51.3129|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.6012ms 
+2024-10-27 22:40:51.3129|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 8.5997ms 
+2024-10-27 22:41:26.2072|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:41:26.3138|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 105.9552ms 
+2024-10-27 22:41:26.3274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:41:26.3274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:41:26.3274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.0895ms 
+2024-10-27 22:41:26.3623|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 34.2526ms 
+2024-10-27 22:41:27.2648|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:41:27.2648|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 8.8564ms 
+2024-10-27 22:41:27.3110|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:41:27.3110|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:41:27.3110|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.6036ms 
+2024-10-27 22:41:27.3110|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 9.0343ms 
+2024-10-27 22:41:27.4638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:41:27.4859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 25.4910ms 
+2024-10-27 22:41:27.5264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:41:27.5264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:41:27.5264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.4648ms 
+2024-10-27 22:41:27.5336|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 7.8109ms 
+2024-10-27 22:41:27.6555|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:41:27.7182|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 73.8787ms 
+2024-10-27 22:41:27.7644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:41:27.7644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:41:27.7644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.7409ms 
+2024-10-27 22:41:27.7796|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 16.3375ms 
+2024-10-27 22:42:03.1865|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:42:03.2500|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 64.8664ms 
+2024-10-27 22:42:03.2659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:42:03.2659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:42:03.2659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.6460ms 
+2024-10-27 22:42:03.2807|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 13.9506ms 
+2024-10-27 22:42:04.4691|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:42:04.4691|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 7.3092ms 
+2024-10-27 22:42:04.5594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:42:04.5594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:42:04.5601|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.0714ms 
+2024-10-27 22:42:04.5765|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 20.4932ms 
+2024-10-27 22:42:59.6453|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:42:59.7197|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 76.1072ms 
+2024-10-27 22:42:59.7483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:42:59.7483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:42:59.7861|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 39.4326ms 
+2024-10-27 22:42:59.7975|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 55.8390ms 
+2024-10-27 22:43:00.8342|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:43:00.8410|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 11.2440ms 
+2024-10-27 22:43:00.8734|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:43:00.8734|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:43:00.8734|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 3.2555ms 
+2024-10-27 22:43:00.9064|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 31.5693ms 
+2024-10-27 22:43:10.3852|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:43:10.4236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 49.1296ms 
+2024-10-27 22:43:10.4945|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:43:10.4945|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:43:10.4976|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.8438ms 
+2024-10-27 22:43:10.4976|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 10.8913ms 
+2024-10-27 22:43:35.3534|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:43:35.4037|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 57.5535ms 
+2024-10-27 22:43:35.4269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:43:35.4269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:43:35.4269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.2610ms 
+2024-10-27 22:43:35.4269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3.2364ms 
+2024-10-27 22:47:10.6527|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:47:10.7016|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 56.8454ms 
+2024-10-27 22:47:10.7236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:47:10.7236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:47:10.7236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.2411ms 
+2024-10-27 22:47:10.7297|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 5.5196ms 
+2024-10-27 22:48:07.4050|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 22:48:07.4050|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 22:48:07.4050|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 22:48:07.4050|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 22:48:08.0786|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:48:15.6845|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 7603.5494ms 
+2024-10-27 22:48:15.6845|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:48:15.6845|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:48:15.6845|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 6.5280ms 
+2024-10-27 22:48:15.7138|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 27.4649ms 
+2024-10-27 22:48:16.0287|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 22:48:16.5890|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 563.6052ms 
+2024-10-27 22:48:16.6626|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:48:16.6626|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.7706ms 
+2024-10-27 22:48:16.6668|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:48:16.6668|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 9.0937ms 
+2024-10-27 22:48:16.7086|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 22:48:16.7134|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 13.1360ms 
+2024-10-27 22:48:18.8175|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 22:48:19.3414|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 523.2061ms 
+2024-10-27 22:48:19.3542|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:48:19.3542|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:48:19.3542|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.3845ms 
+2024-10-27 22:48:19.3542|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 6.6610ms 
+2024-10-27 22:48:26.6357|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 22:48:27.1221|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 0 text/html 487.8622ms 
+2024-10-27 22:51:59.7176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 22:51:59.7176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 22:51:59.7176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 22:51:59.7176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 22:52:00.2783|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 22:52:03.3525|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3077.9072ms 
+2024-10-27 22:52:03.4092|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:52:03.4092|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:52:03.4151|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 6.1077ms 
+2024-10-27 22:52:03.4500|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.9592ms 
+2024-10-27 22:52:03.5013|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 22:52:03.5084|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 18.4508ms 
+2024-10-27 22:52:03.5291|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=iKyEOCp_o8jSYN61TQj79Q - - - 
+2024-10-27 22:52:03.5708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=iKyEOCp_o8jSYN61TQj79Q - 200 - - 50.8349ms 
+2024-10-27 22:52:09.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 22:52:09.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 404 0 - 9.3038ms 
+2024-10-27 22:52:09.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/User/Login, Response status code: 404 
+2024-10-27 22:52:10.2771|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 22:52:10.2771|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 404 0 - 4.2118ms 
+2024-10-27 22:52:10.2771|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/User/Login, Response status code: 404 
+2024-10-27 22:52:15.8257|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 22:52:15.8257|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 404 0 - 9.7560ms 
+2024-10-27 22:52:15.8257|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/User/Login, Response status code: 404 
+2024-10-27 22:52:24.6224|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 22:52:24.6336|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 19.7061ms 
+2024-10-27 22:52:24.6795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:52:24.6802|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.6464ms 
+2024-10-27 22:52:24.6802|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:52:24.6802|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 9.8106ms 
+2024-10-27 22:52:24.7403|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 22:52:24.7433|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 8.0616ms 
+2024-10-27 22:52:27.0255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 22:52:27.0255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 404 0 - 7.6503ms 
+2024-10-27 22:52:27.0255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/Home/Error, Response status code: 404 
+2024-10-27 22:52:48.4528|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 22:52:48.4528|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 22:52:48.4528|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 22:52:48.4528|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 22:52:49.1178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 22:52:53.1536|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 22:52:53.1644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 404 0 - 15.8820ms 
+2024-10-27 22:52:53.1644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/User/Login, Response status code: 404 
+2024-10-27 22:52:53.6511|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:52:53.6511|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:52:53.6723|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 15.7474ms 
+2024-10-27 22:52:53.6819|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 4570.6448ms 
+2024-10-27 22:52:53.7424|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 22:52:53.7586|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 105.0286ms 
+2024-10-27 22:52:53.7979|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 41.2130ms 
+2024-10-27 22:52:53.8135|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=hF_dRhLo9WKx3ouhMGtYRw - - - 
+2024-10-27 22:52:53.9155|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=hF_dRhLo9WKx3ouhMGtYRw - 200 - - 111.2667ms 
+2024-10-27 22:52:54.6963|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 22:52:54.6963|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 404 0 - 8.1354ms 
+2024-10-27 22:52:54.6963|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/User/Login, Response status code: 404 
+2024-10-27 22:53:26.9703|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 22:53:26.9703|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 22:53:26.9703|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 22:53:26.9703|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 22:53:27.2951|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 22:53:30.2286|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 2928.8840ms 
+2024-10-27 22:53:30.2429|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:53:30.2429|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:53:30.2429|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.4319ms 
+2024-10-27 22:53:30.2734|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.2160ms 
+2024-10-27 22:53:30.3292|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 22:53:30.3528|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 33.8040ms 
+2024-10-27 22:53:30.3677|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=4A4rbNC-dsS2Fsk7ycZt8Q - - - 
+2024-10-27 22:53:30.4335|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=4A4rbNC-dsS2Fsk7ycZt8Q - 200 - - 63.0426ms 
+2024-10-27 22:53:33.9629|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 22:53:34.7452|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 791.7561ms 
+2024-10-27 22:53:34.7989|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 22:53:34.7989|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 22:53:34.7989|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.6098ms 
+2024-10-27 22:53:34.8202|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 22.4494ms 
+2024-10-27 22:53:41.8914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 22:53:42.1479|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 500 0 text/html 258.6953ms 
+2024-10-27 23:00:49.5289|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 23:00:49.5289|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 23:00:49.5289|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 23:00:49.5289|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 23:00:50.1620|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 23:00:53.6367|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:00:53.6459|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:00:53.6459|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 13.6558ms 
+2024-10-27 23:00:53.6619|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3502.9521ms 
+2024-10-27 23:00:53.7269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 23:00:53.7269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 90.2213ms 
+2024-10-27 23:00:53.7638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 37.7567ms 
+2024-10-27 23:00:53.7748|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=Fm44IvZJPKEgvCp-oK0nKw - - - 
+2024-10-27 23:00:53.8633|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=Fm44IvZJPKEgvCp-oK0nKw - 200 - - 98.9900ms 
+2024-10-27 23:00:57.4267|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 23:00:58.0512|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 631.9379ms 
+2024-10-27 23:00:58.0711|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:00:58.0711|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:00:58.0711|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.8372ms 
+2024-10-27 23:00:58.0978|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 27.3698ms 
+2024-10-27 23:01:06.8482|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 248 
+2024-10-27 23:01:42.3961|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 302 0 text/html 35545.1040ms 
+2024-10-27 23:01:42.4187|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-10-27 23:01:42.8474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 435.0358ms 
+2024-10-27 23:01:42.8669|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:01:42.8669|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.0514ms 
+2024-10-27 23:01:42.8669|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:01:42.8782|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 13.0954ms 
+2024-10-27 23:03:18.0809|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 23:03:18.0809|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 23:03:18.0809|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 23:03:18.0809|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 23:03:18.4756|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 23:03:21.5388|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 3075.0805ms 
+2024-10-27 23:05:56.6441|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-10-27 23:05:56.6745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 33.8861ms 
+2024-10-27 23:05:56.7203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:05:56.7203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 3.0769ms 
+2024-10-27 23:05:56.7203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:05:56.7528|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 33.6593ms 
+2024-10-27 23:05:56.8267|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-10-27 23:05:56.8301|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 14.4708ms 
+2024-10-27 23:05:58.0671|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=72XhXpm5O6Umb9rdputuKA - - - 
+2024-10-27 23:05:58.1482|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=72XhXpm5O6Umb9rdputuKA - 200 - - 89.0599ms 
+2024-10-27 23:06:01.1504|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 23:06:01.6277|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 485.8771ms 
+2024-10-27 23:06:01.6474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:06:01.6474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.4319ms 
+2024-10-27 23:06:01.6474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:06:01.6572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 8.9094ms 
+2024-10-27 23:06:02.5038|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Register - - - 
+2024-10-27 23:06:02.8452|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Register - 200 - text/html;+charset=utf-8 343.8487ms 
+2024-10-27 23:06:02.8686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:06:02.8686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:06:02.8686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.3291ms 
+2024-10-27 23:06:02.8765|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 8.8717ms 
+2024-10-27 23:06:20.2733|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Register - application/x-www-form-urlencoded 370 
+2024-10-27 23:06:20.5644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Register - 302 0 - 290.2537ms 
+2024-10-27 23:06:20.5883|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 23:06:20.5949|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 15.0022ms 
+2024-10-27 23:06:20.6242|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:06:20.6242|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:06:20.6260|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.4647ms 
+2024-10-27 23:06:20.6738|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 53.5487ms 

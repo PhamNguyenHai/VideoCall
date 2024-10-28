@@ -23,5 +23,11 @@ namespace PetProject
 
         [Required(ErrorMessage = "Mật khẩu không được phép để trống")]
         public string Password { set; get; }
+
+        [DataType(DataType.Password)]
+        [Compare("Password", ErrorMessage = "Mật khẩu và xác nhận mật khẩu không khớp.")]
+        public string ConfirmPassword { get; set; }
+
+        public UserRole Role { get; set; }
     }
 }

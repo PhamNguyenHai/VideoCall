@@ -1,0 +1,114 @@
+2024-10-27 21:15:12.4554|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 21:15:12.4639|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 1178.6942ms. 
+2024-10-27 21:15:12.6665|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 1388.6873ms. 
+2024-10-27 21:17:08.5243|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 21:17:08.5243|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 2.5146ms. 
+2024-10-27 21:17:08.5399|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 11.176ms. 
+2024-10-27 21:19:53.5423|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 21:19:53.5423|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 319.8864ms. 
+2024-10-27 21:19:53.6029|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 384.4413ms. 
+2024-10-27 21:20:18.8524|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 21:20:18.8524|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 1.4466ms. 
+2024-10-27 21:20:18.8667|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 10.7983ms. 
+2024-10-27 21:20:53.5219|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 21:20:53.5219|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 1.4808ms. 
+2024-10-27 21:20:53.5219|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 8.1384ms. 
+2024-10-27 22:26:11.7195|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:26:11.7243|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 2211.8087ms. 
+2024-10-27 22:26:11.7566|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 2247.4565ms. 
+2024-10-27 22:26:12.0234|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:26:12.0370|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 1.4382ms. 
+2024-10-27 22:26:12.0370|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 6.482ms. 
+2024-10-27 22:34:04.4798|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:34:04.4798|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 529.052ms. 
+2024-10-27 22:34:04.4902|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 545.5359ms. 
+2024-10-27 22:34:48.3986|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:34:48.3986|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 216.776ms. 
+2024-10-27 22:34:48.4094|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 227.3255ms. 
+2024-10-27 22:35:17.3366|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:35:17.3366|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 45.4827ms. 
+2024-10-27 22:35:17.3455|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 53.8562ms. 
+2024-10-27 22:35:47.8455|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:35:47.8455|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 2604.3264ms. 
+2024-10-27 22:35:47.9416|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 2706.5052ms. 
+2024-10-27 22:38:03.1523|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:38:03.1523|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 195.0493ms. 
+2024-10-27 22:38:03.1664|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 208.756ms. 
+2024-10-27 22:38:15.1914|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:38:15.1914|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 204.5929ms. 
+2024-10-27 22:38:15.1914|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 212.9443ms. 
+2024-10-27 22:38:21.2810|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:38:21.2810|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 1.072ms. 
+2024-10-27 22:38:21.2810|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 2.8981ms. 
+2024-10-27 22:39:14.4385|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:39:14.4385|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 58.2665ms. 
+2024-10-27 22:39:14.4385|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 68.7432ms. 
+2024-10-27 22:39:39.5010|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:39:39.5010|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 62.3624ms. 
+2024-10-27 22:39:39.5165|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 80.357ms. 
+2024-10-27 22:39:49.1627|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:39:49.1627|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 55.4041ms. 
+2024-10-27 22:39:49.1706|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 63.6198ms. 
+2024-10-27 22:40:07.3194|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:40:07.3194|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 71.6175ms. 
+2024-10-27 22:40:07.3288|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 80.6967ms. 
+2024-10-27 22:40:51.2844|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:40:51.2844|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 82.5434ms. 
+2024-10-27 22:40:51.2844|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 89.9112ms. 
+2024-10-27 22:41:26.2486|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:41:26.2486|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 35.2452ms. 
+2024-10-27 22:41:26.2486|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 42.5364ms. 
+2024-10-27 22:41:27.2648|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:41:27.2648|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.5769ms. 
+2024-10-27 22:41:27.2648|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 2.1166ms. 
+2024-10-27 22:41:27.4686|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:41:27.4686|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 2.3165ms. 
+2024-10-27 22:41:27.4859|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 9.6884ms. 
+2024-10-27 22:41:27.7182|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:41:27.7182|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 3.2771ms. 
+2024-10-27 22:41:27.7182|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 4.8875ms. 
+2024-10-27 22:42:03.2421|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:42:03.2421|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 50.7283ms. 
+2024-10-27 22:42:03.2500|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 58.0377ms. 
+2024-10-27 22:42:04.4691|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:42:04.4691|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.5205ms. 
+2024-10-27 22:42:04.4691|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 1.537ms. 
+2024-10-27 22:42:59.7095|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:42:59.7095|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 55.874ms. 
+2024-10-27 22:42:59.7197|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 65.8665ms. 
+2024-10-27 22:43:00.8410|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:43:00.8410|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.5782ms. 
+2024-10-27 22:43:00.8410|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 1.6807ms. 
+2024-10-27 22:43:10.4236|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:43:10.4236|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 33.6215ms. 
+2024-10-27 22:43:10.4236|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 40.4ms. 
+2024-10-27 22:43:35.4025|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:43:35.4037|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 43.7051ms. 
+2024-10-27 22:43:35.4037|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 50.4805ms. 
+2024-10-27 22:47:10.7016|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:47:10.7016|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 38.4657ms. 
+2024-10-27 22:47:10.7016|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 45.3736ms. 
+2024-10-27 22:48:15.6300|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 22:48:15.6300|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 7193.9198ms. 
+2024-10-27 22:48:15.6687|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 7231.6763ms. 
+2024-10-27 22:48:19.2947|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 22:48:19.2947|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 289.2348ms. 
+2024-10-27 22:48:19.3304|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 327.6693ms. 
+2024-10-27 22:53:34.7019|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 22:53:34.7019|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 539.628ms. 
+2024-10-27 22:53:34.7452|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 585.3098ms. 
+2024-10-27 23:00:57.9855|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 23:00:57.9888|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 352.5879ms. 
+2024-10-27 23:00:58.0512|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 418.2975ms. 
+2024-10-27 23:01:42.8223|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-10-27 23:01:42.8223|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 289.9469ms. 
+2024-10-27 23:01:42.8474|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 314.6488ms. 
+2024-10-27 23:06:01.5879|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 23:06:01.5879|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 281.5315ms. 
+2024-10-27 23:06:01.6277|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 323.538ms. 
+2024-10-27 23:06:02.8149|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Register. 
+2024-10-27 23:06:02.8149|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Register.cshtml' was found in 300.9023ms. 
+2024-10-27 23:06:02.8452|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Register executed in 331.3045ms. 
+2024-10-27 23:06:20.5949|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-27 23:06:20.5949|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 0.631ms. 
+2024-10-27 23:06:20.5949|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 5.9893ms. 

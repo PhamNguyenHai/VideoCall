@@ -1,4 +1,9 @@
-﻿<!doctype html>
+﻿@using PetProject
+@model PetProject.UserCreateDto
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<!doctype html>
 
 <html lang="en">
 
@@ -18,42 +23,50 @@
         <div class="signin register">
             <div class="content">
                 <h2>Register</h2>
-                <div class="form">
+                <form class="form" asp-action="Register" method="post">
+                    <div class="inputBox">
+                        <input asp-for="FullName" type="text" /> <i>Fullname</i>
+                    </div>
+                    <span asp-validation-for="FullName" class="text-danger"></span>
 
                     <div class="inputBox">
-                        <input type="text" required> <i>Username</i>
+                        <input asp-for="DateOfBirth" type="date" /> <i>Date of birth</i>
                     </div>
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
 
                     <div class="inputBox">
-                        <input type="password" required> <i>Password</i>
+                        <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()"></select> <i>Gender</i>
                     </div>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
 
                     <div class="inputBox">
-                        <input type="email" required> <i>Email</i>
+                        <input asp-for="Email" type="text" /> <i>Email</i>
                     </div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
 
                     <div class="inputBox">
-                        <input type="text" required> <i>Phone Number</i>
+                        <input asp-for="PhoneNumber" type="text" /> <i>PhoneNumber</i>
                     </div>
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
 
                     <div class="inputBox">
-                        <input type="text" required> <i>Address</i>
+                        <input asp-for="Password" type="password" /> <i>Password</i>
                     </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
 
                     <div class="inputBox">
-                        <input type="text" required> <i>City</i>
+                        <input asp-for="ConfirmPassword" type="password" /> <i>ConfirmPassword</i>
                     </div>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
 
-                    <div class="inputBox">
-                        <input type="text" required> <i>Country</i>
+                    <div class="links">
+                        <span>If you had account ?</span> <a asp-controller="User" asp-action="Login">Login</a>
                     </div>
-
 
                     <div class="inputBox register-btn-submit">
                         <input type="submit" value="Register">
                     </div>
-
-                </div>
+                </form>
             </div>
         </div>
 

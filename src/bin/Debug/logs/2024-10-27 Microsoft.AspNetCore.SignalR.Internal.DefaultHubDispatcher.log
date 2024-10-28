@@ -1,0 +1,8 @@
+2024-10-27 23:07:33.9457|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'Matching' is bound. 
+2024-10-27 23:07:33.9457|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'Join' is bound. 
+2024-10-27 23:07:33.9457|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'AnswerCall' is bound. 
+2024-10-27 23:07:33.9543|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'HangUp' is bound. 
+2024-10-27 23:07:33.9543|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'SendData' is bound. 
+2024-10-27 23:07:33.9543|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'ToggleCamera' is bound. 
+2024-10-27 23:07:33.9543|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'ToggleMicrophone' is bound. 
+2024-10-27 23:07:33.9543|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'SendMsg' is bound. 

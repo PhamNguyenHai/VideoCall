@@ -18,14 +18,15 @@ namespace PetProject.Services
             _sessionRepository = sessionRepository;
         }
 
-        public override Task<Result> ValidateForInserting(UserCreateDto entityCreateDto)
+        public override async Task<Result> ValidateForInserting(UserCreateDto entityCreateDto)
         {
-            throw new NotImplementedException();
+            return await Task.FromResult(new Result() { Success = true });
         }
 
-        public override Task<Result> ValidateForUpdating(Guid id, UserUpdateDto entityUpdateDto)
+        public override async Task<Result> ValidateForUpdating(Guid id, UserUpdateDto entityUpdateDto)
         {
-            throw new NotImplementedException();
+            return await Task.FromResult(new Result() { Success = true });
+
         }
 
         public Task<Guid> ChangePasswordAsync(Guid id, ChangePasswordDto userPasswordChange)
@@ -68,7 +69,7 @@ namespace PetProject.Services
             {
                 Success = true,
                 Message = "Đăng nhập thành công.",
-                Data = session.Token
+                Data = session
             };
         }
 
@@ -108,6 +109,13 @@ namespace PetProject.Services
         public Task<UserViewModel> ResetPassword(Guid id)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<UserViewModel?> FindUserByToken(string token)
+        {
+            var entity = await _userRepository.FindUserByToken(token);
+            var entityDto = _mapper.Map<UserViewModel>(entity);
+            return entityDto;
         }
     }
 }

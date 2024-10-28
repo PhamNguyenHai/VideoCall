@@ -1,0 +1,46 @@
+2024-10-28 00:28:26.8684|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:28:26.8684|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:28:26.8826|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:28:26.8826|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:29:51.8246|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:29:51.8246|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:29:51.8695|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:29:51.8695|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:31:19.2152|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:31:19.2152|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:31:19.2560|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:31:19.2560|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:31:44.0591|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:31:44.0591|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:31:44.1150|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:31:44.1150|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:33:47.7482|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:33:47.7552|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:33:47.8169|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:33:47.8169|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:34:16.4979|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:34:16.4979|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:34:16.5364|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:34:16.5364|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:36:03.9358|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:36:03.9424|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:36:03.9879|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:36:03.9879|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:36:33.7481|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:36:33.7481|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:36:35.3660|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:36:35.3660|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:39:31.7726|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:39:31.7726|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 00:39:31.7986|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 00:39:31.7986|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 01:27:08.1659|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 01:27:08.1659|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 01:27:08.2004|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 01:27:08.2004|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 01:29:02.5560|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 01:29:02.5560|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 01:32:25.0560|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 01:32:25.0560|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-10-28 01:32:25.0711|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-10-28 01:32:25.0711|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 

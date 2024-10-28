@@ -1,0 +1,36 @@
+2024-10-28 00:28:26.9617|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection G_qcxZLtxIR8Dx7jJ6PdAw. 
+2024-10-28 00:28:26.9617|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:28:26.9617|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:29:52.0261|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection KMAn8br78YCdMPEK5fbwEA. 
+2024-10-28 00:29:52.0261|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:29:52.0261|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:31:19.3523|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection aPyisMOwKWYE4i44-l_iKQ. 
+2024-10-28 00:31:19.3690|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:31:19.3690|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:31:44.2102|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection V14ddjwl-IcLdVyOQMJ5QQ. 
+2024-10-28 00:31:44.2102|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:31:44.2102|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:33:48.1962|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection iOQDI_m1wuzqb0hLkn3yFg. 
+2024-10-28 00:33:48.2137|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:33:48.2137|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:34:16.6821|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection ODjQnBz4GTeYsZaHm7avAQ. 
+2024-10-28 00:34:16.6821|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:34:16.6821|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:36:04.0344|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection qDII2oqAChoKq2ibqbCorg. 
+2024-10-28 00:36:04.0527|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:36:04.0527|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:36:35.4258|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection 61L1v4nFG25cd70e1KvQhw. 
+2024-10-28 00:36:35.4258|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:36:35.4258|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 00:39:31.8625|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection QTsJhdpyr_v4XM59dYbxNg. 
+2024-10-28 00:39:31.8625|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 00:39:31.8625|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 01:27:08.2608|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection n6JOoWuuYT0nhgIVCtUH9A. 
+2024-10-28 01:27:08.2608|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 01:27:08.2608|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-10-28 01:29:18.3350|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection 4TH71d91RzpWvwVzOq_oyg. 
+2024-10-28 01:29:18.3415|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for None transport to complete. 
+2024-10-28 01:29:18.3415|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|None transport complete. 
+2024-10-28 01:32:25.1158|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection VivsQZPA6ZH576qCmSn9mg. 
+2024-10-28 01:32:25.1158|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-10-28 01:32:25.1158|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
