@@ -9,7 +9,7 @@ namespace PetProject.Repositories
 {
     public class UserRepository : BaseRepository<User, UserModel>, IUserRepository
     {
-        public UserRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public UserRepository(IUnitOfWork unitOfWork, ILoggerCustom logger) : base(unitOfWork, logger)
         {
         }
 
@@ -20,7 +20,7 @@ namespace PetProject.Repositories
 
         public async Task<UserModel> FindUserByEmailOrPhoneNumber(string emailOrPhoneNumber)
         {
-            string sqlCommand = $"SELECT * FROM View_Users vu WHERE (vu.Email = @EmailOrPhoneNumber OR vu.PhoneNumber = @EmailOrPhoneNumber)";
+            string sqlCommand = "SELECT * FROM View_Users vu WHERE (vu.Email = @EmailOrPhoneNumber OR vu.PhoneNumber = @EmailOrPhoneNumber)";
 
             var param = new DynamicParameters();
             param.Add($"@EmailOrPhoneNumber", emailOrPhoneNumber);
@@ -31,12 +31,24 @@ namespace PetProject.Repositories
 
         public async Task<UserModel?> FindUserByLoginInforAsync(LoginInfor loginInfor)
         {
-            string storedProcedureName = $"Proc_Users_CheckLogin";
+            string storedProcedureName = "Proc_Users_CheckLogin";
 
             // Chuyển entity sang parametters để truyền vào procedure 
             var parametters = Utility.CreateParamettersFromEntity<LoginInfor>(loginInfor);
 
             var userInfor = await _uow.Connection.QueryFirstOrDefaultAsync<UserModel>(storedProcedureName, parametters,
+                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+            return userInfor;
+        }
+
+        public async Task<UserModel?> FindUserByToken(string token)
+        {
+            string storedProcedureName = "Proc_Users_GetUserByToken";
+
+            var param = new DynamicParameters();
+            param.Add("@Token", token);
+
+            var userInfor = await _uow.Connection.QueryFirstOrDefaultAsync<UserModel>(storedProcedureName, param,
                 commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
             return userInfor;
         }

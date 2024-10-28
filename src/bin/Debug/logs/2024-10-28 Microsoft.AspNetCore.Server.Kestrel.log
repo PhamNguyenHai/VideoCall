@@ -1,0 +1,11 @@
+2024-10-28 00:28:26.9617|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N48DHPIAL", Request id "0HN7N48DHPIAL:00000009": the application completed without reading the entire request body. 
+2024-10-28 00:29:52.0389|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N496H7K9Q", Request id "0HN7N496H7K9Q:0000000B": the application completed without reading the entire request body. 
+2024-10-28 00:31:19.3690|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N49VTN9RV", Request id "0HN7N49VTN9RV:0000000B": the application completed without reading the entire request body. 
+2024-10-28 00:31:44.2256|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N4A863J22", Request id "0HN7N4A863J22:00000009": the application completed without reading the entire request body. 
+2024-10-28 00:33:48.2408|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N4BBRBH05", Request id "0HN7N4BBRBH05:00000009": the application completed without reading the entire request body. 
+2024-10-28 00:34:16.6939|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N4BLAB2N5", Request id "0HN7N4BLAB2N5:00000009": the application completed without reading the entire request body. 
+2024-10-28 00:36:04.0527|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N4CLK4DUD", Request id "0HN7N4CLK4DUD:00000009": the application completed without reading the entire request body. 
+2024-10-28 00:36:35.4258|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N4CTDIJ9O", Request id "0HN7N4CTDIJ9O:00000009": the application completed without reading the entire request body. 
+2024-10-28 00:39:31.8767|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N4EJ34P6U", Request id "0HN7N4EJ34P6U:00000009": the application completed without reading the entire request body. 
+2024-10-28 01:27:08.2746|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N58VKGKPG", Request id "0HN7N58VKGKPG:00000009": the application completed without reading the entire request body. 
+2024-10-28 01:32:25.1158|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N5C5AP7LG", Request id "0HN7N5C5AP7LG:00000009": the application completed without reading the entire request body. 

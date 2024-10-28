@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using PetProject.Models;
 using PetProject.Services;
 using System;
 using System.Threading.Tasks;
@@ -24,13 +25,14 @@ namespace PetProject.Controllers
         }
 
         [HttpGet]
-        public ActionResult Login()
+        [AuthorizeUser(true)]
+        public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        [AllowAnonymous]
+        [AuthorizeUser(true)]
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginInfor loginInfor)
         {
@@ -39,13 +41,20 @@ namespace PetProject.Controllers
                 var result = await _userService.LoginAsync(loginInfor);
                 if (result.Success)
                 {
-                    // Lưu token vào cookie
-                    Response.Cookies.Append("SessionToken", result.Data.ToString(), new CookieOptions
+                    if (result.Data is Session session)
                     {
-                        HttpOnly = true,
-                        Expires = DateTimeOffset.UtcNow.AddHours(1)
-                    });
-                    return RedirectToAction("Register", "User"); // Chuyển hướng đến trang chính
+                        // Lưu token vào cookie
+                        Response.Cookies.Append("SessionToken", session.Token.ToString(), new CookieOptions
+                        {
+                            HttpOnly = true,
+                            Expires = DateTimeOffset.UtcNow.AddHours(1)
+                        });
+                        return RedirectToAction("Profile", "User", new { id = session.UserId }); // Chuyển hướng đến trang chính
+                    }
+                    else
+                    {
+                        ViewData["ErrorMessage"] = "Có lỗi xảy ra";
+                    }
                 }
                 ModelState.AddModelError(string.Empty, result.Message);
                 ViewData["ErrorMessage"] = result.Message;
@@ -54,44 +63,47 @@ namespace PetProject.Controllers
         }
 
         [HttpGet]
+        [AuthorizeUser(true)]
         public ActionResult Register()
         {
             return View();
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [AuthorizeUser(true)]
+        public async Task<IActionResult> Register(UserCreateDto userToCreate)
+        {
+            if (ModelState.IsValid)
+            {
+                userToCreate.Role = UserRole.User;
+                var result = await _userService.CreateAsync(userToCreate);
+                if (result.Success)
+                {
+                    ViewData["ErrorMessage"] = "Đăng ký thành công";
+                    return RedirectToAction("Login", "User");
+                }
+                ModelState.AddModelError(string.Empty, result.Message);
+                ViewData["ErrorMessage"] = result.Message;
+            }
+            return View(userToCreate);
+        }
+
+        [AuthorizeUser(false, UserRole.User)]
         public async Task<IActionResult> Logout()
         {
             var token = Request.Cookies["SessionToken"];
             await _userService.LogoutAsync(token);
             Response.Cookies.Delete("SessionToken");
-            return RedirectToAction("Index", "Home"); // Chuyển hướng đến trang chính
+            return RedirectToAction("Login", "User"); // Chuyển hướng đến trang chính
         }
 
-        // GET: UserController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet]
+        [AuthorizeUser(false, UserRole.User)]
+        public async Task<IActionResult> Profile(Guid id)
         {
-            return View();
-        }
-
-        // GET: UserController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: UserController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var result = await _userService.GetByIdAsync(id);
+            return View(result);
         }
 
         // GET: UserController/Edit/5

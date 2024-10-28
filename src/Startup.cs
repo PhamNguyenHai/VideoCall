@@ -38,9 +38,11 @@
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+            services.AddSingleton<ILoggerCustom, NLogLogger>(); // Đăng ký ILoggerService
+
             services.AddSingleton<IUnitOfWork>(provider => new UnitOfWork(Configuration["ConnectionString"]));
-            services.AddSingleton<IUserRepository, UserRepository>();
             services.AddSingleton<ISessionRepository, SessionRepositoy>();
+            services.AddSingleton<IUserRepository, UserRepository>();
             services.AddSingleton<IUserService, UserService>();
         }
 
@@ -77,7 +79,8 @@
                 // Định nghĩa route mặc định
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=User}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}"
+                );
             });
         }
 

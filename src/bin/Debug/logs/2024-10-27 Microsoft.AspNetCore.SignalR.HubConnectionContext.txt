@@ -1,0 +1,6 @@
+2024-10-27 21:19:44.6961|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionContext|Completed connection handshake. Using HubProtocol 'json'. 
+2024-10-27 22:52:03.5556|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionContext|Completed connection handshake. Using HubProtocol 'json'. 
+2024-10-27 22:52:53.8873|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionContext|Completed connection handshake. Using HubProtocol 'json'. 
+2024-10-27 22:53:30.4146|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionContext|Completed connection handshake. Using HubProtocol 'json'. 
+2024-10-27 23:00:53.8485|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionContext|Completed connection handshake. Using HubProtocol 'json'. 
+2024-10-27 23:05:58.1113|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionContext|Completed connection handshake. Using HubProtocol 'json'. 

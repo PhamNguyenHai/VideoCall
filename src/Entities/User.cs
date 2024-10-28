@@ -28,9 +28,9 @@ namespace PetProject
         public string Password {set; get;}
 
         [Required(ErrorMessage = "Quyền người dùng không được phép để trống")]
-        public string Role {set; get;}
-	    public bool? IsBlocked {set; get;}
-	    public int? WrongPasswordCount {set; get;}
+        public UserRole Role {set; get;}
+        public bool? IsBlocked { set; get; } = false;
+        public int? WrongPasswordCount { set; get; } = 0;
 
         public Guid GetKey()
         {

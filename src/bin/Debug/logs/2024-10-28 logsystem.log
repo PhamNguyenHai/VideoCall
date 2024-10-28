@@ -1,0 +1,173 @@
+2024-10-28 01:38:03.7483|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-10-28 01:38:03.7832|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\63200510\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-10-28 01:38:03.7928|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\63200510\AppData\Local\ASP.NET\DataProtection-Keys\key-f8d3ae4e-8fbd-467c-9cc9-35c7441367f0.xml'. 
+2024-10-28 01:38:03.7928|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f8d3ae4e-8fbd-467c-9cc9-35c7441367f0}. 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f8d3ae4e-8fbd-467c-9cc9-35c7441367f0} with expiration date 2025-01-12 01:31:01Z as default key. 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f8d3ae4e-8fbd-467c-9cc9-35c7441367f0} as the default key. 
+2024-10-28 01:38:03.8070|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f8d3ae4e-8fbd-467c-9cc9-35c7441367f0} was loaded during application startup. 
+2024-10-28 01:38:03.8993|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-10-28 01:38:03.9804|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-28 01:38:03.9956|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'Matching' is bound. 
+2024-10-28 01:38:03.9956|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'Join' is bound. 
+2024-10-28 01:38:03.9956|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'AnswerCall' is bound. 
+2024-10-28 01:38:03.9956|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'HangUp' is bound. 
+2024-10-28 01:38:03.9956|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'SendData' is bound. 
+2024-10-28 01:38:04.0058|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'ToggleCamera' is bound. 
+2024-10-28 01:38:04.0058|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'ToggleMicrophone' is bound. 
+2024-10-28 01:38:04.0058|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'SendMsg' is bound. 
+2024-10-28 01:38:04.0815|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-28 01:38:04.0816|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-28 01:38:04.0816|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-28 01:38:04.0816|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-28 01:38:04.0816|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-28 01:38:04.0816|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-28 01:38:04.0816|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-10-28 01:38:04.1097|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-28 01:38:04.1097|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-28 01:38:04.1097|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-28 01:38:04.1097|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-10-28 01:38:04.3588|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJA" accepted. 
+2024-10-28 01:38:04.3588|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJA" started. 
+2024-10-28 01:38:04.3696|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJB" accepted. 
+2024-10-28 01:38:04.3696|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJB" started. 
+2024-10-28 01:38:04.4019|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N5FBH0DJB" received FIN. 
+2024-10-28 01:38:04.4019|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N5FBH0DJA" received FIN. 
+2024-10-28 01:38:04.4019|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-28 01:38:04.4019|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-28 01:38:04.4019|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJC" accepted. 
+2024-10-28 01:38:04.4136|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJC" started. 
+2024-10-28 01:38:04.4136|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJB" stopped. 
+2024-10-28 01:38:04.4136|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJA" stopped. 
+2024-10-28 01:38:04.4136|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N5FBH0DJA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-28 01:38:04.4136|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N5FBH0DJB" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-28 01:38:04.4402|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN7N5FBH0DJC established using the following protocol: Tls12 
+2024-10-28 01:38:04.4475|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-10-28 01:38:04.4475|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-10-28 01:38:04.4475|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-10-28 01:38:04.4475|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-10-28 01:38:04.4475|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-10-28 01:38:04.4475|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" received HEADERS frame for stream ID 1 with length 677 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-28 01:38:04.4589|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-10-28 01:38:04.4589|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-28 01:38:04.5078|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-10-28 01:38:04.5078|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-10-28 01:38:04.5078|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /User/Login does not match a supported file type 
+2024-10-28 01:38:04.5308|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/User/Login' 
+2024-10-28 01:38:04.5308|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.UserController.Login (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/User/Login' 
+2024-10-28 01:38:04.5308|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-28 01:38:04.5308|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-28 01:38:04.5361|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-28 01:38:04.5361|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "User", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller PetProject.Controllers.UserController (PetProject). 
+2024-10-28 01:38:04.5361|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): PetProject.AuthorizeUserAttribute 
+2024-10-28 01:38:04.5361|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-10-28 01:38:04.5361|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-10-28 01:38:04.5361|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-10-28 01:38:04.5361|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-10-28 01:38:04.5361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: Before executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-10-28 01:38:04.5361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: After executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-10-28 01:38:04.5361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:04.5361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:04.5361|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.UserController (PetProject) 
+2024-10-28 01:38:04.6491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.UserController (PetProject) 
+2024-10-28 01:38:04.6491|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-10-28 01:38:04.6491|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-28 01:38:04.6491|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-28 01:38:04.6491|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.UserController.Login (PetProject) - Validation state: Valid 
+2024-10-28 01:38:04.6600|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.UserController.Login (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8343ms. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Login' in controller 'User'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/Index.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Error.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Profile.cshtml'. 
+2024-10-28 01:38:04.6600|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Register.cshtml'. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/User/Login.cshtml'. 
+2024-10-28 01:38:04.6600|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/User/Login.cshtml' with a file since the checksum did not match. 
+2024-10-28 01:38:05.6444|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Views\User\Login.cshtml' started. 
+2024-10-28 01:38:06.8699|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'C:\Users\63200510\Downloads\WEB BASE\PetProject\src\Views\User\Login.cshtml' completed in 1220.7183ms. 
+2024-10-28 01:38:06.8699|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/User/_ViewStart.cshtml'. 
+2024-10-28 01:38:06.8699|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/_ViewStart.cshtml'. 
+2024-10-28 01:38:06.8699|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2024-10-28 01:38:06.8699|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-28 01:38:06.8699|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 2213.8915ms. 
+2024-10-28 01:38:06.9221|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[Login],controller=[User]) 
+2024-10-28 01:38:06.9221|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /User/Login and  
+2024-10-28 01:38:06.9221|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /User/Login 
+2024-10-28 01:38:06.9337|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing unprotect operation to key {f8d3ae4e-8fbd-467c-9cc9-35c7441367f0} with purposes ('C:\Users\63200510\Downloads\WEB BASE\PetProject\src\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2024-10-28 01:38:06.9337|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {f8d3ae4e-8fbd-467c-9cc9-35c7441367f0} with purposes ('C:\Users\63200510\Downloads\WEB BASE\PetProject\src\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2024-10-28 01:38:06.9337|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2024-10-28 01:38:06.9567|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (action=[Register],controller=[User]) 
+2024-10-28 01:38:06.9567|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /User/Register and  
+2024-10-28 01:38:06.9567|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /User/Register 
+2024-10-28 01:38:06.9567|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-10-28 01:38:06.9567|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending HEADERS frame for stream ID 1 with length 104 and flags END_HEADERS. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 1 with length 8493 and flags NONE. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 1 with length 445 and flags NONE. 
+2024-10-28 01:38:06.9742|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 2317.7255ms. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-28 01:38:06.9742|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.UserController.Login (PetProject) in 2439.3096ms 
+2024-10-28 01:38:06.9742|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.UserController.Login (PetProject)' 
+2024-10-28 01:38:06.9742|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-10-28 01:38:06.9742|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-10-28 01:38:06.9742|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-10-28 01:38:06.9742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 2525.1079ms 
+2024-10-28 01:38:07.0204|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" received HEADERS frame for stream ID 3 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-28 01:38:07.0204|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" received HEADERS frame for stream ID 5 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-28 01:38:07.0204|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-28 01:38:07.0204|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-28 01:38:07.0204|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2024-10-28 01:38:07.0204|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 5 with length 13756 and flags NONE. 
+2024-10-28 01:38:07.0204|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 3.6646ms 
+2024-10-28 01:38:07.0204|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending HEADERS frame for stream ID 3 with length 149 and flags END_HEADERS. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 9986 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 160 and flags NONE. 
+2024-10-28 01:38:07.0441|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-10-28 01:38:07.0441|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 28.5712ms 
+2024-10-28 01:40:19.4450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" is closing. 
+2024-10-28 01:40:19.4450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" is closed. The last processed stream ID was 5. 
+2024-10-28 01:40:19.4450|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7N5FBH0DJC" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2024-10-28 01:40:19.4580|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N5FBH0DJC" received FIN. 
+2024-10-28 01:40:19.4580|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN7N5FBH0DJC completed. 
+2024-10-28 01:40:19.4580|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7N5FBH0DJC" stopped. 
+2024-10-28 01:40:19.4580|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N5FBH0DJC" sending FIN because: "The Socket transport's send loop completed gracefully." 

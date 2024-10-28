@@ -1,0 +1,12 @@
+2024-10-28 00:26:06.0343|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Profile. 
+2024-10-28 00:26:06.0343|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Profile.cshtml' was found in 230.8094ms. 
+2024-10-28 00:26:06.3887|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Profile executed in 592.3454ms. 
+2024-10-28 01:27:13.2602|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-28 01:27:13.2602|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 277.9243ms. 
+2024-10-28 01:27:13.2960|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 314.8508ms. 
+2024-10-28 01:27:39.9945|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-28 01:27:39.9945|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 1.0753ms. 
+2024-10-28 01:27:40.0087|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 14.9865ms. 
+2024-10-28 01:32:44.4700|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2024-10-28 01:32:44.4700|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/User/Login.cshtml' was found in 299.6666ms. 
+2024-10-28 01:32:44.5067|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 334.492ms. 

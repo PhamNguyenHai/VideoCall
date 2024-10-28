@@ -10,6 +10,8 @@ namespace PetProject.Repositories
     {
         #region Fields
         protected readonly IUnitOfWork _uow;
+        protected readonly ILoggerCustom _logger;
+
 
         // Tên bảng (Phương thức virtual có thể ghi đè lại. Mặc định lấy tên bảng là entity đó)
         public virtual string EntityName { get; protected set; } = typeof(TEntity).Name;
@@ -19,9 +21,10 @@ namespace PetProject.Repositories
         #endregion
 
         #region Constructor
-        public ReadOnlyRepository(IUnitOfWork unitOfWork)
+        public ReadOnlyRepository(IUnitOfWork unitOfWork, ILoggerCustom logger)
         {
             _uow = unitOfWork;
+            _logger = logger;
         }
         #endregion
 

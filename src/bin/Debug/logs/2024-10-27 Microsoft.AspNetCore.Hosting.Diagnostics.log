@@ -1,0 +1,36 @@
+2024-10-27 23:07:34.0176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-10-27 23:07:34.0176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-10-27 23:07:34.0176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-10-27 23:07:34.0176|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-10-27 23:07:34.4759|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 23:07:37.3601|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 2893.2645ms 
+2024-10-27 23:07:37.3759|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:07:37.3759|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:07:37.3759|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.0696ms 
+2024-10-27 23:07:37.4002|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 27.9945ms 
+2024-10-27 23:08:15.8149|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 23:08:15.8440|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 33.4317ms 
+2024-10-27 23:08:15.8668|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:08:15.8668|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:08:15.8668|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.5538ms 
+2024-10-27 23:08:15.8757|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 10.7672ms 
+2024-10-27 23:08:42.5225|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Register - - - 
+2024-10-27 23:08:43.0163|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Register - 200 - text/html;+charset=utf-8 500.0361ms 
+2024-10-27 23:08:43.0533|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:08:43.0533|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:08:43.0533|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.4367ms 
+2024-10-27 23:08:43.0645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 14.0424ms 
+2024-10-27 23:09:02.0882|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Register - application/x-www-form-urlencoded 370 
+2024-10-27 23:09:02.3328|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Register - 302 0 - 254.0141ms 
+2024-10-27 23:09:02.3498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/User/Login - - - 
+2024-10-27 23:09:02.3937|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 38.7611ms 
+2024-10-27 23:09:02.4379|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:09:02.4379|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:09:02.4379|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.6476ms 
+2024-10-27 23:09:02.4529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 15.9775ms 
+2024-10-27 23:29:39.9922|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/User/Login - application/x-www-form-urlencoded 212 
+2024-10-27 23:29:40.0568|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/User/Login - 200 - text/html;+charset=utf-8 68.8193ms 
+2024-10-27 23:29:40.0691|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-27 23:29:40.0691|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-27 23:29:40.0691|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 1.6404ms 
+2024-10-27 23:29:40.1006|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 32.6440ms 

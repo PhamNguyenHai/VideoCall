@@ -39,5 +39,12 @@ namespace PetProject.Services
         /// <param name="id">Id tài khoản cần reset</param>
         /// <returns></returns>
         Task<UserViewModel> ResetPassword(Guid id);
+
+        /// <summary>
+        /// Thực hiện lấy thông tin người dùng thông qua token
+        /// </summary>
+        /// <param name="token">token người dùng</param>
+        /// <returns></returns>
+        Task<UserViewModel?> FindUserByToken(string token);
     }
 }

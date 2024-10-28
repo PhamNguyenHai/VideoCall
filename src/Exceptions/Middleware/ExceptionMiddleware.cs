@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using PetProject.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,12 @@ namespace PetProject
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
+        private readonly ILoggerCustom _logger;
 
-        public ExceptionMiddleware(RequestDelegate next)
+        public ExceptionMiddleware(RequestDelegate next, ILoggerCustom logger)
         {
             _next = next;
+            _logger = logger;
         }
 
         public async Task Invoke(HttpContext context)
@@ -38,79 +41,18 @@ namespace PetProject
         /// Date
         private async Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
-            Console.WriteLine(exception);
-            context.Response.ContentType = "application/json";
-            switch (exception)
-            {
-                case NotFoundException:
-                    context.Response.StatusCode = StatusCodes.Status404NotFound;
-                    await context.Response.WriteAsync(
-                        text: new BaseNotifyException()
-                        {
-                            ErrorCode = ((NotFoundException)exception).ErrorCode,
-                            UserMessage = exception.Message,
-                            DevMessage = exception.Message,
-                            TraceId = context.TraceIdentifier,
-                            MoreInfo = exception.HelpLink,
-                        }.ToString() ?? ""      // ToString là chuyển sang json (hàm được override bên base)
-                    );
-                    break;
+            // Ghi log chi tiết
+            _logger.LogError($"Lỗi hệ thống: {exception.Message}", exception);
 
-                case ValidateException:
-                    context.Response.StatusCode = StatusCodes.Status400BadRequest;
-                    await context.Response.WriteAsync(
-                        text: new BaseNotifyException()
-                        {
-                            ErrorCode = ((ValidateException)exception).ErrorCode,
-                            UserMessage = exception.Message,
-                            DevMessage = exception.Message,
-                            TraceId = context.TraceIdentifier,
-                            MoreInfo = exception.HelpLink,
-                        }.ToString() ?? ""
-                    );
-                    break;
+            // Kết thúc pipeline
+            context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+            context.Response.ContentType = "text/html";
 
-                case UnauthorizeException:
-                    context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-                    await context.Response.WriteAsync(
-                        text: new BaseNotifyException()
-                        {
-                            ErrorCode = ((ValidateException)exception).ErrorCode,
-                            UserMessage = exception.Message,
-                            DevMessage = exception.Message,
-                            TraceId = context.TraceIdentifier,
-                            MoreInfo = exception.HelpLink,
-                        }.ToString() ?? ""
-                    );
-                    break;
+            // Chuyển hướng đến trang lỗi
+            context.Response.Redirect("/Home/Error");
 
-                case ForbiddenException:
-                    context.Response.StatusCode = StatusCodes.Status403Forbidden;
-                    await context.Response.WriteAsync(
-                        text: new BaseNotifyException()
-                        {
-                            ErrorCode = ((ValidateException)exception).ErrorCode,
-                            UserMessage = exception.Message,
-                            DevMessage = exception.Message,
-                            TraceId = context.TraceIdentifier,
-                            MoreInfo = exception.HelpLink,
-                        }.ToString() ?? ""
-                    );
-                    break;
-
-                default:
-                    context.Response.StatusCode = StatusCodes.Status500InternalServerError;
-                    await context.Response.WriteAsync(
-                        text: new BaseNotifyException()
-                        {
-                            ErrorCode = context.Response.StatusCode,
-                            UserMessage = $"Có lỗi xảy ra. Vui lòng liên hệ để xử lý",
-                            DevMessage = exception.Message,
-                            TraceId = context.TraceIdentifier,
-                            MoreInfo = exception.HelpLink,
-                        }.ToString() ?? "");
-                    break;
-            }
+            // Kết thúc pipeline
+            await Task.CompletedTask;
         }
     }
 }

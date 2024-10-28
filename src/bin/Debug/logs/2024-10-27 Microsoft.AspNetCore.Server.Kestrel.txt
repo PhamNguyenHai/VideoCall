@@ -1,0 +1,26 @@
+2024-10-27 21:15:21.5103|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0SBJHNUN", Request id "0HN7N0SBJHNUN:0000000F": started reading request body. 
+2024-10-27 21:15:21.5103|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0SBJHNUN", Request id "0HN7N0SBJHNUN:0000000F": done reading request body. 
+2024-10-27 21:17:17.3208|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0SBJHNUN", Request id "0HN7N0SBJHNUN:00000019": started reading request body. 
+2024-10-27 21:17:17.3208|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0SBJHNUN", Request id "0HN7N0SBJHNUN:00000019": done reading request body. 
+2024-10-27 21:19:44.7485|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:00000013": the application completed without reading the entire request body. 
+2024-10-27 21:19:59.9518|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:0000001D": started reading request body. 
+2024-10-27 21:19:59.9604|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:0000001D": done reading request body. 
+2024-10-27 21:20:12.1180|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:0000001F": started reading request body. 
+2024-10-27 21:20:12.1180|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:0000001F": done reading request body. 
+2024-10-27 21:20:29.3671|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:00000027": started reading request body. 
+2024-10-27 21:20:29.3671|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:00000027": done reading request body. 
+2024-10-27 21:21:01.0241|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:0000002F": started reading request body. 
+2024-10-27 21:21:01.0241|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N0UV3A2TO", Request id "0HN7N0UV3A2TO:0000002F": done reading request body. 
+2024-10-27 22:48:26.6698|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2GCNH89R", Request id "0HN7N2GCNH89R:00000015": started reading request body. 
+2024-10-27 22:48:26.6698|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2GCNH89R", Request id "0HN7N2GCNH89R:00000015": done reading request body. 
+2024-10-27 22:52:03.5708|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2IHT8EB2", Request id "0HN7N2IHT8EB2:00000009": the application completed without reading the entire request body. 
+2024-10-27 22:52:53.9302|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2J0F9JCF", Request id "0HN7N2J0F9JCF:0000000B": the application completed without reading the entire request body. 
+2024-10-27 22:53:30.4335|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2JBSISQN", Request id "0HN7N2JBSISQN:00000009": the application completed without reading the entire request body. 
+2024-10-27 22:53:41.9141|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2JBSISQN", Request id "0HN7N2JBSISQN:00000011": started reading request body. 
+2024-10-27 22:53:41.9141|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2JBSISQN", Request id "0HN7N2JBSISQN:00000011": done reading request body. 
+2024-10-27 23:00:53.8799|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2NFR41TL", Request id "0HN7N2NFR41TL:00000009": the application completed without reading the entire request body. 
+2024-10-27 23:01:06.8836|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2NFR41TL", Request id "0HN7N2NFR41TL:00000011": started reading request body. 
+2024-10-27 23:01:06.8836|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2NFR41TL", Request id "0HN7N2NFR41TL:00000011": done reading request body. 
+2024-10-27 23:05:58.1590|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2OS26LKG", Request id "0HN7N2OS26LKG:00000009": the application completed without reading the entire request body. 
+2024-10-27 23:06:20.2899|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2OS26LKG", Request id "0HN7N2OS26LKG:00000017": started reading request body. 
+2024-10-27 23:06:20.2899|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7N2OS26LKG", Request id "0HN7N2OS26LKG:00000017": done reading request body. 

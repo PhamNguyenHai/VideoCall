@@ -1,0 +1,99 @@
+2024-10-28 00:28:26.9075|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:28:26.9511|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:28:26.9511|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:29:51.9205|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:29:51.9925|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method78(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:29:51.9925|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:31:19.2766|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:31:19.3404|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method78(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:31:19.3404|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:31:44.1406|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:31:44.1968|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:31:44.1968|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:33:47.8645|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:33:48.1775|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:33:48.1962|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:34:16.5750|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:34:16.6661|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:34:16.6661|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:36:04.0045|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:36:04.0344|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:36:04.0344|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:36:35.3826|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:36:35.4101|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:36:35.4101|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 00:39:31.8159|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 00:39:31.8625|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 00:39:31.8625|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 01:27:08.2140|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 01:27:08.2546|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 01:27:08.2546|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-10-28 01:32:25.0848|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-10-28 01:32:25.1029|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method76(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-10-28 01:32:25.1029|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 

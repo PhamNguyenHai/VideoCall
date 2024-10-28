@@ -1,0 +1,40 @@
+2024-10-27 21:15:00.6205|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N0SBJHNUM" received FIN. 
+2024-10-27 21:15:00.6205|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N0SBJHNUL" received FIN. 
+2024-10-27 21:15:00.7317|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N0SBJHNUL" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 21:15:00.7317|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N0SBJHNUM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 21:19:40.7748|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N0UV3A2TN" received FIN. 
+2024-10-27 21:19:40.8131|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N0UV3A2TN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:26:09.3974|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N243OARDD" received FIN. 
+2024-10-27 22:26:09.4517|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N243OARDD" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:27:10.0742|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N243OARDC" received FIN. 
+2024-10-27 22:27:10.0742|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N243OARDC" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:28:23.4207|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N243OARDB" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:35:45.0111|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N29FB8E7H" received FIN. 
+2024-10-27 22:35:45.0111|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N29FB8E7I" received FIN. 
+2024-10-27 22:35:45.0336|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N29FB8E7H" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:35:45.0336|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N29FB8E7I" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:45:46.8598|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N29FB8E7J" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:48:07.8936|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2GCNH89Q" received FIN. 
+2024-10-27 22:48:07.8936|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2GCNH89P" received FIN. 
+2024-10-27 22:48:07.9388|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2GCNH89P" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:48:07.9388|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2GCNH89Q" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:50:39.6386|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2GCNH89R" received FIN. 
+2024-10-27 22:50:39.6386|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2GCNH89R" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:52:00.0399|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2IHT8EB1" received FIN. 
+2024-10-27 22:52:00.0399|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2IHT8EB0" received FIN. 
+2024-10-27 22:52:00.0587|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2IHT8EB0" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:52:00.0587|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2IHT8EB1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:52:48.8446|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2J0F9JCE" received FIN. 
+2024-10-27 22:52:48.8883|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2J0F9JCE" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:53:27.1480|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2JBSISQL" received FIN. 
+2024-10-27 22:53:27.1480|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2JBSISQM" received FIN. 
+2024-10-27 22:53:27.1682|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2JBSISQM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:53:27.1682|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2JBSISQL" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 22:55:54.1828|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2JBSISQN" received FIN. 
+2024-10-27 22:55:54.1828|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2JBSISQN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 23:00:49.9130|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2NFR41TK" received FIN. 
+2024-10-27 23:00:49.9489|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2NFR41TK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 23:03:18.2950|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2OS26LKE" received FIN. 
+2024-10-27 23:03:18.3171|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2OS26LKE" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-27 23:05:32.1778|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2OS26LKF" received FIN. 
+2024-10-27 23:05:32.1778|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7N2OS26LKF" sending FIN because: "The Socket transport's send loop completed gracefully." 

@@ -1,0 +1,1 @@
+2024-10-27 23:06:20.5496|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /User/Login. 

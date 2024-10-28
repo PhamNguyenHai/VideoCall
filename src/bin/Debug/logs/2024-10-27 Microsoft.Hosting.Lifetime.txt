@@ -1,0 +1,50 @@
+2024-10-27 21:15:00.4748|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 21:15:00.4748|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 21:15:00.5056|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 21:15:00.5056|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 21:15:00.5056|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 21:19:40.3798|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 21:19:40.3831|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 21:19:40.4104|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 21:19:40.4104|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 21:19:40.4136|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 22:26:09.1318|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 22:26:09.1318|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 22:26:09.1553|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 22:26:09.1553|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 22:26:09.1553|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 22:35:44.5245|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 22:35:44.5245|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 22:35:44.6100|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 22:35:44.6100|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 22:35:44.6100|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 22:48:07.4050|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 22:48:07.4050|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 22:48:07.4269|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 22:48:07.4269|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 22:48:07.4269|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 22:51:59.7176|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 22:51:59.7176|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 22:51:59.7405|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 22:51:59.7405|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 22:51:59.7405|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 22:52:48.4528|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 22:52:48.4528|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 22:52:48.4872|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 22:52:48.4872|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 22:52:48.4872|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 22:53:26.9703|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 22:53:26.9703|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 22:53:26.9920|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 22:53:26.9920|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 22:53:26.9920|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 23:00:49.5289|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 23:00:49.5289|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 23:00:49.5581|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 23:00:49.5581|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 23:00:49.5581|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 
+2024-10-27 23:03:18.0804|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-10-27 23:03:18.0809|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-10-27 23:03:18.1016|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-10-27 23:03:18.1016|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-10-27 23:03:18.1016|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\63200510\Downloads\WEB BASE\PetProject\src 

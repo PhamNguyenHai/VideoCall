@@ -1,0 +1,16 @@
+2024-10-27 21:15:00.2810|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 21:19:40.2501|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 21:19:44.6895|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Found protocol implementation for requested protocol: json. 
+2024-10-27 22:26:09.0559|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 22:35:44.4465|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 22:48:07.2930|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 22:51:59.6353|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 22:52:03.5556|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Found protocol implementation for requested protocol: json. 
+2024-10-27 22:52:48.3269|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 22:52:53.8873|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Found protocol implementation for requested protocol: json. 
+2024-10-27 22:53:26.8860|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 22:53:30.3996|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Found protocol implementation for requested protocol: json. 
+2024-10-27 23:00:49.3993|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 23:00:53.8485|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Found protocol implementation for requested protocol: json. 
+2024-10-27 23:03:18.0036|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-10-27 23:05:58.0970|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Found protocol implementation for requested protocol: json. 
