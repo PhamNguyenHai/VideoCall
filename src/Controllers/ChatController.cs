@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetProject.Services;
+using System;
 using System.Threading.Tasks;
 
 namespace PetProject.Controllers
@@ -18,8 +19,12 @@ namespace PetProject.Controllers
         [HttpGet]
         [AuthorizeUser(true)]
         public async Task<IActionResult> Index()
+        
         {
-            var users = await _userService.GetAllAsync();
+            //var users = await _userService.GetAllAsync();
+
+            var users = await _userService.GetUserFriendsByUserId(Guid.Parse("2dbbf9a7-a5b6-43cd-8de8-1143c8e75cb2"));
+            //var users = await _userService.GetPrivateChatsByUserId(Guid.Parse("2dbbf9a7-a5b6-43cd-8de8-1143c8e75cb2"));
             return View(users);
         }
 

@@ -119,10 +119,16 @@ namespace PetProject.Services
             return entityDto;
         }
 
-        public async Task<IEnumerable<UserWithFriendsModel>> GetUserFriendsByUserId(Guid userId)
+        public async Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId)
         {
             var friends = await _userRepository.GetUserFriendsByUserId(userId);
             return friends;
+        }
+
+        public async Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId)
+        {
+            var chats = await _userRepository.GetPrivateChatsByUserId(userId);
+            return chats;
         }
     }
 }

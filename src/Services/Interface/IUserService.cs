@@ -46,6 +46,8 @@ namespace PetProject.Services
         /// <param name="token">token người dùng</param>
         /// <returns></returns>
         Task<UserViewModel?> FindUserByToken(string token);
-        Task<IEnumerable<UserWithFriendsModel>> GetUserFriendsByUserId(Guid userId);
+        Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId);
+        Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId);
+
     }
 }

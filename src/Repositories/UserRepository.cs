@@ -59,14 +59,51 @@ namespace PetProject.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<UserWithFriendsModel>> GetUserFriendsByUserId(Guid userId)
+        public async Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId)
         {
-            string sqlCommand = "SELECT * FROM Users u JOIN Friends f ON (f.UserId = @UserId AND f.FriendUserId = u.UserId) OR (f.FriendUserId = @UserId AND f.UserId = u.UserId) WHERE f.UserId = @UserId OR f.FriendUserId = @UserId";
+            string sqlCommand = "SELECT u.*, f.Status FROM View_Users u JOIN Friends f ON (f.UserId = @UserId AND f.FriendUserId = u.UserId) OR (f.FriendUserId = @UserId AND f.UserId = u.UserId) WHERE f.UserId = @UserId OR f.FriendUserId = @UserId";
 
             var param = new DynamicParameters();
             param.Add($"@UserId", userId);
 
-            var result = await _uow.Connection.QueryAsync<UserWithFriendsModel>(sqlCommand, param, transaction: _uow.Transaction);
+            var result = await _uow.Connection.QueryAsync<UserViewModel, FriendStatus, FriendRelationship>(
+                                sqlCommand,
+                                (user, status) =>
+                                {
+                                    return new FriendRelationship
+                                    {
+                                        User = user,
+                                        Status = status
+                                    };
+                                },
+                                param,
+                                splitOn: "Status",
+                                transaction: _uow.Transaction
+                            );
+            return result;
+        }
+
+        public async Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId)
+        {
+            string sqlCommand = "SELECT u.*, pc.ChatId FROM dbo.PrivateChats pc JOIN view_Users u ON (pc.UserId = @UserId AND pc.PartnerId = u.UserId) OR (pc.PartnerId = @UserId AND pc.UserId = u.UserId) WHERE pc.UserId = @UserId OR pc.PartnerId = @UserId ORDER BY pc.ModifiedDate;";
+
+            var param = new DynamicParameters();
+            param.Add($"@UserId", userId);
+
+            var result = await _uow.Connection.QueryAsync<UserViewModel, Guid, UserPrivateChat>(
+                                sqlCommand,
+                                (user, chatId) =>
+                                {
+                                    return new UserPrivateChat
+                                    {
+                                        User = user,
+                                        ChatId = chatId
+                                    };
+                                },
+                                param,
+                                splitOn: "ChatId",
+                                transaction: _uow.Transaction
+                            );
             return result;
         }
     }

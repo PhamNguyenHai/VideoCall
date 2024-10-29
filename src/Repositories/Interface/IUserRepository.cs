@@ -49,7 +49,9 @@ namespace PetProject.Repositories
 
         Task<UserModel?> FindUserByToken(string token);
 
-        Task<IEnumerable<UserWithFriendsModel>> GetUserFriendsByUserId(Guid userId);
+        Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId);
+        Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId);
+        //Task<IEnumerable<FriendRelationship>> GetMakeFriendByUserId(Guid userId);
 
     }
 }
