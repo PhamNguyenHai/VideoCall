@@ -1,16 +1,26 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PetProject.Services;
+using System.Threading.Tasks;
 
 namespace PetProject.Controllers
 {
     public class ChatController : Controller
     {
+        private readonly IUserService _userService;
+
+        public ChatController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
         // GET: ChatController
         [HttpGet]
         [AuthorizeUser(true)]
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var users = await _userService.GetAllAsync();
+            return View(users);
         }
 
         // GET: ChatController/Details/5

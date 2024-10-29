@@ -2,6 +2,7 @@
 using NuGet.Common;
 using PetProject.Services;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 
@@ -56,6 +57,17 @@ namespace PetProject.Repositories
         public Task<bool> IsPasswordMatched(UserPasswordDto currentPasswordInfor)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<IEnumerable<UserWithFriendsModel>> GetUserFriendsByUserId(Guid userId)
+        {
+            string sqlCommand = "SELECT * FROM Users u JOIN Friends f ON (f.UserId = @UserId AND f.FriendUserId = u.UserId) OR (f.FriendUserId = @UserId AND f.UserId = u.UserId) WHERE f.UserId = @UserId OR f.FriendUserId = @UserId";
+
+            var param = new DynamicParameters();
+            param.Add($"@UserId", userId);
+
+            var result = await _uow.Connection.QueryAsync<UserWithFriendsModel>(sqlCommand, param, transaction: _uow.Transaction);
+            return result;
         }
     }
 }

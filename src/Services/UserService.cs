@@ -3,6 +3,7 @@ using NuGet.Common;
 using PetProject.Models;
 using PetProject.Repositories;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace PetProject.Services
@@ -116,6 +117,12 @@ namespace PetProject.Services
             var entity = await _userRepository.FindUserByToken(token);
             var entityDto = _mapper.Map<UserViewModel>(entity);
             return entityDto;
+        }
+
+        public async Task<IEnumerable<UserWithFriendsModel>> GetUserFriendsByUserId(Guid userId)
+        {
+            var friends = await _userRepository.GetUserFriendsByUserId(userId);
+            return friends;
         }
     }
 }

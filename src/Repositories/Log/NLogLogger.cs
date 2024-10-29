@@ -12,6 +12,11 @@ namespace PetProject.Repositories
             logger.Info(message);
         }
 
+        public void LogWarn(string message)
+        {
+            logger.Warn(message);
+        }
+
         public void LogError(string message, Exception ex)
         {
             logger.Error(ex, message);

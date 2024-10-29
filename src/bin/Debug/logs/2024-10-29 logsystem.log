@@ -5427,3 +5427,92 @@
 2024-10-29 00:48:56.5615|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN7NE03PTS8O completed. 
 2024-10-29 00:48:56.5615|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7NE03PTS8O" sending FIN because: "The Socket transport's send loop completed gracefully." 
 2024-10-29 00:48:56.5764|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7NE03PTS8O" stopped. 
+2024-10-29 00:00:18.3178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" received HEADERS frame for stream ID 9 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-29 00:00:18.3178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2024-10-29 00:00:18.3178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Chat - - - 
+2024-10-29 00:00:18.3178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Chat does not match a supported file type 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Chat' 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Chat' 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-10-29 00:00:18.3264|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-10-29 00:00:18.3264|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Chat", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller PetProject.Controllers.ChatController (PetProject). 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): PetProject.AuthorizeUserAttribute 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: Before executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: After executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.ChatController (PetProject) 
+2024-10-29 00:00:18.3264|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.ChatController (PetProject) 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-29 00:00:18.3264|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-29 00:00:18.3264|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.ChatController.Index (PetProject) - Validation state: Valid 
+2024-10-29 00:00:19.8194|INFO|PetProject.Repositories.NLogLogger|Lấy danh sách dữ liệu User 
+2024-10-29 00:00:19.8194|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.ChatController.Index (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1491.7796ms. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-10-29 00:00:19.8194|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Index' in controller 'Chat'. 
+2024-10-29 00:00:19.8194|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2024-10-29 00:00:19.8194|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Chat/Index.cshtml' was found in 0.4923ms. 
+2024-10-29 00:00:19.8194|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-10-29 00:00:19.8194|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending HEADERS frame for stream ID 9 with length 34 and flags END_HEADERS. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2024-10-29 00:00:19.8194|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 9 with length 14 and flags NONE. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 9 with length 2592 and flags NONE. 
+2024-10-29 00:00:19.8262|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.1077ms. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-10-29 00:00:19.8262|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.ChatController.Index (PetProject) in 1502.3003ms 
+2024-10-29 00:00:19.8262|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-10-29 00:00:19.8262|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-10-29 00:00:19.8262|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2024-10-29 00:00:19.8262|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Chat - 200 - text/html;+charset=utf-8 1512.7915ms 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" received HEADERS frame for stream ID 11 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" received HEADERS frame for stream ID 13 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-10-29 00:00:19.8262|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-10-29 00:00:19.8262|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending HEADERS frame for stream ID 11 with length 13 and flags END_HEADERS. 
+2024-10-29 00:00:19.8262|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 11 with length 13756 and flags NONE. 
+2024-10-29 00:00:19.8418|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.2086ms 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending HEADERS frame for stream ID 13 with length 66 and flags END_HEADERS. 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 9986 and flags NONE. 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8418|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 160 and flags NONE. 
+2024-10-29 00:00:19.8572|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2024-10-29 00:00:19.8572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 22.7899ms 
+2024-10-29 01:19:15.9449|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7NSSQ4OKI6" received FIN. 
+2024-10-29 01:19:15.9519|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN7NSSQ4OKI6 completed. 
+2024-10-29 01:19:15.9519|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7NSSQ4OKI6" is closed. The last processed stream ID was 13. 
+2024-10-29 01:19:15.9519|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7NSSQ4OKI6" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-10-29 01:19:15.9662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7NSSQ4OKI6" stopped. 

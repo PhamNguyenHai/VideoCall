@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace PetProject.Repositories
@@ -47,5 +48,8 @@ namespace PetProject.Repositories
         Task<int> InsertAsync(User userToAdd);
 
         Task<UserModel?> FindUserByToken(string token);
+
+        Task<IEnumerable<UserWithFriendsModel>> GetUserFriendsByUserId(Guid userId);
+
     }
 }

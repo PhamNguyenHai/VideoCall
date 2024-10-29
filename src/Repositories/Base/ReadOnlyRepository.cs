@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 using System;
+using static Dapper.SqlMapper;
 
 namespace PetProject.Repositories
 {
@@ -39,6 +40,7 @@ namespace PetProject.Repositories
         {
             string sqlCommand = $"SELECT * FROM {EntityName}s";
             var result = await _uow.Connection.QueryAsync<TModel>(sqlCommand, transaction: _uow.Transaction);
+            _logger.LogInfo($"Lấy danh sách dữ liệu {EntityName}");
 
             return result;
         }
@@ -73,7 +75,7 @@ namespace PetProject.Repositories
             param.Add($"@EntityId", id);
 
             var result = await _uow.Connection.QueryFirstOrDefaultAsync<TModel>(sqlCommand, param, transaction: _uow.Transaction);
-
+            _logger.LogInfo($"Lấy {EntityName} by id: {id}");
             return result;
         }
         #endregion
