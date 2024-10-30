@@ -128,6 +128,21 @@
             searchResults.style.display = users.length > 0 ? 'block' : 'none';
         }
 
+        function selectUser(userId) {
+            // Lấy lịch sử chat cho người dùng đã chọn
+            fetch(`@Url.Action("GetPrivateMessagesByPartnerId", "Chat")?partnerId=${userId}`)
+            .then(response => response.json())
+            .then(history => {
+                const chatHistory = document.getElementById('chatHistory');
+                chatHistory.innerHTML = ''; // Xóa lịch sử chat hiện tại
+                history.forEach(message => {
+                    const messageDiv = document.createElement('div');
+                    messageDiv.textContent = message.Text; // Hoặc định dạng khác
+                    chatHistory.appendChild(messageDiv);
+                });
+            });
+        }
+
         function createSearchUserItemResult(user){
             // Tạo phần tử <li>
             const li = document.createElement('li');

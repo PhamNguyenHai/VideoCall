@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PetProject.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -51,8 +52,8 @@ namespace PetProject.Repositories
 
         Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId);
         Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId);
-
         Task<IEnumerable<FriendRelationship>> FilterUser(Guid userId, string searchString);
+        Task<UserMessage> GetUserPrivateMessagesByUserIdAndPartnerId(Guid userId, Guid partnerId);
 
         //Task<IEnumerable<FriendRelationship>> GetMakeFriendByUserId(Guid userId);
 

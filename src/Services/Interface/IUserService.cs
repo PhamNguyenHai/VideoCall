@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using System;
+using PetProject.ViewModel;
 
 namespace PetProject.Services
 {
@@ -50,6 +51,9 @@ namespace PetProject.Services
         Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId);
 
         Task<IEnumerable<FriendRelationship>> FilterUser(Guid userId, string searchString);
+
+        Task<UserMessage> GetUserPrivateMessagesByUserIdAndPartnerId(Guid userId, Guid partnerId);
+
 
     }
 }

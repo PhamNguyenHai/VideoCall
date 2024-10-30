@@ -1,17 +1,21 @@
 ﻿using Dapper;
 using NuGet.Common;
 using PetProject.Services;
+using PetProject.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace PetProject.Repositories
 {
     public class UserRepository : BaseRepository<User, UserModel>, IUserRepository
     {
-        public UserRepository(IUnitOfWork unitOfWork, ILoggerCustom logger) : base(unitOfWork, logger)
+        private readonly IEncryptionHelper _encryptionHelper;
+        public UserRepository(IUnitOfWork unitOfWork, ILoggerCustom logger, IEncryptionHelper encryptionHelper) : base(unitOfWork, logger)
         {
+            _encryptionHelper = encryptionHelper;
         }
 
         public Task<int> ChangePasswordAsync(ChangePasswordDto changePasswordInfor)
@@ -132,6 +136,57 @@ namespace PetProject.Repositories
                                 transaction: _uow.Transaction
                             );
             return result;
+        }
+
+        public async Task<UserMessage> GetUserPrivateMessagesByUserIdAndPartnerId(Guid userId, Guid partnerId)
+        {
+            string sqlCommand = @"
+                                    SELECT 
+                                        pm.MessageId,
+                                        pm.ChatId,
+                                        pm.SenderId,
+                                        pm.Content,
+                                        pm.TimeStamp,
+                                        pm.IsDeleted,
+                                        pm.IsRead,
+                                        f.Status AS FriendStatus
+                                    FROM 
+                                        PrivateMessages pm
+                                    JOIN 
+                                        PrivateChats pc ON pm.ChatId = pc.ChatId
+                                    LEFT JOIN 
+                                        Friends f ON (f.UserId = @UserId AND f.FriendUserId = @PartnerId) OR 
+                                                     (f.UserId = @PartnerId AND f.FriendUserId = @UserId)
+                                    WHERE 
+                                        (pc.UserId = @UserId AND pc.PartnerId = @PartnerId) OR 
+                                        (pc.UserId = @PartnerId AND pc.PartnerId = @UserId)
+                                    ORDER BY 
+                                        pm.TimeStamp;";
+
+            var param = new DynamicParameters();
+            param.Add("@UserId", userId);
+            param.Add("@PartnerId", partnerId);
+
+            var userMessage = new UserMessage
+            {
+                Messages = new List<PrivateMessageViewModel>()
+            };
+
+            var result = await _uow.Connection.QueryAsync<PrivateMessageViewModel, FriendStatus?, UserMessage>(
+                sqlCommand,
+                (message, friendStatus) =>
+                {
+                    message.Content = _encryptionHelper.Decrypt(message.Content);
+                    userMessage.FriendStatus = friendStatus; // Cập nhật trạng thái bạn bè
+                    userMessage.Messages.Add(message); // Thêm tin nhắn vào danh sách
+                    return userMessage;
+                },
+                param,
+                splitOn: "FriendStatus",
+                transaction: _uow.Transaction
+            );
+
+            return userMessage; // Trả về đối tượng UserMessage với tất cả các tin nhắn
         }
     }
 }

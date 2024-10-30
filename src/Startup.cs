@@ -39,6 +39,7 @@
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddSingleton<ILoggerCustom, NLogLogger>(); // Đăng ký ILoggerService
+            services.AddSingleton<IEncryptionHelper, EncryptionHelper>();
 
             services.AddSingleton<IUnitOfWork>(provider => new UnitOfWork(Configuration["ConnectionString"]));
             services.AddSingleton<ISessionRepository, SessionRepositoy>();

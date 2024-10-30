@@ -2,6 +2,7 @@
 using NuGet.Common;
 using PetProject.Models;
 using PetProject.Repositories;
+using PetProject.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -135,6 +136,13 @@ namespace PetProject.Services
         {
             var users = await _userRepository.FilterUser(userId, searchString);
             return users;
+        }
+
+        public async Task<UserMessage> GetUserPrivateMessagesByUserIdAndPartnerId(Guid userId, Guid partnerId)
+        {
+            var messages = await _userRepository.GetUserPrivateMessagesByUserIdAndPartnerId(userId, partnerId);
+            messages.Partner = await GetByIdAsync(partnerId);
+            return messages;
         }
     }
 }

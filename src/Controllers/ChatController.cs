@@ -17,11 +17,21 @@ namespace PetProject.Controllers
 
         // GET: ChatController
         [HttpGet]
-        [AuthorizeUser(false, UserRole.User)]
+        //[AuthorizeUser(false, UserRole.User)]
+        [AuthorizeUser(true)]
         public async Task<IActionResult> Index()
         {
-            var privateChats = await _userService.GetPrivateChatsByUserId(UserId);
+            //var privateChats = await _userService.GetPrivateChatsByUserId(UserId);
+            var privateChats = await _userService.GetUserPrivateMessagesByUserIdAndPartnerId(Guid.Parse("2DBBF9A7-A5B6-43CD-8DE8-1143C8E75CB2"), Guid.Parse("FFC866A3-295D-411B-B0F3-87A1E7C9258B"));
             return View(privateChats);
+        }
+
+        [HttpGet]
+        [AuthorizeUser(true)]
+        public async Task<JsonResult> GetPrivateMessagesByPartnerId(Guid PartnerId)
+        {
+            var messages = await _userService.GetUserPrivateMessagesByUserIdAndPartnerId(UserId, PartnerId);
+            return Json(messages);
         }
 
         // GET: ChatController/Details/5
