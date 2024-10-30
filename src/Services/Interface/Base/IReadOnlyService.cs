@@ -22,5 +22,14 @@ namespace PetProject.Services
         /// Author: PNNHai
         /// Date: 
         Task<TViewModel?> GetByIdAsync(Guid id);
+
+        /// <summary>
+        /// Service lọc dữ liệu kết hợp phân trang, sắp xếp và tìm kiếm
+        /// </summary>
+        /// <param name="filterInput">Đầu vào để lọc, phân trang, sắp xếp và tìm kiếm</param>
+        /// <returns>Danh sách đối tượng kết hợp phân trang</returns>
+        /// Author: PNNHai
+        /// Date: 
+        Task<FilterResult<TViewModel>> FilterPagingAsync(FilterInput filterInput);
     }
 }

@@ -106,5 +106,32 @@ namespace PetProject.Repositories
                             );
             return result;
         }
+
+        public async Task<IEnumerable<FriendRelationship>> FilterUser(Guid userId, string searchString)
+        {
+            string sqlCommand = "SELECT u.*, f.Status FROM View_Users u LEFT JOIN Friends f ON (f.UserId = @UserId AND f.FriendUserId = u.UserId) OR (f.FriendUserId = @UserId AND f.UserId = u.UserId)" +
+                                " WHERE u.UserId <> @UserId AND u.FullName COLLATE Vietnamese_CI_AI LIKE '%' + @SearchString + '%' ORDER BY CASE WHEN f.Status IS NOT NULL THEN 0 ELSE 1 END, u.FullName;";
+
+
+            var param = new DynamicParameters();
+            param.Add($"@UserId", userId);
+            param.Add($"@SearchString", searchString);
+
+            var result = await _uow.Connection.QueryAsync<UserViewModel, FriendStatus?, FriendRelationship>(
+                                sqlCommand,
+                                (user, status) =>
+                                {
+                                    return new FriendRelationship
+                                    {
+                                        User = user,
+                                        Status = status
+                                    };
+                                },
+                                param,
+                                splitOn: "Status",
+                                transaction: _uow.Transaction
+                            );
+            return result;
+        }
     }
 }

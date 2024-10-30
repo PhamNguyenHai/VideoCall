@@ -1,4 +1,4 @@
-﻿@model IEnumerable<PetProject.UserViewModel>
+﻿@model IEnumerable<PetProject.UserPrivateChat>
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
@@ -15,16 +15,28 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fa fa-search"></i></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Search...">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search..." oninput="searchUsers()"/>
+                    <ul id="userList" class="list-user-search" style="display: none;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        @* <li>
+                            <img src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="avatar">
+                            <div class="about">
+                                <div class="name">Vincent Porter</div>
+                                <div class="status"> <i class="fa fa-circle offline"></i> Người lạ </div>                                            
+                            </div>
+                        </li> *@
+                    </ul>
                 </div>
                 <ul class="list-unstyled chat-list mt-3 mb-0 user-list">
-                    <li class="clearfix">
-                        <img src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="avatar">
-                        <div class="about">
-                            <div class="name">Vincent Porter</div>
-                            <div class="status"> <i class="fa fa-circle offline"></i> left 7 mins ago </div>                                            
-                        </div>
-                    </li>
+                    @foreach (var user in Model)
+                    {
+                        <li class="clearfix" id="@user.ChatId">
+                            <img src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="avatar">
+                            <div class="about">
+                                <div class="name">@user.User.FullName</div>
+                                <div class="status"> <i class="fa fa-circle offline"></i> left 7 mins ago </div>                                            
+                            </div>
+                        </li>
+                    }
                 </ul>
             </div>
             <div class="chat">
@@ -94,6 +106,67 @@
 
 @section Scripts {
     <script type="text/javascript">
-        
+        // Ẩn danh sách khi bấm ra ngoài
+        $(document).on('click', function(event) {
+            if (!$(event.target).closest('#userList').length && !$(event.target).is('#searchInput')) {
+                $('#userList').hide(); // Ẩn danh sách nếu bấm ra ngoài
+            }
+        });
+
+        async function searchUsers() {
+            const searchInput = document.getElementById('searchInput').value;
+                    const response = await fetch(`@Url.Action("FilterUsers", "User")?searchString=${searchInput}`);
+            const users = await response.json();
+                const searchResults = document.getElementById('userList');
+            searchResults.innerHTML = '';
+
+            users.forEach(user => {
+                const li = createSearchUserItemResult(user)
+                searchResults.appendChild(li);
+            });
+
+            searchResults.style.display = users.length > 0 ? 'block' : 'none';
+        }
+
+        function createSearchUserItemResult(user){
+            // Tạo phần tử <li>
+            const li = document.createElement('li');
+
+            // Tạo ảnh đại diện
+            const img = document.createElement('img');
+            img.src = "https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg";
+            img.alt = "avatar";
+
+            // Tạo div chứa thông tin
+            const aboutDiv = document.createElement('div');
+            aboutDiv.classList.add('about');
+
+            // Tạo tên người dùng
+            const nameDiv = document.createElement('div');
+            nameDiv.classList.add('name');
+            nameDiv.textContent = user.user.fullName;
+
+            // Tạo trạng thái người dùng
+            const statusDiv = document.createElement('div');
+            statusDiv.classList.add('status');
+
+            // Tạo biểu tượng trạng thái
+            const statusIcon = document.createElement('i');
+            statusIcon.classList.add('fa', 'fa-circle', 'offline');
+            statusIcon.style.color = "gray"; // Thiết lập màu sắc cho biểu tượng
+
+            // Thêm văn bản trạng thái
+            statusDiv.appendChild(statusIcon);
+            statusDiv.appendChild(document.createTextNode(" Người lạ"));
+
+            // Lắp ráp cấu trúc
+            aboutDiv.appendChild(nameDiv);
+            aboutDiv.appendChild(statusDiv);
+            li.appendChild(img);
+            li.appendChild(aboutDiv);
+
+                li.onclick = () => selectUser(user.user.userId); // Gọi hàm khi nhấp vào
+            return li
+        }
     </script>
 }

@@ -536,7 +536,7 @@ section {
 .me {
     color: #1d8ecd
 }
-
+ 
 .float-right {
     float: right
 }
@@ -649,4 +649,25 @@ section {
 /* Handle on hover */
 .user-list::-webkit-scrollbar-thumb:hover {
     background: #555;
+} 
+ 
+.list-user-search {  
+    width: 130%;
+    position: absolute;
+    z-index: 1000;
+    top: 105%; 
+    left: -17%;
+    background-color: #f1f1f1;
+    padding: 0;
+    display: block;
+} 
+
+.list-user-search li{
+    list-style: none; 
+    padding: 5px 8px; 
+    height: 60px; 
 }
+
+.list-user-search li img{
+    width: 45px; 
+} 

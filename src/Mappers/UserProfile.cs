@@ -11,6 +11,7 @@ namespace PetProject
             CreateMap<UserModel, UserViewModel>();
             CreateMap<UserCreateDto, User>();
             CreateMap<UserUpdateDto, User>();
+            CreateMap<FilterResult<UserModel>, FilterResult<UserViewModel>>();
         }
     }
 }

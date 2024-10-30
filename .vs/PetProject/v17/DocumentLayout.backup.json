@@ -7,28 +7,32 @@
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\viewmodel\\friendrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\viewmodel\\friendrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,80 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Views\\Chat\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\Views\\Chat\\Index.cshtml",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Views\\Chat\\Index.cshtml",
-              "RelativeToolTip": "src\\Views\\Chat\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T06:41:45.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "src\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "src\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "FriendRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\ViewModel\\FriendRelationship.cs",
+              "RelativeDocumentMoniker": "src\\ViewModel\\FriendRelationship.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\ViewModel\\FriendRelationship.cs",
+              "RelativeToolTip": "src\\ViewModel\\FriendRelationship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:38:13.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:37:17.121Z",
+              "WhenOpened": "2024-10-30T09:06:21.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "src\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "src\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABOAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwGIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:40:36.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Interface\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "src\\Repositories\\Interface\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Interface\\IUserRepository.cs",
-              "RelativeToolTip": "src\\Repositories\\Interface\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:40:20.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Services\\Interface\\IUserService.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Interface\\IUserService.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Services\\Interface\\IUserService.cs",
-              "RelativeToolTip": "src\\Services\\Interface\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:39:01.322Z",
+              "WhenOpened": "2024-10-30T08:13:45.19Z",
               "EditorCaption": ""
             },
             {
@@ -130,9 +82,74 @@
               "RelativeDocumentMoniker": "src\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Services\\UserService.cs",
               "RelativeToolTip": "src\\Services\\UserService.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwHsAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwIcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:38:50.992Z",
+              "WhenOpened": "2024-10-30T07:59:33.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Interface\\IUserService.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "src\\Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:58:58.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "src\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T06:51:37.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwG4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:10:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "src\\Repositories\\Base\\ReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
+              "RelativeToolTip": "src\\Repositories\\Base\\ReadOnlyRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T03:34:13.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "src\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T03:32:26.777Z",
               "EditorCaption": ""
             }
           ]

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PetProject.Controllers
 {
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         protected readonly IUserService _userService;
 
@@ -45,6 +45,12 @@ namespace PetProject.Controllers
                     {
                         // Lưu token vào cookie
                         Response.Cookies.Append("SessionToken", session.Token.ToString(), new CookieOptions
+                        {
+                            HttpOnly = true,
+                            Expires = DateTimeOffset.UtcNow.AddHours(1)
+                        });
+
+                        Response.Cookies.Append("UserId", session.UserId.ToString(), new CookieOptions
                         {
                             HttpOnly = true,
                             Expires = DateTimeOffset.UtcNow.AddHours(1)
@@ -89,12 +95,14 @@ namespace PetProject.Controllers
             return View(userToCreate);
         }
 
+        [HttpGet]
         [AuthorizeUser(false, UserRole.User)]
         public async Task<IActionResult> Logout()
         {
             var token = Request.Cookies["SessionToken"];
             await _userService.LogoutAsync(token);
             Response.Cookies.Delete("SessionToken");
+            Response.Cookies.Delete("UserId");
             return RedirectToAction("Login", "User"); // Chuyển hướng đến trang chính
         }
 
@@ -104,6 +112,18 @@ namespace PetProject.Controllers
         {
             var result = await _userService.GetByIdAsync(id);
             return View(result);
+        }
+
+        [HttpGet]
+        [AuthorizeUser(true)]
+        public async Task<JsonResult> FilterUsers(string searchString)
+        {
+            if (string.IsNullOrWhiteSpace(searchString))
+            {
+                searchString = string.Empty;
+            }
+            var users = await _userService.FilterUser(UserId, searchString);
+            return Json(users);
         }
     }
 }

@@ -51,6 +51,9 @@ namespace PetProject.Repositories
 
         Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId);
         Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId);
+
+        Task<IEnumerable<FriendRelationship>> FilterUser(Guid userId, string searchString);
+
         //Task<IEnumerable<FriendRelationship>> GetMakeFriendByUserId(Guid userId);
 
     }

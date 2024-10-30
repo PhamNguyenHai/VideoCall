@@ -31,5 +31,14 @@ namespace PetProject.Repositories
         /// Author: PNNHai
         /// Date: 
         Task<TModel?> FindByIdAsync(Guid id);
+
+        /// <summary>
+        /// Lọc dữ liệu kết hợp phân trang và tìm kiếm
+        /// </summary>
+        /// <param name="filterInput">Tham số lọc</param>
+        /// <returns>Kết quả lọc đã phân trang</returns>
+        /// Author: PNNHai
+        /// Date: 
+        Task<FilterResult<TModel>> FilterPagingAsync(FilterInput filterInput);
     }
 }

@@ -130,5 +130,11 @@ namespace PetProject.Services
             var chats = await _userRepository.GetPrivateChatsByUserId(userId);
             return chats;
         }
+
+        public async Task<IEnumerable<FriendRelationship>> FilterUser(Guid userId, string searchString)
+        {
+            var users = await _userRepository.FilterUser(userId, searchString);
+            return users;
+        }
     }
 }

@@ -4,6 +4,7 @@ using System.Data;
 using System.Threading.Tasks;
 using System;
 using static Dapper.SqlMapper;
+using System.Linq;
 
 namespace PetProject.Repositories
 {
@@ -78,6 +79,72 @@ namespace PetProject.Repositories
             _logger.LogInfo($"Lấy {EntityName} by id: {id}");
             return result;
         }
+
+        public async Task<FilterResult<TModel>> FilterPagingAsync(FilterInput filterInput)
+        {
+            // Khởi tạo tham số cho Dapper
+            var param = new DynamicParameters();
+            param.Add("@SearchString", filterInput.SearchString ?? string.Empty);
+            param.Add("@PageNumber", filterInput.PageNumber);
+            param.Add("@PageSize", filterInput.PageSize);
+
+            // Tính tổng số bản ghi
+            string countSql = $@"
+                SELECT COUNT(*) 
+                FROM View_{EntityName}s 
+                WHERE " + GenerateSearchCondition(filterInput.SearchColumns, "@SearchString") + ";";
+
+            // Thực hiện truy vấn để lấy tổng số bản ghi
+            int totalRecords = await _uow.Connection.ExecuteScalarAsync<int>(countSql, param);
+
+            // Xác định cột sắp xếp
+            string orderColumn = string.IsNullOrWhiteSpace(filterInput.OrderColumn) ? "ModifiedDate" : filterInput.OrderColumn;
+            string orderDirection = filterInput.IsSortDesc == true ? "DESC" : "ASC";
+
+            // Tạo câu lệnh SQL cho dữ liệu phân trang hoặc lấy tất cả nếu PageNumber = -1
+            string dataSql;
+
+            if (filterInput.PageNumber == -1)
+            {
+                dataSql = $@"SELECT * FROM View_{EntityName}s  WHERE " + GenerateSearchCondition(filterInput.SearchColumns, "@SearchString") + 
+                    $@" ORDER BY {orderColumn} {orderDirection};";
+            }
+            else
+            {
+                // Tạo câu lệnh SQL cho dữ liệu phân trang
+                dataSql = $@"SELECT * FROM View_{EntityName}s WHERE " + GenerateSearchCondition(filterInput.SearchColumns, "@SearchString") + 
+                    $@" ORDER BY {orderColumn} {orderDirection} OFFSET (@PageNumber - 1) * @PageSize ROWS FETCH NEXT @PageSize ROWS ONLY;";
+            }
+            
+            // Thực hiện truy vấn để lấy dữ liệu
+            var data = await _uow.Connection.QueryAsync<TModel>(dataSql, param);
+
+            // Tính toán tổng số trang
+            int totalPages = (int)Math.Ceiling((double)totalRecords / filterInput.PageSize);
+
+            // Trả về kết quả
+            return new FilterResult<TModel>(
+                filterInput.PageNumber,
+                filterInput.PageSize,
+                totalPages,
+                totalRecords,
+                data);
+        }
+
+        // Phương thức để tạo điều kiện tìm kiếm
+        private string GenerateSearchCondition(string[] searchColumns, string paramName)
+        {
+            if (searchColumns == null || searchColumns.Length == 0)
+            {
+                return "1=1"; // Trả về điều kiện luôn đúng nếu không có cột nào
+            }
+
+            var conditions = searchColumns
+                .Select(column => $"{column} LIKE '%' + {paramName} + '%'");
+
+            return string.Join(" OR ", conditions);
+        }
+
         #endregion
     }
 }

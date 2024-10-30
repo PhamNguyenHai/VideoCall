@@ -48,6 +48,13 @@ namespace PetProject.Services
             var entityDto = _mapper.Map<TViewModel>(entity);
             return entityDto;
         }
+
+        public async Task<FilterResult<TViewModel>> FilterPagingAsync(FilterInput filterInput)
+        {
+            var entity = await _readOnlyRepository.FilterPagingAsync(filterInput);
+            var entityDto = _mapper.Map<FilterResult<TViewModel>>(entity);
+            return entityDto;
+        }
         #endregion
     }
 }
