@@ -1,5 +1,4 @@
-﻿@model IEnumerable<PetProject.UserPrivateChat>
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -26,17 +25,8 @@
                         </li> *@
                     </ul>
                 </div>
-                <ul class="list-unstyled chat-list mt-3 mb-0 user-list">
-                    @foreach (var user in Model)
-                    {
-                        <li class="clearfix" id="@user.ChatId">
-                            <img src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="avatar">
-                            <div class="about">
-                                <div class="name">@user.User.FullName</div>
-                                <div class="status"> <i class="fa fa-circle offline"></i> left 7 mins ago </div>                                            
-                            </div>
-                        </li>
-                    }
+                    <ul id="chatList" class="list-unstyled chat-list mt-3 mb-0 user-list">
+                    
                 </ul>
             </div>
             <div class="chat">
@@ -61,7 +51,7 @@
                     </div>
                 </div>
                 <div class="chat-history">
-                    <ul class="m-b-0">
+                        <ul class="m-b-0" id="chatHistory">
                         <li class="clearfix">
                             <div class="message-data text-right">
                                 <span class="message-data-time">10:10 AM, Today</span>
@@ -106,6 +96,10 @@
 
 @section Scripts {
     <script type="text/javascript">
+        $(document).ready(async function () {
+            await loadChats()
+        });
+
         // Ẩn danh sách khi bấm ra ngoài
         $(document).on('click', function(event) {
             if (!$(event.target).closest('#userList').length && !$(event.target).is('#searchInput')) {
@@ -115,7 +109,7 @@
 
         async function searchUsers() {
             const searchInput = document.getElementById('searchInput').value;
-                    const response = await fetch(`@Url.Action("FilterUsers", "User")?searchString=${searchInput}`);
+            const response = await fetch(`/User/FilterUsers?searchString=${searchInput}`);
             const users = await response.json();
                 const searchResults = document.getElementById('userList');
             searchResults.innerHTML = '';
@@ -128,18 +122,28 @@
             searchResults.style.display = users.length > 0 ? 'block' : 'none';
         }
 
-        function selectUser(userId) {
+        async function loadChats() {
+            const response = await fetch("/Chat/GetPrivateChats");
+            const chats = await response.json();
+            const chatResults = document.getElementById('chatList');
+            chatResults.innerHTML = '';
+
+            chats.forEach(user => {
+                const li = createChatListItem(user)
+                chatResults.appendChild(li);
+            });
+        }
+
+        function selectUser(partnerId) {
             // Lấy lịch sử chat cho người dùng đã chọn
-            fetch(`@Url.Action("GetPrivateMessagesByPartnerId", "Chat")?partnerId=${userId}`)
-            .then(response => response.json())
-            .then(history => {
-                const chatHistory = document.getElementById('chatHistory');
-                chatHistory.innerHTML = ''; // Xóa lịch sử chat hiện tại
-                history.forEach(message => {
-                    const messageDiv = document.createElement('div');
-                    messageDiv.textContent = message.Text; // Hoặc định dạng khác
-                    chatHistory.appendChild(messageDiv);
-                });
+            const response = await fetch(`@Url.Action("GetPrivateMessagesByPartnerId", "Chat")?partnerId=${partnerId}`)
+            const messages = response.json();
+            const chatHistory = document.getElementById('chatHistory');
+            chatHistory.innerHTML = ''; // Xóa lịch sử chat hiện tại
+            messages.forEach(message => {
+                const messageDiv = document.createElement('div');
+                messageDiv.textContent = message.Text; // Hoặc định dạng khác
+                chatHistory.appendChild(messageDiv);
             });
         }
 
@@ -182,6 +186,40 @@
 
                 li.onclick = () => selectUser(user.user.userId); // Gọi hàm khi nhấp vào
             return li
+        }
+
+        function createChatListItem(user) {
+            // Tạo phần tử <li>
+            const listItem = document.createElement('li');
+            listItem.className = 'clearfix';
+            listItem.id = user.chatId;
+
+            // Tạo phần tử <img>
+            const img = document.createElement('img');
+            img.src = "https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg";
+            img.alt = "avatar";
+
+            // Tạo phần tử <div> cho thông tin về người dùng
+            const aboutDiv = document.createElement('div');
+            aboutDiv.className = 'about';
+
+            // Tạo phần tử <div> cho tên
+            const nameDiv = document.createElement('div');
+            nameDiv.className = 'name';
+            nameDiv.textContent = user.user.fullName;
+
+            // Tạo phần tử <div> cho trạng thái
+            const statusDiv = document.createElement('div');
+            statusDiv.className = 'status';
+            statusDiv.innerHTML = '<i class="fa fa-circle offline"></i> left 7 mins ago';
+
+            // Ghép nối các phần tử lại với nhau
+            aboutDiv.appendChild(nameDiv);
+            aboutDiv.appendChild(statusDiv);
+            listItem.appendChild(img);
+            listItem.appendChild(aboutDiv);
+
+            return listItem;
         }
     </script>
 }
