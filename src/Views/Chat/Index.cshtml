@@ -26,7 +26,6 @@
                     </ul>
                 </div>
                     <ul id="chatList" class="list-unstyled chat-list mt-3 mb-0 user-list">
-                    
                 </ul>
             </div>
             <div class="chat">
@@ -134,17 +133,26 @@
             });
         }
 
-        function selectUser(partnerId) {
+        async function selectUser(partnerId) {
             // Lấy lịch sử chat cho người dùng đã chọn
             const response = await fetch(`@Url.Action("GetPrivateMessagesByPartnerId", "Chat")?partnerId=${partnerId}`)
-            const messages = response.json();
+            const messageRes = await response.json();
             const chatHistory = document.getElementById('chatHistory');
             chatHistory.innerHTML = ''; // Xóa lịch sử chat hiện tại
-            messages.forEach(message => {
-                const messageDiv = document.createElement('div');
-                messageDiv.textContent = message.Text; // Hoặc định dạng khác
-                chatHistory.appendChild(messageDiv);
-            });
+            if(messageRes?.messages?.length > 0){
+                messageRes?.messages.forEach(message => {
+                    // Nhận tin nhắn
+                        if(partnerId === message?.senderId){
+                        const messageDiv = createMessageItem(message, false);
+                        chatHistory.appendChild(messageDiv);
+                    }
+                    else{
+                        const messageDiv = createMessageItem(message, true);
+                        chatHistory.appendChild(messageDiv);
+                    }
+                });
+
+            }
         }
 
         function createSearchUserItemResult(user){
@@ -184,7 +192,7 @@
             li.appendChild(img);
             li.appendChild(aboutDiv);
 
-                li.onclick = () => selectUser(user.user.userId); // Gọi hàm khi nhấp vào
+            li.onclick = () => selectUser(user.user.userId); // Gọi hàm khi nhấp vào
             return li
         }
 
@@ -218,6 +226,42 @@
             aboutDiv.appendChild(statusDiv);
             listItem.appendChild(img);
             listItem.appendChild(aboutDiv);
+
+            listItem.onclick = () => selectUser(user.user.userId); // Gọi hàm khi nhấp vào
+            return listItem;
+        }
+
+        function createMessageItem(message, isSent) {
+            // Tạo phần tử <li>
+            const listItem = document.createElement('li');
+            listItem.className = 'clearfix';
+
+            // Tạo phần tử cho thông tin người gửi
+            const messageDataDiv = document.createElement('div');
+            messageDataDiv.className = 'message-data ' + (isSent ? 'text-right' : 'text-left');
+
+            // Tạo phần tử <span> cho thời gian
+            const timeSpan = document.createElement('span');
+            timeSpan.className = 'message-data-time';
+            timeSpan.textContent = message?.timeStamp; // Thời gian tin nhắn
+
+            // Tạo phần tử <img> cho avatar
+            const img = document.createElement('img');
+            img.src = "https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg"; // URL avatar
+            img.alt = 'avatar';
+
+            // Ghép nối các phần tử lại với nhau
+            messageDataDiv.appendChild(isSent ? timeSpan : img);
+            messageDataDiv.appendChild(isSent ? img : timeSpan);
+
+            // Tạo phần tử cho nội dung tin nhắn
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message ' + (isSent ? 'other-message float-right' : 'my-message');
+            messageDiv.textContent = message?.content; // Nội dung tin nhắn
+
+            // Thêm các phần tử vào <li>
+            listItem.appendChild(messageDataDiv);
+            listItem.appendChild(messageDiv);
 
             return listItem;
         }

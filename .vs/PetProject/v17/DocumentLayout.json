@@ -1,33 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\",
+  "WorkspaceRootPath": "E:\\LG CNS\\VideoCall\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\viewmodel\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\viewmodel\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|c:\\users\\63200510\\downloads\\web base\\petproject\\src\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\viewmodel\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\viewmodel\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\base\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\viewmodel\\privatemessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\viewmodel\\privatemessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|e:\\lg cns\\videocall\\src\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{497B0B99-2120-4607-A4B4-B19173C2C1A4}|src\\PetProject.csproj|solutionrelative:src\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,26 +54,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T08:35:16.578Z",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\appsettings.json",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\appsettings.json",
+              "RelativeToolTip": "src\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-31T16:58:30.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UserMessage.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\ViewModel\\UserMessage.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\ViewModel\\UserMessage.cs",
               "RelativeDocumentMoniker": "src\\ViewModel\\UserMessage.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\ViewModel\\UserMessage.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\ViewModel\\UserMessage.cs",
               "RelativeToolTip": "src\\ViewModel\\UserMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T19:11:14.469Z",
               "EditorCaption": ""
@@ -74,24 +82,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Views\\Chat\\Index.cshtml",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\Views\\Chat\\Index.cshtml",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Views\\Chat\\Index.cshtml",
               "RelativeToolTip": "src\\Views\\Chat\\Index.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDMAAAAWAAAAAAAAAA==",
+              "ViewState": "AQIAAOgAAAAAAAAAAAAAAAkBAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-30T18:47:31.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ReadOnlyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
               "RelativeDocumentMoniker": "src\\Repositories\\Base\\ReadOnlyRepository.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Repositories\\Base\\ReadOnlyRepository.cs",
               "RelativeToolTip": "src\\Repositories\\Base\\ReadOnlyRepository.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAYwEcAAAAIAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T17:46:03.614Z",
               "EditorCaption": ""
@@ -100,22 +108,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\ChatController.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "src\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Controllers\\ChatController.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Controllers\\ChatController.cs",
               "RelativeToolTip": "src\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCcAAAAMAAAAAAAAAA==",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T17:46:03.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Interface\\IUserRepository.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Repositories\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\Repositories\\Interface\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Repositories\\Interface\\IUserRepository.cs",
               "RelativeToolTip": "src\\Repositories\\Interface\\IUserRepository.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAgwDcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,15 +131,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "src\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "src\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAAwIQAAAAiAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAmwGQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T04:10:40.949Z"
+              "WhenOpened": "2024-10-30T04:10:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAEwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:35:16.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrivateMessageViewModel.cs",
+              "DocumentMoniker": "E:\\LG CNS\\VideoCall\\src\\ViewModel\\PrivateMessageViewModel.cs",
+              "RelativeDocumentMoniker": "src\\ViewModel\\PrivateMessageViewModel.cs",
+              "ToolTip": "E:\\LG CNS\\VideoCall\\src\\ViewModel\\PrivateMessageViewModel.cs",
+              "RelativeToolTip": "src\\ViewModel\\PrivateMessageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:46:31.963Z",
+              "EditorCaption": ""
             }
           ]
         }
