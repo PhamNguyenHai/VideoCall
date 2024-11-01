@@ -31,7 +31,7 @@
             <div class="chat">
                 <div class="chat-header clearfix">
                     <div class="row">
-                        <div class="col-lg-6 d-flex align-items-center">
+                        <div id="partnerInforHeader" class="col-lg-6 d-flex align-items-center">
                             <a href="javascript:void(0);" data-toggle="modal" data-target="#view_info">
                                 <img src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="avatar">
                             </a>
@@ -153,6 +153,11 @@
                 });
 
             }
+
+            const partnerInfor = messageRes?.partner
+            const partnerInforElement = createUserChatElement(partnerInfor, messageRes?.friendStatus)
+            partnerInforHeader.innerHTML = ''
+            partnerInforHeader.appendChild(partnerInforElement)
         }
 
         function createSearchUserItemResult(user){
@@ -264,6 +269,63 @@
             listItem.appendChild(messageDiv);
 
             return listItem;
+        }
+
+        function createUserChatElement(user, friendStatus) {
+            // Tạo phần tử <div> chính
+            const colDiv = document.createElement('div');
+            colDiv.className = 'd-flex align-items-center';
+
+            // Tạo phần tử <a> để mở modal
+            const link = document.createElement('a');
+            link.href = "javascript:void(0);";
+            link.setAttribute('data-toggle', 'modal');
+            link.setAttribute('data-target', '#view_info');
+
+            // Tạo phần tử <img>
+            const img = document.createElement('img');
+            img.src = "https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg"; // URL avatar
+            img.alt = "avatar";
+
+            // Thêm <img> vào <a>
+            link.appendChild(img);
+
+            // Tạo phần tử cho thông tin chat
+            const chatAboutDiv = document.createElement('div');
+            chatAboutDiv.className = 'chat-about';
+
+            // Tạo phần tử <h6> cho tên người dùng
+            const nameHeading = document.createElement('h6');
+            nameHeading.className = 'm-b-0';
+            nameHeading.textContent = user.fullName; // Tên người dùng
+
+            // Tạo phần tử <small> cho thời gian cuối cùng
+            const lastSeenSmall = document.createElement('small');
+            lastSeenSmall.textContent = "7 hours ago"; // Thời gian cuối cùng
+
+            // Ghép nối các phần tử trong chatAboutDiv
+            chatAboutDiv.appendChild(nameHeading);
+            chatAboutDiv.appendChild(lastSeenSmall);
+
+            // Tạo phần tử trạng thái
+            const statusDiv = document.createElement('div');
+            statusDiv.className = 'ml-5';
+
+            const statusIcon = document.createElement('i');
+            statusIcon.className = 'fa-solid fa-user-tie'; // Hoặc 'fa-solid fa-user-check' tùy thuộc vào trạng thái
+
+            // Thêm icon vào trạng thái
+            statusDiv.appendChild(statusIcon);
+            var userRelation = friendStatus === null ? "Anonymous" : friendStatus === 0 ? "Pending" : friendStatus === 1 ? "Friend" : "Blocked"
+
+            statusDiv.appendChild(document.createTextNode(userRelation)); // Hoặc " Bạn bè"
+
+            // Ghép nối tất cả các phần tử vào colDiv
+            colDiv.appendChild(link);
+            colDiv.appendChild(chatAboutDiv);
+            colDiv.appendChild(statusDiv);
+
+            return colDiv;
         }
     </script>
 }
