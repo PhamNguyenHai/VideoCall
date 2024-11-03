@@ -1,0 +1,1007 @@
+2024-11-04 00:30:02.7863|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-11-04 00:30:02.8361|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\phamn\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-11-04 00:30:02.8677|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\phamn\AppData\Local\ASP.NET\DataProtection-Keys\key-18a33e23-b306-4950-9ef8-e96525b4f04c.xml'. 
+2024-11-04 00:30:02.8857|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\phamn\AppData\Local\ASP.NET\DataProtection-Keys\key-e68f95c8-8355-4b0d-93a6-033d01af2011.xml'. 
+2024-11-04 00:30:02.9108|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {18a33e23-b306-4950-9ef8-e96525b4f04c}. 
+2024-11-04 00:30:02.9108|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {e68f95c8-8355-4b0d-93a6-033d01af2011}. 
+2024-11-04 00:30:02.9108|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {e68f95c8-8355-4b0d-93a6-033d01af2011} with expiration date 2025-01-19 17:07:06Z as default key. 
+2024-11-04 00:30:02.9108|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-11-04 00:30:02.9267|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-11-04 00:30:02.9267|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-11-04 00:30:02.9267|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-11-04 00:30:02.9267|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-11-04 00:30:02.9267|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {e68f95c8-8355-4b0d-93a6-033d01af2011} as the default key. 
+2024-11-04 00:30:02.9267|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {e68f95c8-8355-4b0d-93a6-033d01af2011} was loaded during application startup. 
+2024-11-04 00:30:03.9085|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-11-04 00:30:04.0237|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-11-04 00:30:04.0430|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'Matching' is bound. 
+2024-11-04 00:30:04.0430|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'Join' is bound. 
+2024-11-04 00:30:04.0430|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'AnswerCall' is bound. 
+2024-11-04 00:30:04.0430|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'HangUp' is bound. 
+2024-11-04 00:30:04.0430|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'SendData' is bound. 
+2024-11-04 00:30:04.0525|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'ToggleCamera' is bound. 
+2024-11-04 00:30:04.0525|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'ToggleMicrophone' is bound. 
+2024-11-04 00:30:04.0525|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ConnectionHub' hub method 'SendMsg' is bound. 
+2024-11-04 00:30:04.0525|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'CommunicationHub' hub method 'SendMsg' is bound. 
+2024-11-04 00:30:04.1280|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2024-11-04 00:30:04.1280|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2024-11-04 00:30:04.1280|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly PetProject 
+2024-11-04 00:30:04.1280|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-11-04 00:30:04.1280|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-11-04 00:30:04.1280|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-11-04 00:30:04.1302|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-11-04 00:30:04.1302|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-11-04 00:30:04.1302|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\LG CNS\VideoCall\src 
+2024-11-04 00:30:04.1302|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-11-04 00:30:04.5047|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVD" received FIN. 
+2024-11-04 00:30:04.5047|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVD" accepted. 
+2024-11-04 00:30:04.5047|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVD" started. 
+2024-11-04 00:30:04.5047|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-04 00:30:04.5354|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVD" stopped. 
+2024-11-04 00:30:04.5354|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVD" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-11-04 00:30:04.8426|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVE" accepted. 
+2024-11-04 00:30:04.8426|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVE" started. 
+2024-11-04 00:30:04.8970|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN7S5KJMSSVE established using the following protocol: Tls13 
+2024-11-04 00:30:04.9134|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-11-04 00:30:04.9134|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:04.9134|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-11-04 00:30:04.9134|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-11-04 00:30:04.9134|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:04.9134|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 1 with length 718 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:04.9334|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-11-04 00:30:04.9334|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - - 
+2024-11-04 00:30:05.0305|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-11-04 00:30:05.0305|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:05.0305|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/' 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Page: /Index' with route pattern '' is valid for the request path '/' 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/Index.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Chat/Index.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Error.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Profile.cshtml'. 
+2024-11-04 00:30:05.0520|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/User/Register.cshtml'. 
+2024-11-04 00:30:05.0520|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Pages/Index.cshtml'. 
+2024-11-04 00:30:05.1006|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Pages/Index.cshtml' with a file since the checksum did not match. 
+2024-11-04 00:30:21.9846|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Pages\Index.cshtml' started. 
+2024-11-04 00:30:23.1551|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Pages\Index.cshtml' completed in 1165.131ms. 
+2024-11-04 00:30:23.1616|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/Index' 
+2024-11-04 00:30:23.1616|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:23.1616|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/Index' 
+2024-11-04 00:30:23.1616|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Pages/_ViewStart.cshtml'. 
+2024-11-04 00:30:23.1616|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Pages/_ViewStart.cshtml' with a file since the checksum did not match. 
+2024-11-04 00:30:23.2268|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Pages\_ViewStart.cshtml' started. 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Pages\_ViewStart.cshtml' completed in 93.848ms. 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2024-11-04 00:30:23.3207|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Execution plan of authorization filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Authorization Filter: Before executing OnAuthorizationAsync on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter. 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Authorization Filter: After executing OnAuthorizationAsync on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter. 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Executing page model factory for page PetProject.Pages.Pages_Index (2qptfkow.ndv) 
+2024-11-04 00:30:23.3207|DEBUG|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Executed page model factory for page PetProject.Pages.Pages_Index (2qptfkow.ndv) 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: Before executing OnPageHandlerSelectionAsync on filter Microsoft.AspNetCore.Mvc.Filters.PageHandlerPageFilter. 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: After executing OnPageHandlerSelectionAsync on filter Microsoft.AspNetCore.Mvc.Filters.PageHandlerPageFilter. 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: Before executing OnPageHandlerSelected on filter Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandleOptionsRequestsPageFilter. 
+2024-11-04 00:30:23.3207|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: Before executing OnPageHandlerExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.PageHandlerPageFilter. 
+2024-11-04 00:30:23.3327|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: Before executing OnPageHandlerExecuting on filter Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandleOptionsRequestsPageFilter. 
+2024-11-04 00:30:23.3327|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: After executing OnPageHandlerExecuting on filter Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandleOptionsRequestsPageFilter. 
+2024-11-04 00:30:23.3327|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Executing handler method PetProject.Pages.WebRTCModel.OnGet - ModelState is Valid 
+2024-11-04 00:30:23.3327|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Executed handler method OnGet, returned result . 
+2024-11-04 00:30:23.3327|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2024-11-04 00:30:23.3327|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2024-11-04 00:30:23.3327|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: Before executing OnPageHandlerExecuted on filter Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandleOptionsRequestsPageFilter. 
+2024-11-04 00:30:23.3327|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: After executing OnPageHandlerExecuted on filter Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandleOptionsRequestsPageFilter. 
+2024-11-04 00:30:23.3327|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Page Filter: After executing OnPageHandlerExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.PageHandlerPageFilter. 
+2024-11-04 00:30:23.3327|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.3327|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.3502|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2024-11-04 00:30:23.3502|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller '(null)'. 
+2024-11-04 00:30:23.3502|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Pages/_Layout.cshtml'. 
+2024-11-04 00:30:23.3502|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Pages/Shared/_Layout.cshtml'. 
+2024-11-04 00:30:23.3502|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'. 
+2024-11-04 00:30:23.3958|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/Shared/_Layout.cshtml' with a file since the checksum did not match. 
+2024-11-04 00:30:23.5245|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Views\Shared\_Layout.cshtml' started. 
+2024-11-04 00:30:23.6388|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Views\Shared\_Layout.cshtml' completed in 114.2089ms. 
+2024-11-04 00:30:23.7094|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:23.7094|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 1 with length 67 and flags END_HEADERS. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 1 with length 13586 and flags NONE. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 1 with length 357 and flags NONE. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 1 with length 83 and flags NONE. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received WINDOW_UPDATE frame for stream ID 1 with length 4 and flags 0x0. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.7094|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.7242|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.7242|TRACE|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:23.7242|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker|Executed page /Index in 395.7517ms 
+2024-11-04 00:30:23.7242|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/Index' 
+2024-11-04 00:30:23.7242|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:23.7242|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:23.7242|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:23.7242|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - 200 - text/html;+charset=utf-8 18790.3590ms 
+2024-11-04 00:30:23.7825|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 3 with length 134 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:23.7825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/css/site.css - - - 
+2024-11-04 00:30:23.7825|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:23.7881|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-11-04 00:30:23.7881|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.css was not modified 
+2024-11-04 00:30:23.7881|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /css/site.css 
+2024-11-04 00:30:23.7881|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 3 with length 70 and flags END_STREAM, END_HEADERS. 
+2024-11-04 00:30:23.7881|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/css/site.css - 304 - text/css 13.1432ms 
+2024-11-04 00:30:23.8797|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 5 with length 70 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:23.8797|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:23.8797|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2024-11-04 00:30:23.8797|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 5 with length 13756 and flags NONE. 
+2024-11-04 00:30:23.8797|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 7 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:23.8797|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:23.8797|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:23.8797|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.5911ms 
+2024-11-04 00:30:23.9558|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 7 with length 119 and flags END_HEADERS. 
+2024-11-04 00:30:23.9558|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 9986 and flags NONE. 
+2024-11-04 00:30:23.9558|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 160 and flags NONE. 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:23.9574|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 77.3462ms 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 9 with length 142 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:23.9574|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:23.9574|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-11-04 00:30:23.9574|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-11-04 00:30:23.9574|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-11-04 00:30:23.9574|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/connect/negotiate' 
+2024-11-04 00:30:23.9574|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect/negotiate' 
+2024-11-04 00:30:23.9574|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:23.9731|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/connect/negotiate' 
+2024-11-04 00:30:23.9731|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|New connection bq88gvtt0W3MgHsoluq8jw created. 
+2024-11-04 00:30:23.9731|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher|Sending negotiation response. 
+2024-11-04 00:30:23.9731|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/connect/negotiate' 
+2024-11-04 00:30:23.9731|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 9 with length 30 and flags END_HEADERS. 
+2024-11-04 00:30:23.9731|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 9 with length 192 and flags NONE. 
+2024-11-04 00:30:23.9731|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:23.9731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/connect/negotiate?negotiateVersion=1 - 200 192 application/json 13.2628ms 
+2024-11-04 00:30:24.0473|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 11 with length 161 and flags END_HEADERS, PRIORITY. 
+2024-11-04 00:30:24.0473|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 CONNECT https://localhost:5001/connect?id=Uggr7wTjda2AwbLQGbEgNQ - - - 
+2024-11-04 00:30:24.0473|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:24.0473|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|CONNECT requests are not supported 
+2024-11-04 00:30:24.0473|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2024-11-04 00:30:24.0473|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2024-11-04 00:30:24.0473|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/connect' 
+2024-11-04 00:30:24.0473|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '/connect' 
+2024-11-04 00:30:24.0473|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:24.0473|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/connect' 
+2024-11-04 00:30:24.0473|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher|Establishing new connection. 
+2024-11-04 00:30:24.0543|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 11 with length 4 and flags END_HEADERS. 
+2024-11-04 00:30:24.0543|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync started. 
+2024-11-04 00:30:24.0543|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket opened using Sub-Protocol: '(null)'. 
+2024-11-04 00:30:24.0543|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received DATA frame for stream ID 11 with length 38 and flags NONE. 
+2024-11-04 00:30:24.0672|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 32, EndOfMessage: True. 
+2024-11-04 00:30:24.0672|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Found protocol implementation for requested protocol: json. 
+2024-11-04 00:30:24.0672|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionContext|Completed connection handshake. Using HubProtocol 'json'. 
+2024-11-04 00:30:24.0672|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 3 bytes. 
+2024-11-04 00:30:24.0672|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 11 with length 5 and flags NONE. 
+2024-11-04 00:30:24.0672|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received DATA frame for stream ID 11 with length 120 and flags NONE. 
+2024-11-04 00:30:24.0672|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Message received. Type: Text, size: 114, EndOfMessage: True. 
+2024-11-04 00:30:24.0871|ERROR|Microsoft.AspNetCore.SignalR.HubConnectionHandler|Error when dispatching 'OnConnectedAsync' on hub. System.InvalidOperationException: Unable to resolve service for type 'System.Collections.Generic.List`1[PetProject.Models.User]' while attempting to activate 'PetProject.Hubs.ConnectionHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method83(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-11-04 00:30:24.0871|DEBUG|Microsoft.AspNetCore.SignalR.HubConnectionHandler|OnConnectedAsync ending. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Sending payload: 54 bytes. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 11 with length 56 and flags NONE. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received DATA frame for stream ID 11 with length 6 and flags NONE. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 11 with length 4 and flags NONE. 
+2024-11-04 00:30:24.0871|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Waiting for the application to finish sending data. 
+2024-11-04 00:30:24.0871|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport|Socket closed. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Disposing connection bq88gvtt0W3MgHsoluq8jw. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|Waiting for WebSockets transport to complete. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext|WebSockets transport complete. 
+2024-11-04 00:30:24.0871|DEBUG|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Removing connection Uggr7wTjda2AwbLQGbEgNQ from the list of connections. 
+2024-11-04 00:30:24.0871|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/connect' 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:24.0871|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 CONNECT https://localhost:5001/connect?id=Uggr7wTjda2AwbLQGbEgNQ - 200 - - 46.8250ms 
+2024-11-04 00:30:24.0871|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN7S5KJMSSVE", Request id "0HN7S5KJMSSVE:0000000B": the application completed without reading the entire request body. 
+2024-11-04 00:30:24.0871|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending RST_STREAM frame for stream ID 11 with length 4 and flags 0x0. 
+2024-11-04 00:30:28.0169|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 13 with length 30 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:28.0169|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Chat - - - 
+2024-11-04 00:30:28.0245|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:28.0245|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Chat does not match a supported file type 
+2024-11-04 00:30:28.0245|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Chat' 
+2024-11-04 00:30:28.0245|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Chat' 
+2024-11-04 00:30:28.0245|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:28.0245|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:28.0245|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:28.0575|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Chat", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller PetProject.Controllers.ChatController (PetProject). 
+2024-11-04 00:30:28.0575|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): PetProject.AuthorizeUserAttribute 
+2024-11-04 00:30:28.0575|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:28.0575|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:28.0575|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:28.0575|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:28.0575|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: Before executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-11-04 00:30:28.0575|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: After executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-11-04 00:30:28.0575|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.0575|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.0575|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.ChatController (PetProject) 
+2024-11-04 00:30:28.3675|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.3675|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.3675|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.ChatController.Index (PetProject) in 308.534ms 
+2024-11-04 00:30:28.3675|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:28.3675|ERROR|PetProject.Repositories.NLogLogger|Lỗi hệ thống: Unable to resolve service for type 'PetProject.Services.IPrivateMessageService' while attempting to activate 'PetProject.Controllers.ChatController'. System.InvalidOperationException: Unable to resolve service for type 'PetProject.Services.IPrivateMessageService' while attempting to activate 'PetProject.Controllers.ChatController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method91(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at PetProject.ExceptionMiddleware.Invoke(HttpContext context) in E:\LG CNS\VideoCall\src\Exceptions\Middleware\ExceptionMiddleware.cs:line 27
+2024-11-04 00:30:28.3876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Chat - 302 0 text/html 369.4691ms 
+2024-11-04 00:30:28.3876|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 13 with length 65 and flags END_STREAM, END_HEADERS. 
+2024-11-04 00:30:28.3876|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 15 with length 35 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:28.3876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:28.3876|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:28.3876|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:28.3876|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:28.3876|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:28.3876|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:28.3876|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:28.3876|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:28.3959|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:28.3959|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:28.3959|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:28.3959|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:28.3959|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:28.3959|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:28.3959|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.3959|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.3959|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:28.3959|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:28.3959|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:28.3959|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:28.3959|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:28.3959|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:28.4291|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 29.7887ms. 
+2024-11-04 00:30:28.4291|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:28.4291|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:28.4291|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:28.4291|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.4291|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.4291|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:28.4291|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:28.4291|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/Home/Error.cshtml'. 
+2024-11-04 00:30:28.4452|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/Home/Error.cshtml' with a file since the checksum did not match. 
+2024-11-04 00:30:28.5039|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Views\Home\Error.cshtml' started. 
+2024-11-04 00:30:28.6054|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\LG CNS\VideoCall\src\Views\Home\Error.cshtml' completed in 101.4781ms. 
+2024-11-04 00:30:28.6054|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'. 
+2024-11-04 00:30:28.6054|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/_ViewStart.cshtml'. 
+2024-11-04 00:30:28.6054|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:28.6054|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 177.6097ms. 
+2024-11-04 00:30:28.6219|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:28.6219|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:28.6219|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 192.2739ms. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 15 with length 4 and flags END_HEADERS. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 15 with length 2789 and flags NONE. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:28.6219|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 226.2225ms 
+2024-11-04 00:30:28.6219|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:28.6219|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:28.6219|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:28.6219|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:28.6219|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 228.7704ms 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 17 with length 85 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 19 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:28.6695|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:28.6695|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 19 with length 13 and flags END_HEADERS. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 19 with length 13756 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 19 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:28.6695|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.5286ms 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 17 with length 66 and flags END_HEADERS. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 9986 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 160 and flags NONE. 
+2024-11-04 00:30:28.6695|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:28.6695|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 4.8869ms 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 21 with length 44 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0391ms. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.1612ms. 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 0.7593ms. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 21 with length 34 and flags END_HEADERS. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 21 with length 2789 and flags NONE. 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 1.2478ms 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:30.7598|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 21 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:30.7598|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 2.7862ms 
+2024-11-04 00:30:30.7598|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 23 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 25 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:30.7914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:30.7914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 23 with length 13 and flags END_HEADERS. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 23 with length 13756 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 23 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:30.7914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.3373ms 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 25 with length 66 and flags END_HEADERS. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 9986 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 10240 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 160 and flags NONE. 
+2024-11-04 00:30:30.7914|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 25 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:30.7914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 5.7834ms 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 27 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0186ms. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.0695ms. 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 0.407ms. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 27 with length 34 and flags END_HEADERS. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 27 with length 2789 and flags NONE. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 0.7789ms 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:31.7504|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:31.7504|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 27 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:31.7504|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 1.9181ms 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 29 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 31 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:31.7868|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:31.7868|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 29 with length 13 and flags END_HEADERS. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 29 with length 13756 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 29 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:31.7868|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.3104ms 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 31 with length 66 and flags END_HEADERS. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 9986 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 160 and flags NONE. 
+2024-11-04 00:30:31.7868|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 31 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:31.7868|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 4.8257ms 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 33 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0188ms. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.0576ms. 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 0.4179ms. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 33 with length 4 and flags END_HEADERS. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 33 with length 2789 and flags NONE. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 0.7777ms 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:31.9481|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:31.9481|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 33 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:31.9481|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 2.8079ms 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 35 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 37 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:31.9906|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:31.9906|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 35 with length 13 and flags END_HEADERS. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 35 with length 13756 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 35 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:31.9906|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.2197ms 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 37 with length 6 and flags END_HEADERS. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 9986 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 10240 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 160 and flags NONE. 
+2024-11-04 00:30:31.9906|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 37 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:31.9906|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3.2879ms 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 39 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.028ms. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.0547ms. 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 0.3996ms. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 39 with length 4 and flags END_HEADERS. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 39 with length 2789 and flags NONE. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 0.7552ms 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:32.1259|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:32.1259|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 39 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:32.1259|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 2.9240ms 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 41 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 43 with length 37 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:32.1565|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:32.1565|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 41 with length 13 and flags END_HEADERS. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 41 with length 13756 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 41 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:32.1565|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.2449ms 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 43 with length 66 and flags END_HEADERS. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 9986 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1565|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.1602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 160 and flags NONE. 
+2024-11-04 00:30:32.1602|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 43 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:32.1602|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3.8398ms 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 45 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:32.3133|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:32.3133|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:32.3133|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.3133|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:32.3133|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.023ms. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3133|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:32.3133|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:32.3133|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.0733ms. 
+2024-11-04 00:30:32.3171|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:32.3171|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:32.3171|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 0.4267ms. 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 45 with length 4 and flags END_HEADERS. 
+2024-11-04 00:30:32.3171|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 0.7706ms 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 45 with length 2789 and flags NONE. 
+2024-11-04 00:30:32.3171|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:32.3171|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:32.3171|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:32.3171|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 45 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:32.3171|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 3.8777ms 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 47 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" received HEADERS frame for stream ID 49 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:32.3483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:32.3483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 47 with length 13 and flags END_HEADERS. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 47 with length 13756 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 47 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:32.3483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.3588ms 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending HEADERS frame for stream ID 49 with length 6 and flags END_HEADERS. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 9986 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 10240 and flags NONE. 
+2024-11-04 00:30:32.3483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3.6974ms 
+2024-11-04 00:30:32.3483|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" sending DATA frame for stream ID 49 with length 160 and flags END_STREAM. 
+2024-11-04 00:30:33.1628|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVE" received FIN. 
+2024-11-04 00:30:33.1628|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN7S5KJMSSVE completed. 
+2024-11-04 00:30:33.1628|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVE" is closed. The last processed stream ID was 49. 
+2024-11-04 00:30:33.1628|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVE" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-11-04 00:30:33.1779|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVE" stopped. 
+2024-11-04 00:30:45.1567|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVF" accepted. 
+2024-11-04 00:30:45.1567|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVF" started. 
+2024-11-04 00:30:45.1567|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN7S5KJMSSVF established using the following protocol: Tls13 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" received HEADERS frame for stream ID 1 with length 723 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Chat - - - 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Chat does not match a supported file type 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Chat' 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Chat' 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Chat", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller PetProject.Controllers.ChatController (PetProject). 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): PetProject.AuthorizeUserAttribute 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: Before executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: After executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.ChatController (PetProject) 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.ChatController.Index (PetProject) in 1.0139ms 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:45.1612|ERROR|PetProject.Repositories.NLogLogger|Lỗi hệ thống: Unable to resolve service for type 'PetProject.Services.IPrivateMessageService' while attempting to activate 'PetProject.Controllers.ChatController'. System.InvalidOperationException: Unable to resolve service for type 'PetProject.Services.IPrivateMessageService' while attempting to activate 'PetProject.Controllers.ChatController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method91(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at PetProject.ExceptionMiddleware.Invoke(HttpContext context) in E:\LG CNS\VideoCall\src\Exceptions\Middleware\ExceptionMiddleware.cs:line 27
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending HEADERS frame for stream ID 1 with length 73 and flags END_STREAM, END_HEADERS. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Chat - 302 0 text/html 3.9575ms 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" received HEADERS frame for stream ID 3 with length 35 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0118ms. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.0525ms. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 0.4522ms. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending HEADERS frame for stream ID 3 with length 29 and flags END_HEADERS. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 3 with length 2789 and flags NONE. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 0.7058ms 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:45.1612|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:45.1612|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:45.1612|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 1.8513ms 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" received HEADERS frame for stream ID 5 with length 112 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" received HEADERS frame for stream ID 7 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:45.2178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:45.2178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 5 with length 13756 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:45.2178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.3827ms 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending HEADERS frame for stream ID 7 with length 149 and flags END_HEADERS. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 9986 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 160 and flags NONE. 
+2024-11-04 00:30:45.2178|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:45.2178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3.7421ms 
+2024-11-04 00:30:48.1704|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVF" received FIN. 
+2024-11-04 00:30:48.1704|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVF" is closed. The last processed stream ID was 7. 
+2024-11-04 00:30:48.1704|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN7S5KJMSSVF completed. 
+2024-11-04 00:30:48.1704|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-11-04 00:30:48.1704|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVF" stopped. 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVG" accepted. 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVG" started. 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN7S5KJMSSVG established using the following protocol: Tls13 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" received HEADERS frame for stream ID 1 with length 728 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-11-04 00:30:50.5266|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Chat/Index - - - 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Chat/Index does not match a supported file type 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Chat/Index' 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Chat/Index' 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:50.5266|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:50.5266|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Chat", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller PetProject.Controllers.ChatController (PetProject). 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): PetProject.AuthorizeUserAttribute 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:50.5266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:50.5266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: Before executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Authorization Filter: After executing OnAuthorization on filter PetProject.AuthorizeUserAttribute. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.ChatController (PetProject) 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.ChatController.Index (PetProject) in 0.4419ms 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.ChatController.Index (PetProject)' 
+2024-11-04 00:30:50.5352|ERROR|PetProject.Repositories.NLogLogger|Lỗi hệ thống: Unable to resolve service for type 'PetProject.Services.IPrivateMessageService' while attempting to activate 'PetProject.Controllers.ChatController'. System.InvalidOperationException: Unable to resolve service for type 'PetProject.Services.IPrivateMessageService' while attempting to activate 'PetProject.Controllers.ChatController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method91(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at PetProject.ExceptionMiddleware.Invoke(HttpContext context) in E:\LG CNS\VideoCall\src\Exceptions\Middleware\ExceptionMiddleware.cs:line 27
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending HEADERS frame for stream ID 1 with length 73 and flags END_STREAM, END_HEADERS. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Chat/Index - 302 0 text/html 4.1784ms 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" received HEADERS frame for stream ID 3 with length 35 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Home/Error - - - 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Error does not match a supported file type 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/Error' 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Error' 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PetProject.Controllers.HomeController (PetProject). 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller PetProject.Controllers.HomeController (PetProject) 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method PetProject.Controllers.HomeController.Error (PetProject) - Validation state: Valid 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method PetProject.Controllers.HomeController.Error (PetProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0118ms. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Home'. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Error.cshtml' was found in 0.0336ms. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 0.321ms. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending HEADERS frame for stream ID 3 with length 29 and flags END_HEADERS. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 3 with length 2789 and flags NONE. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action PetProject.Controllers.HomeController.Error (PetProject) in 0.58ms 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'PetProject.Controllers.HomeController.Error (PetProject)' 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-04 00:30:50.5352|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-04 00:30:50.5352|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:50.5352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/Home/Error - 200 - text/html;+charset=utf-8 1.4411ms 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" received HEADERS frame for stream ID 5 with length 112 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" received HEADERS frame for stream ID 7 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-11-04 00:30:50.5911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-04 00:30:50.5911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending HEADERS frame for stream ID 5 with length 90 and flags END_HEADERS. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 5 with length 13756 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:50.5911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.7808ms 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending HEADERS frame for stream ID 7 with length 119 and flags END_HEADERS. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 9986 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 160 and flags NONE. 
+2024-11-04 00:30:50.5911|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-11-04 00:30:50.5911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 4.5137ms 
+2024-11-04 00:30:53.1702|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVG" received FIN. 
+2024-11-04 00:30:53.1702|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN7S5KJMSSVG" is closed. The last processed stream ID was 7. 
+2024-11-04 00:30:53.1702|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN7S5KJMSSVG" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-11-04 00:30:53.1702|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN7S5KJMSSVG completed. 
+2024-11-04 00:30:53.1702|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN7S5KJMSSVG" stopped. 

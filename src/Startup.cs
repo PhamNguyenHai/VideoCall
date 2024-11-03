@@ -77,6 +77,11 @@
                     options.Transports = Microsoft.AspNetCore.Http.Connections.HttpTransportType.WebSockets;
                 });
 
+                endpoints.MapHub<CommunicationHub>("/communication", options =>
+                {
+                    options.Transports = Microsoft.AspNetCore.Http.Connections.HttpTransportType.WebSockets;
+                });
+
                 // Định nghĩa route mặc định
                 endpoints.MapControllerRoute(
                     name: "default",

@@ -8,11 +8,13 @@ namespace PetProject.Controllers
 {
     public class ChatController : BaseController
     {
-        private readonly IUserService _userService;
+        private readonly IUserService _userService; 
+        private readonly IPrivateMessageService _privateMessageService;
 
-        public ChatController(IUserService userService)
+        public ChatController(IUserService userService, IPrivateMessageService privateMessageService)
         {
             _userService = userService;
+            _privateMessageService = privateMessageService;
         }
 
         // GET: ChatController
@@ -40,73 +42,13 @@ namespace PetProject.Controllers
             return Json(messages);
         }
 
-        // GET: ChatController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: ChatController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: ChatController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        [AuthorizeUser(true)]
+        public async Task<JsonResult> SendPrivateMessage(PrivateMessageCreateDto privateMessageCreate)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ChatController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ChatController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ChatController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ChatController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            privateMessageCreate.SenderId = UserId;
+            var result = await _privateMessageService.CreateAsync(privateMessageCreate);
+            return Json(result);
         }
     }
 }

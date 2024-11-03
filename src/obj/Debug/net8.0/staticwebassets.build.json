@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7IxuRr3IiSDdUyk482Kr1kTlXxeh2dhLR5Uj4/F1f70=",
+  "Hash": "YU1Zd8eWhvrBdNF0cfGocnGG0p2seqbfcoC0GL+Ps5A=",
   "Source": "PetProject",
   "BasePath": "_content/PetProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PetProject\\wwwroot",
       "Source": "PetProject",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\app-icon.png",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\app-icon.png",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "app-icon.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\app-icon.png"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\css\\form.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\css\\form.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "css/form.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\form.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\css\\site.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\css\\site.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\favicon.ico",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\favicon.ico",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\icon.ico",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\icon.ico",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "icon.ico",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\icon.ico"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\js\\main.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\js\\main.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/signalr/dist/browser/signalr.js",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/signalr/dist/browser/signalr.js.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\signalr\\dist\\browser\\signalr.js.map"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/signalr/dist/browser/signalr.min.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
-      "Identity": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js.map",
+      "Identity": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js.map",
       "SourceId": "PetProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\63200510\\Downloads\\WEB BASE\\PetProject\\src\\wwwroot\\",
+      "ContentRoot": "E:\\LG CNS\\VideoCall\\src\\wwwroot\\",
       "BasePath": "_content/PetProject",
       "RelativePath": "lib/signalr/dist/browser/signalr.min.js.map",
       "AssetKind": "All",
