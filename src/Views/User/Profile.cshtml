@@ -1,4 +1,5 @@
-﻿@model PetProject.FriendRelationship
+﻿@using PetProject
+@model PetProject.FriendRelationship
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -20,17 +21,42 @@
                             <div class="col-lg-6 px-xl-10">
                                 <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
                                     <h3 class="h2 text-white mb-0">@Html.DisplayFor(model => model.User.FullName)</h3>
-                                    @if (Model.Status == PetProject.FriendStatus.Friend)
+                                    <div>@{Model.Status.ToString();}</div>
+                                    @if (Model.Status == FriendStatus.Friend)
                                     {
-                                        <button class="btn btn-danger mt-2">Unfriend</button>
+                                        <form method="post" action="@Url.Action("UpdateFriendStatus")">
+                                            <input type="hidden" name="friendId" value="@Model.User.UserId" />
+                                            <input type="hidden" name="action" value="" />
+                                            <button type="submit" class="btn btn-danger mt-2">Unfriend</button>
+                                        </form>
                                     }
-                                    else if (Model.Status == PetProject.FriendStatus.Pending)
+                                    else if (Model.Status == FriendStatus.Pending)
                                     {
-                                        <span>Pending</span>
+                                        @if (Model.RequestSender == Model.User.UserId)
+                                        {
+                                            <form method="post" action="@Url.Action("UpdateFriendStatus")">
+                                                <input type="hidden" name="friendId" value="@Model.User.UserId" />
+                                                <input type="hidden" name="action" value="@FriendStatus.Friend.ToString()" />
+                                                <button type="submit" class="btn btn-success mt-2">Accept</button>
+                                            </form>
+                                        }
+                                        else
+                                        {
+                                            <span>You sent friend request</span>
+                                            <form method="post" action="@Url.Action("UpdateFriendStatus")">
+                                                <input type="hidden" name="friendId" value="@Model.User.UserId" />
+                                                <input type="hidden" name="action" value="" />
+                                                <button type="submit" class="btn btn-warning mt-2">Cancel</button>
+                                            </form>
+                                        }
                                     }
                                     else
                                     {
-                                        <button class="btn btn-primary mt-2">Send Friend Request</button>
+                                        <form method="post" action="@Url.Action("UpdateFriendStatus")">
+                                            <input type="hidden" name="friendId" value="@Model.User.UserId" />
+                                            <input type="hidden" name="action" value="@FriendStatus.Pending.ToString()" />
+                                            <button type="submit" class="btn btn-success mt-2">Send Friend Request</button>
+                                        </form>
                                     }
                                 </div>
                                 <ul class="list-unstyled mb-1-9">

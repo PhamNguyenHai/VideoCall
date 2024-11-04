@@ -41,12 +41,7 @@ namespace PetProject.Repositories
         /// Date:
         Task<UserModel?> FindUserByEmailOrPhoneNumber(string emailOrPhoneNumber);
 
-        /// <summary>
-        /// Hàm thực hiện thêm mới người dùng vào hệ thống
-        /// </summary>
-        /// <param name="userToAdd">Thông tin người dùng cần thêm mới</param>
-        /// <returns>Số bản ghi thêm mới</returns>
-        Task<int> InsertAsync(User userToAdd);
+        Task<int> UpdateFriendStatus(Guid userId, Guid friendId, FriendStatus status);
 
         Task<UserModel?> FindUserByToken(string token);
 

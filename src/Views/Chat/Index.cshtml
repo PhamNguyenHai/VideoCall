@@ -105,7 +105,21 @@
 
         $(document).ready(async function () {
             await loadChats()
+            initSignalrHub();
         });
+
+        const initSignalrHub = () => {
+            //connecting to hub
+            hubConnection.start().catch(err => console.error(err));
+
+            hubConnection.on('ReceiveMsg', async (sender, msg, time) => {
+                await loadChats()
+                const messageDiv = createMessageItem({ content: msg, timeStamp: time }, false);
+                chatHistory.appendChild(messageDiv);
+                scrollToBottom(chatHistory)
+            });
+        }
+
 
         // Ẩn danh sách khi bấm ra ngoài
         $(document).on('click', function(event) {
@@ -113,6 +127,16 @@
                 $('#userList').hide(); // Ẩn danh sách nếu bấm ra ngoài
             }
         });
+
+        function scrollToBottom(element) {
+            // Kiểm tra xem phần tử có đang ở dưới cùng không
+            const isAtBottom = element.scrollHeight - element.scrollTop === element.clientHeight;
+
+            // Nếu không ở dưới cùng, di chuyển xuống cuối
+            if (!isAtBottom) {
+                element.scrollTop = element.scrollHeight; // Di chuyển thanh cuộn xuống cuối
+            }
+        }
 
         async function searchUsers() {
             const searchInput = document.getElementById('searchInput').value;
@@ -248,29 +272,56 @@
             return listItem;
         }
 
-        function sendMessage(){
+        async function sendMessage(){
             var privateMessageCreate = {
                 ReceiverId: selectedChatUserId,
                 Content: sendContentMsg.value
             };
 
-            $.ajax({
-                url: '/Chat/SendPrivateMessage',  
-                type: 'POST',            
-                contentType: 'application/json',
-                data: JSON.stringify(privateMessageCreate),
-                success: function(response) {
-                    const message = response.data
-                    const messageDiv = createMessageItem({content: privateMessageCreate.Content, timeStamp: message.timeStamp}, true);
-                    chatHistory.appendChild(messageDiv);
+            // $.ajax({
+            //     url: '/Chat/SendPrivateMessage',  
+            //     type: 'POST',            
+            //     contentType: 'application/json',
+            //     data: JSON.stringify(privateMessageCreate),
+            //     success: function(response) {
+            //         const message = response.data
+            //         const messageDiv = createMessageItem({content: privateMessageCreate.Content, timeStamp: message.timeStamp}, true);
+            //         chatHistory.appendChild(messageDiv);
                     
-                    // Xóa tin nhắn trong đoạn hội thoại
-                    sendContentMsg.value = ''
-                },
-                error: function(xhr, status, error) {
-                    console.error("Error sending message:", error);
+            //         // Xóa tin nhắn trong đoạn hội thoại
+            //         sendContentMsg.value = ''
+            //     },
+            //     error: function(xhr, status, error) {
+            //         console.error("Error sending message:", error);
+            //     }
+            // });
+
+            try {
+                const response = await fetch('/Chat/SendPrivateMessage', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(privateMessageCreate)
+                });
+
+                // Kiểm tra nếu phản hồi không phải 2xx
+                if (response?.ok) {
+                    const res = await response.json(); // Chuyển đổi phản hồi thành JSON
+                    const message = res.data;
+                    const messageDiv = createMessageItem({ content: privateMessageCreate.Content, timeStamp: message.timeStamp }, true);
+                    chatHistory.appendChild(messageDiv);
+
+                    // Xóa nội dung tin nhắn
+
+                    hubConnection.invoke('SendMsg', message?.senderId, selectedChatUserId, sendContentMsg.value, message?.timeStamp)
+                        .catch(err => console.error(err));
+
+                    sendContentMsg.value = '';
                 }
-            });
+            } catch (error) {
+                console.error("Error sending message:", error);
+            }
         }
 
         function createMessageItem(message, isSent) {

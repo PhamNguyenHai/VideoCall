@@ -6,6 +6,7 @@ using PetProject.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using static Dapper.SqlMapper;
 
 namespace PetProject.Services
 {
@@ -149,6 +150,29 @@ namespace PetProject.Services
             var messages = await _userRepository.GetUserPrivateMessagesByUserIdAndPartnerId(userId, partnerId);
             messages.Partner = await GetByIdAsync(partnerId);
             return messages;
+        }
+
+        public async Task<Result> UpdateFriendStatus(Guid userId, Guid friendId, FriendStatus status)
+        {
+            // insert vào DB
+            int effectedRow = await _userRepository.UpdateFriendStatus(userId, friendId, status);
+            if (effectedRow > 0)
+            {
+                return new Result
+                {
+                    Success = true,
+                    Message = "Cập nhật trạng thái thành công",
+                    Data = userId
+                };
+            }
+            else
+            {
+                return new Result
+                {
+                    Success = false,
+                    Message = "Thêm dữ liệu không thành công",
+                };
+            }
         }
     }
 }

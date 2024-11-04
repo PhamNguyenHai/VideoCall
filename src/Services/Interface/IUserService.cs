@@ -56,6 +56,7 @@ namespace PetProject.Services
 
         Task<UserMessage> GetUserPrivateMessagesByUserIdAndPartnerId(Guid userId, Guid partnerId);
 
+        Task<Result> UpdateFriendStatus(Guid userId, Guid friendId, FriendStatus status);
 
     }
 }

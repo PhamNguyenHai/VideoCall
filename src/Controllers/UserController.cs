@@ -114,8 +114,19 @@ namespace PetProject.Controllers
             return View(result);
         }
 
+        [HttpPost]
+        [AuthorizeUser(false, UserRole.User)]
+        public async Task<IActionResult> UpdateFriendStatus(Guid friendId, FriendStatus action)
+        {
+            // Cập nhật trạng thái bạn bè trong dịch vụ
+            await _userService.UpdateFriendStatus(UserId, friendId, action);
+
+            // Chuyển hướng trở lại trang profile hoặc nơi bạn muốn
+            return RedirectToAction("Profile", new { id = friendId });
+        }
+
         [HttpGet]
-        [AuthorizeUser(true)]
+        [AuthorizeUser(false, UserRole.User)]
         public async Task<JsonResult> FilterUsers(string searchString)
         {
             if (string.IsNullOrWhiteSpace(searchString))

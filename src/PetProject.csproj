@@ -24,6 +24,7 @@
   <ItemGroup>
     <Folder Include="Exceptions\" />
     <Folder Include="Logs\" />
+    <Folder Include="Auto\" />
   </ItemGroup>
 
 

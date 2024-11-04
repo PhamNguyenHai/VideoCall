@@ -5,5 +5,6 @@ namespace PetProject.Repositories
     public interface IPrivateMessageRepository
     {
         Task<int> InsertAsync(PrivateMessage privateChat);
+        Task<int> DeleteMessageWithTime();
     }
 }

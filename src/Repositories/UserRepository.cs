@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using static Dapper.SqlMapper;
 
 namespace PetProject.Repositories
 {
@@ -65,23 +66,24 @@ namespace PetProject.Repositories
 
         public async Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId)
         {
-            string sqlCommand = "SELECT u.*, f.Status FROM View_Users u JOIN Friends f ON (f.UserId = @UserId AND f.FriendUserId = u.UserId) OR (f.FriendUserId = @UserId AND f.UserId = u.UserId) WHERE f.UserId = @UserId OR f.FriendUserId = @UserId";
+            string sqlCommand = "SELECT u.*, f.Status, f.UserId as RequestSender FROM View_Users u JOIN Friends f ON (f.UserId = @UserId AND f.FriendUserId = u.UserId) OR (f.FriendUserId = @UserId AND f.UserId = u.UserId) WHERE f.UserId = @UserId OR f.FriendUserId = @UserId";
 
             var param = new DynamicParameters();
             param.Add($"@UserId", userId);
 
-            var result = await _uow.Connection.QueryAsync<UserViewModel, FriendStatus, FriendRelationship>(
+            var result = await _uow.Connection.QueryAsync<UserViewModel, FriendStatus, Guid, FriendRelationship>(
                                 sqlCommand,
-                                (user, status) =>
+                                (user, status, requestSender) =>
                                 {
                                     return new FriendRelationship
                                     {
                                         User = user,
-                                        Status = status
+                                        Status = status,
+                                        RequestSender = requestSender
                                     };
                                 },
                                 param,
-                                splitOn: "Status",
+                                splitOn: "Status,RequestSender",
                                 transaction: _uow.Transaction
                             );
             return result;
@@ -96,7 +98,7 @@ namespace PetProject.Repositories
 
         public async Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId)
         {
-            string sqlCommand = "SELECT u.*, pc.ChatId FROM dbo.PrivateChats pc JOIN view_Users u ON (pc.UserId = @UserId AND pc.PartnerId = u.UserId) OR (pc.PartnerId = @UserId AND pc.UserId = u.UserId) WHERE pc.UserId = @UserId OR pc.PartnerId = @UserId ORDER BY pc.ModifiedDate;";
+            string sqlCommand = "SELECT u.*, pc.ChatId FROM dbo.PrivateChats pc JOIN view_Users u ON (pc.UserId = @UserId AND pc.PartnerId = u.UserId) OR (pc.PartnerId = @UserId AND pc.UserId = u.UserId) WHERE pc.UserId = @UserId OR pc.PartnerId = @UserId ORDER BY pc.ModifiedDate DESC;";
 
             var param = new DynamicParameters();
             param.Add($"@UserId", userId);
@@ -194,6 +196,22 @@ namespace PetProject.Repositories
             );
 
             return userMessage; // Trả về đối tượng UserMessage với tất cả các tin nhắn
+        }
+
+        public async Task<int> UpdateFriendStatus(Guid userId, Guid friendId, FriendStatus status)
+        {
+            string storedProcedureName = $"Proc_Friends_UpdateFriendStatus";
+
+            var parametters = new DynamicParameters();
+            parametters.Add("@UserId", userId);
+            parametters.Add("@FriendUserId", friendId);
+            parametters.Add("@Status", status);
+            parametters.Add("@ModifiedDate", DateTime.UtcNow);
+
+            var effectedRows = await _uow.Connection.ExecuteAsync(storedProcedureName, parametters,
+                commandType: CommandType.StoredProcedure, transaction: _uow.Transaction);
+
+            return effectedRows;
         }
     }
 }

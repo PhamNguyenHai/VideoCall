@@ -49,6 +49,8 @@
             services.AddSingleton<IPrivateChatService, PrivateChatService>();
             services.AddSingleton<IPrivateMessageRepository, PrivateMessageRepository>();
             services.AddSingleton<IPrivateMessageService, PrivateMessageService>();
+
+            services.AddHostedService<MessageCleanupService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

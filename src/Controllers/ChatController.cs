@@ -22,15 +22,14 @@ namespace PetProject.Controllers
 
         // GET: ChatController
         [HttpGet]
-        //[AuthorizeUser(false, UserRole.User)]
-        [AuthorizeUser(true)]
+        [AuthorizeUser(false, UserRole.User)]
         public async Task<IActionResult> Index()
         {
             return View();
         }
 
         [HttpGet]
-        [AuthorizeUser(true)]
+        [AuthorizeUser(false, UserRole.User)]
         public async Task<JsonResult> GetPrivateChats()
         {
             var privateChats = await _userService.GetPrivateChatsByUserId(UserId);
@@ -38,7 +37,7 @@ namespace PetProject.Controllers
         }
 
         [HttpGet]
-        [AuthorizeUser(true)]
+        [AuthorizeUser(false, UserRole.User)]
         public async Task<JsonResult> GetPrivateMessagesByPartnerId(Guid PartnerId)
         {
             var messages = await _userService.GetUserPrivateMessagesByUserIdAndPartnerId(UserId, PartnerId);
@@ -46,7 +45,7 @@ namespace PetProject.Controllers
         }
 
         [HttpPost]
-        [AuthorizeUser(true)]
+        [AuthorizeUser(false, UserRole.User)]
         public async Task<JsonResult> SendPrivateMessage([FromBody]PrivateMessageCreateDto privateMessageCreate)
         {
             privateMessageCreate.SenderId = UserId;
