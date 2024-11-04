@@ -87,6 +87,13 @@ namespace PetProject.Repositories
             return result;
         }
 
+        public async Task<FriendRelationship> GetUserFriendByUserIdAndFriendId(Guid userId, Guid friendId)
+        {
+            var friends = await GetUserFriendsByUserId(userId);
+            var result = friends.Where(friend => friend.User.UserId == friendId).FirstOrDefault();
+            return result;
+        }
+
         public async Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId)
         {
             string sqlCommand = "SELECT u.*, pc.ChatId FROM dbo.PrivateChats pc JOIN view_Users u ON (pc.UserId = @UserId AND pc.PartnerId = u.UserId) OR (pc.PartnerId = @UserId AND pc.UserId = u.UserId) WHERE pc.UserId = @UserId OR pc.PartnerId = @UserId ORDER BY pc.ModifiedDate;";

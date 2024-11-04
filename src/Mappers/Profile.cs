@@ -14,4 +14,21 @@ namespace PetProject
             CreateMap<FilterResult<UserModel>, FilterResult<UserViewModel>>();
         }
     }
+
+    public class PrivateMessageProfile : AutoMapper.Profile
+    {
+        public PrivateMessageProfile()
+        {
+            CreateMap<PrivateMessage, PrivateMessageViewModel>();
+            CreateMap<PrivateMessageCreateDto, PrivateMessage>();
+        }
+    }
+
+    public class PrivateChatProfile : AutoMapper.Profile
+    {
+        public PrivateChatProfile()
+        {
+            CreateMap<PrivateChat, PrivateChatViewModel>();
+        }
+    }
 }

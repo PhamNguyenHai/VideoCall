@@ -126,6 +126,12 @@ namespace PetProject.Services
             return friends;
         }
 
+        public async Task<FriendRelationship> GetUserFriendByUserIdAndFriendId(Guid userId, Guid friendId)
+        {
+            var friends = await _userRepository.GetUserFriendByUserIdAndFriendId(userId, friendId);
+            return friends;
+        }
+
         public async Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId)
         {
             var chats = await _userRepository.GetPrivateChatsByUserId(userId);

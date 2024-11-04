@@ -45,6 +45,10 @@
             services.AddSingleton<ISessionRepository, SessionRepositoy>();
             services.AddSingleton<IUserRepository, UserRepository>();
             services.AddSingleton<IUserService, UserService>();
+            services.AddSingleton<IPrivateChatRepository, PrivateChatRepository>();
+            services.AddSingleton<IPrivateChatService, PrivateChatService>();
+            services.AddSingleton<IPrivateMessageRepository, PrivateMessageRepository>();
+            services.AddSingleton<IPrivateMessageService, PrivateMessageService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

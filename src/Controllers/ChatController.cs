@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PetProject.Repositories;
 using PetProject.Services;
 using System;
 using System.Threading.Tasks;
@@ -10,11 +11,13 @@ namespace PetProject.Controllers
     {
         private readonly IUserService _userService; 
         private readonly IPrivateMessageService _privateMessageService;
+        private readonly IPrivateChatService _privateChatService;
 
-        public ChatController(IUserService userService, IPrivateMessageService privateMessageService)
+        public ChatController(IUserService userService, IPrivateMessageService privateMessageService, IPrivateChatService privateChatService)
         {
             _userService = userService;
             _privateMessageService = privateMessageService;
+            _privateChatService = privateChatService;
         }
 
         // GET: ChatController
@@ -44,11 +47,21 @@ namespace PetProject.Controllers
 
         [HttpPost]
         [AuthorizeUser(true)]
-        public async Task<JsonResult> SendPrivateMessage(PrivateMessageCreateDto privateMessageCreate)
+        public async Task<JsonResult> SendPrivateMessage([FromBody]PrivateMessageCreateDto privateMessageCreate)
         {
             privateMessageCreate.SenderId = UserId;
-            var result = await _privateMessageService.CreateAsync(privateMessageCreate);
-            return Json(result);
+
+            var privateChat = await _privateChatService.GetPrivateChatByUserIdAndPartnerId(privateMessageCreate.SenderId, privateMessageCreate.ReceiverId);
+            if(privateChat == null)
+            {
+                var result = await _privateMessageService.CreateChatMessageAndSendMessageAsync(privateMessageCreate);
+                return Json(result);
+            }
+            else
+            {
+                var result = await _privateMessageService.CreateAsync(privateChat.ChatId, privateMessageCreate);
+                return Json(result);
+            }
         }
     }
 }

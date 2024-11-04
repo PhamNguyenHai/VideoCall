@@ -55,7 +55,7 @@ namespace PetProject.Controllers
                             HttpOnly = true,
                             Expires = DateTimeOffset.UtcNow.AddHours(1)
                         });
-                        return RedirectToAction("Profile", "User", new { id = session.UserId }); // Chuyển hướng đến trang chính
+                        return RedirectToAction("Index", "Chat"); // Chuyển hướng đến trang chính
                     }
                     else
                     {
@@ -110,7 +110,7 @@ namespace PetProject.Controllers
         [AuthorizeUser(false, UserRole.User)]
         public async Task<IActionResult> Profile(Guid id)
         {
-            var result = await _userService.GetByIdAsync(id);
+            var result = await _userService.GetUserFriendByUserIdAndFriendId(UserId, id);
             return View(result);
         }
 

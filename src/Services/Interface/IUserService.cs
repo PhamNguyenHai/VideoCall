@@ -48,6 +48,8 @@ namespace PetProject.Services
         /// <returns></returns>
         Task<UserViewModel?> FindUserByToken(string token);
         Task<IEnumerable<FriendRelationship>> GetUserFriendsByUserId(Guid userId);
+        Task<FriendRelationship> GetUserFriendByUserIdAndFriendId(Guid userId, Guid friendId);
+
         Task<IEnumerable<UserPrivateChat>> GetPrivateChatsByUserId(Guid userId);
 
         Task<IEnumerable<FriendRelationship>> FilterUser(Guid userId, string searchString);

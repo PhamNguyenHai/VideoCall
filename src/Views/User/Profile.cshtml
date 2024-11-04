@@ -1,4 +1,4 @@
-﻿@model PetProject.UserViewModel
+﻿@model PetProject.FriendRelationship
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -19,14 +19,25 @@
                             </div>
                             <div class="col-lg-6 px-xl-10">
                                 <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
-                                    <h3 class="h2 text-white mb-0">@Html.DisplayFor(model => model.FullName)</h3>
-                                    <a href="" class="text-primary">21 Friends</a>
+                                    <h3 class="h2 text-white mb-0">@Html.DisplayFor(model => model.User.FullName)</h3>
+                                    @if (Model.Status == PetProject.FriendStatus.Friend)
+                                    {
+                                        <button class="btn btn-danger mt-2">Unfriend</button>
+                                    }
+                                    else if (Model.Status == PetProject.FriendStatus.Pending)
+                                    {
+                                        <span>Pending</span>
+                                    }
+                                    else
+                                    {
+                                        <button class="btn btn-primary mt-2">Send Friend Request</button>
+                                    }
                                 </div>
                                 <ul class="list-unstyled mb-1-9">
-                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Date of birth:</span> @Html.DisplayFor(model => model.DateOfBirth)</li>
-                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Gender:</span> @Html.DisplayFor(model => model.Gender)</li>
-                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Email:</span> @Html.DisplayFor(model => model.Email)</li>
-                                    <li class="display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone:</span> @Html.DisplayFor(model => model.PhoneNumber)</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Date of birth:</span> @Html.DisplayFor(model => model.User.DateOfBirth)</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Gender:</span> @Html.DisplayFor(model => model.User.Gender)</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Email:</span> @Html.DisplayFor(model => model.User.Email)</li>
+                                    <li class="display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone:</span> @Html.DisplayFor(model => model.User.PhoneNumber)</li>
                                 </ul>
                                 <ul class="social-icon-style1 list-unstyled mb-0 ps-0">
                                     <li><a href="#!"><i class="ti-twitter-alt"></i></a></li>

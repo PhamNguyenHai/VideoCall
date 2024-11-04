@@ -84,7 +84,7 @@
                 <div class="chat-message clearfix">
                     <div class="input-group mb-0 column-gap-5">
                         <textarea id="sendContentMsg" class="form-control" placeholder="Type your message here..." rows="2"></textarea>
-                        <button class="btn btn-primary" onclick="sendMessage">Send</button>
+                        <button class="btn btn-primary" onclick="sendMessage()">Send</button>
                     </div>
                 </div>
             </div>
@@ -94,8 +94,8 @@
 </div>
 
 @section Scripts {
-    let selectedUserItem = null
     <script type="text/javascript">
+        let selectedChatUserId = null
         var hubUrl = document.location.origin + '/communication';
 
         var hubConnection = new signalR.HubConnectionBuilder()
@@ -135,14 +135,17 @@
             const chatResults = document.getElementById('chatList');
             chatResults.innerHTML = '';
 
-            chats.forEach(user => {
-                const li = createChatListItem(user)
+            chats.forEach(chat => {
+                const li = createChatListItem(chat)
                 chatResults.appendChild(li);
             });
         }
 
         async function selectUser(partnerId) {
-            selectedUserItem = partnerId
+            // Xóa tin nhắn trong đoạn hội thoại
+            sendContentMsg.value = ''
+
+            selectedChatUserId = partnerId
             // Lấy lịch sử chat cho người dùng đã chọn
             const response = await fetch(`@Url.Action("GetPrivateMessagesByPartnerId", "Chat")?partnerId=${partnerId}`)
             const messageRes = await response.json();
@@ -210,11 +213,11 @@
             return li
         }
 
-        function createChatListItem(user) {
+        function createChatListItem(chat) {
             // Tạo phần tử <li>
             const listItem = document.createElement('li');
             listItem.className = 'clearfix';
-            listItem.id = user.chatId;
+            listItem.id = chat.chatId;
 
             // Tạo phần tử <img>
             const img = document.createElement('img');
@@ -228,7 +231,7 @@
             // Tạo phần tử <div> cho tên
             const nameDiv = document.createElement('div');
             nameDiv.className = 'name';
-            nameDiv.textContent = user.user.fullName;
+            nameDiv.textContent = chat.user.fullName;
 
             // Tạo phần tử <div> cho trạng thái
             const statusDiv = document.createElement('div');
@@ -241,25 +244,28 @@
             listItem.appendChild(img);
             listItem.appendChild(aboutDiv);
 
-            listItem.onclick = () => selectUser(user.user.userId); // Gọi hàm khi nhấp vào
+            listItem.onclick = () => selectUser(chat.user.userId); // Gọi hàm khi nhấp vào
             return listItem;
         }
 
         function sendMessage(){
-            const chatId = ""
-            const content = sendContentMsg.value
+            var privateMessageCreate = {
+                ReceiverId: selectedChatUserId,
+                Content: sendContentMsg.value
+            };
 
             $.ajax({
                 url: '/Chat/SendPrivateMessage',  
                 type: 'POST',            
                 contentType: 'application/json',
-                data: JSON.stringify({
-                    chatId : chatId
-                    content: content
-                }),
+                data: JSON.stringify(privateMessageCreate),
                 success: function(response) {
-                    alert(1)
-                    console.log("Message sent successfully:", response);
+                    const message = response.data
+                    const messageDiv = createMessageItem({content: privateMessageCreate.Content, timeStamp: message.timeStamp}, true);
+                    chatHistory.appendChild(messageDiv);
+                    
+                    // Xóa tin nhắn trong đoạn hội thoại
+                    sendContentMsg.value = ''
                 },
                 error: function(xhr, status, error) {
                     console.error("Error sending message:", error);
@@ -271,7 +277,6 @@
             // Tạo phần tử <li>
             const listItem = document.createElement('li');
             listItem.className = 'clearfix';
-
             // Tạo phần tử cho thông tin người gửi
             const messageDataDiv = document.createElement('div');
             messageDataDiv.className = 'message-data ' + (isSent ? 'text-right' : 'text-left');
@@ -309,9 +314,7 @@
 
             // Tạo phần tử <a> để mở modal
             const link = document.createElement('a');
-            link.href = "javascript:void(0);";
-            link.setAttribute('data-toggle', 'modal');
-            link.setAttribute('data-target', '#view_info');
+            link.href = `/User/Profile/${user?.userId}`;
 
             // Tạo phần tử <img>
             const img = document.createElement('img');

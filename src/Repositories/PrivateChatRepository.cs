@@ -15,6 +15,18 @@ namespace PetProject.Repositories
             _uow = uow;
         }
 
+        public async Task<PrivateChat> GetPrivateChatByUserIdAndPartnerId(Guid userId, Guid partnerId)
+        {
+            string sqlCommand = "select * from PrivateChats where (UserId = @UserId and PartnerId = @PartnerId) or (UserId = @PartnerId and PartnerId = @UserId)";
+
+            var param = new DynamicParameters();
+            param.Add($"@UserId", userId);
+            param.Add($"@PartnerId", partnerId);
+
+            var result = await _uow.Connection.QueryFirstOrDefaultAsync<PrivateChat>(sqlCommand, param, transaction: _uow.Transaction);
+            return result;
+        }
+
         public async Task<int> InsertAsync(PrivateChat privateChat)
         {
             string storedProcedureName = "Proc_PrivateChats_Insert";
